@@ -63,3 +63,6 @@ invisible(read_csv("sched.csv")
 )
 ```
 
+---
+
+Last updated: `r Sys.time()`
