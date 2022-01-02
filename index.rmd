@@ -1,0 +1,66 @@
+---
+title: "Ecology and evolution of infectious disease"
+bibliography: eeid.bib
+---
+
+<!-- from https://www.w3schools.com/css/css_table.asp -->
+<style>
+th, td {
+   vertical-align: top;
+   padding: 15px;
+}
+tr:nth-child(even) {background-color: #f2f2f2;} 
+th {background-color: #ccccff;}
+</style>
+
+### Course meetings
+
+- 11:30-12:20 Mon/Weds, 13:30-14:20 Fri (all Toronto time)
+- initially via [Teams channel](https://teams.microsoft.com/l/channel/19%3aiaABT9ga9EpcFTRea7ZQUttq2SxRFQ5Izt9Zump8DDk1%40thread.tacv2/General?groupId=bf0845f2-7f46-454a-90e1-0bb732e43a37&tenantId=44376307-b429-42ad-8c25-28cd496f4772); thereafter (?when?) in [HH 217](https://library.mcmaster.ca/cct/class-dir/hh-217)
+- University policy requires masks in all indoor spaces
+- Lectures will be recorded
+- You are encouraged but not required to keep your cameras on when participating in virtual course activities
+
+### Misc info
+
+- [Details of assignments](./assignments.html) (due dates in schedule below)
+- Textbook: Claude Combes, *The Art of Being A Parasite*; available from the bookstore, also on the Internet Archive
+- Platforms: 
+    • Lecture notes and slides (HTML) will be provided on Teams or Avenue to Learn
+    • Class discussion/forums will be hosted on Teams or Avenue to Learn
+    • Peer-review of some assignments will be done using peerScholar® (free licenses will be provided as part of a McMaster pilot project)
+    • Group annotation will be done using hypothes.is (free licenses will be provided)
+
+### Links
+
+- [Course outline]() (or at [Biology Department web site]())
+- [Assignments]()
+- [The back-end for this site](https://github.com/bbolker/bio4ae3)
+
+## Communication
+
+- [Ben Bolker](http://www.math.mcmaster.ca/~bolker/)
+- General questions (anything you don't consider private) are best asked in the appropriate channel on Teams
+- Otherwise e-mail to `bolker@mcmaster.ca` with "EEID" in the subject line; include your MacID in your message if not e-mailing from your McMaster e-mail account
+
+## Schedule
+
+(subject to revision!)
+
+```{r setup, echo=FALSE,message=FALSE,warning=FALSE, results="asis", eval=TRUE}
+library(huxtable)
+library(dplyr)
+library(readr)
+
+mk_url <- function(x) {
+  ifelse(nchar(trimws(x))==0,x,
+         sprintf("[%s](https://mac-theobio.github.io/DataViz/%s.html)",
+                 x,x))
+}
+
+(read_csv("sched.csv")
+         |> hux()
+         |> print_html(max_width=1000)
+)
+```
+
