@@ -57,7 +57,7 @@ mk_url <- function(x) {
                  x,x))
 }
 
-(read_csv("sched.csv")
+invisible(read_csv("sched.csv")
          |> hux()
          |> print_html(max_width=1000)
 )
