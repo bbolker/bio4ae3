@@ -38,7 +38,8 @@ th {background-color: #ccccff;}
 
 ## Communication
 
-- [Ben Bolker](http://www.math.mcmaster.ca/~bolker/)
+- instructor: [Ben Bolker](http://www.math.mcmaster.ca/~bolker/)
+- teaching assistant: Lindsey Kukoly
 - General questions (anything you don't consider private) are best asked in the appropriate channel on Teams
 - Otherwise e-mail to `bolker@mcmaster.ca` with "EEID" in the subject line; include your MacID in your message if not e-mailing from your McMaster e-mail account
 
