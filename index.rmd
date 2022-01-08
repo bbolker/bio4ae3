@@ -16,7 +16,7 @@ th {background-color: #ccccff;}
 ### Course meetings
 
 - 11:30-12:20 Mon/Weds, 13:30-14:20 Fri (all Toronto time)
-- initially via [Teams channel](https://teams.microsoft.com/l/channel/19%3aiaABT9ga9EpcFTRea7ZQUttq2SxRFQ5Izt9Zump8DDk1%40thread.tacv2/General?groupId=bf0845f2-7f46-454a-90e1-0bb732e43a37&tenantId=44376307-b429-42ad-8c25-28cd496f4772); thereafter (?when?) in [HH 217](https://library.mcmaster.ca/cct/class-dir/hh-217)
+- initially via [Teams channel](https://teams.microsoft.com/l/channel/19%3aiaABT9ga9EpcFTRea7ZQUttq2SxRFQ5Izt9Zump8DDk1%40thread.tacv2/General?groupId=bf0845f2-7f46-454a-90e1-0bb732e43a37&tenantId=44376307-b429-42ad-8c25-28cd496f4772); thereafter (after February 7) in [HH 217](https://library.mcmaster.ca/cct/class-dir/hh-217) and on Echo360
 - University policy requires masks in all indoor spaces
 - Lectures will be recorded
 - You are encouraged but not required to keep your cameras on when participating in virtual course activities
@@ -26,9 +26,18 @@ th {background-color: #ccccff;}
 - Textbook: Claude Combes, *The Art of Being A Parasite*; available from the bookstore, also on the Internet Archive
 - Platforms: 
    - Lecture notes and slides (HTML) will be provided on Teams or Avenue to Learn
-   - Class discussion/forums will be hosted on Teams or Avenue to Learn
+   - Class discussion/forums will be hosted on Teams
    - Peer-review of some assignments will be done using `peerScholar®` (free licenses will be provided as part of a McMaster pilot project)
    - Group annotation will be done using `hypothes.is` (free licenses will be provided)
+- [Full course bibliography](eeid_bib.html)
+
+### Where to find studd
+	
+- on-line meetings: [General channel on Teams](https://teams.microsoft.com/l/channel/19%3aiaABT9ga9EpcFTRea7ZQUttq2SxRFQ5Izt9Zump8DDk1%40thread.tacv2/General?groupId=bf0845f2-7f46-454a-90e1-0bb732e43a37&tenantId=44376307-b429-42ad-8c25-28cd496f4772)
+- lecture recordings: [General channel on Teams](https://teams.microsoft.com/l/channel/19%3aiaABT9ga9EpcFTRea7ZQUttq2SxRFQ5Izt9Zump8DDk1%40thread.tacv2/General?groupId=bf0845f2-7f46-454a-90e1-0bb732e43a37&tenantId=44376307-b429-42ad-8c25-28cd496f4772) **or** Avenue to Learn (when class is recorded on Echo360); **or** linked in schedule below
+- schedule, readings, notes, course outline, etc.: here
+- dropbox for assignments, marks: Avenue to Learn
+- discussion questions: "Discussion question" channel on Teams
 
 ### Links
 
@@ -39,9 +48,13 @@ th {background-color: #ccccff;}
 ## Communication
 
 - instructor: [Ben Bolker](http://www.math.mcmaster.ca/~bolker/)
+    - General questions (anything you don't consider private) are best asked in the appropriate channel on Teams
+    - Otherwise e-mail to `bolker@mcmaster.ca` with "BIO 4AE3" in the subject line; include your MacID in your message if not e-mailing from your McMaster e-mail account
 - teaching assistant: Lindsey Kukoly
-- General questions (anything you don't consider private) are best asked in the appropriate channel on Teams
-- Otherwise e-mail to `bolker@mcmaster.ca` with "EEID" in the subject line; include your MacID in your message if not e-mailing from your McMaster e-mail account
+    - weekly office hours on Teams (schedule TBA)
+    - please contact via e-mail (`kukoll1@mcmaster.ca`: include "BIO 4AE3" in the subject line)
+	- will answer as soon as possible, but will be more readily available during normal working hours (9 AM to 5 PM Toronto time)
+	- answers are **not** guaranteeed within 24 hours of an assignment deadlines as you mentioned
 
 ## Schedule
 

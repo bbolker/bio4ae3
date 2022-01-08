@@ -4,7 +4,7 @@ title: "Assignments"
 
 ## Discussion questions
 
-The idea of discussion questions is just to get you focused on reading the papers before class, and to help structure the in-class discussion. Ideally you should come up with one question that's general or conceptual and one that's more technical (what does Figure 1 mean? how did they do xxx?). Unless otherwise specified, every Friday class will be a discussion. Discussion questions are due at **6 PM** on the day before (typically Thursday); late answers are definitely better than nothing.
+The idea of discussion questions is just to get you focused on reading the papers before class, and to help structure the in-class discussion. Ideally you should come up with one question that's general or conceptual and one that's more technical (what does Figure 1 mean? how did they do xxx?). Unless otherwise specified, every Friday class will be a discussion. Discussion questions are due at **6 PM** on the day before a class discussion, (typically Thursday), **posted to the relevant channel on Teams**; late answers are definitely better than nothing. Discussion questions will be marked on a 0-3 scale where 0=missing; 1="inadequate, try harder next time"; 2=fine; 3=outstanding. (Scores of 3 are rare.)
 
 ## Mini-essays
 
