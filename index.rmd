@@ -31,7 +31,7 @@ th {background-color: #ccccff;}
    - Group annotation will be done using `hypothes.is` (free licenses will be provided)
 - [Full course bibliography](eeid_bib.html)
 
-### Where to find studd
+### Where to find stuff
 	
 - on-line meetings: [General channel on Teams](https://teams.microsoft.com/l/channel/19%3aiaABT9ga9EpcFTRea7ZQUttq2SxRFQ5Izt9Zump8DDk1%40thread.tacv2/General?groupId=bf0845f2-7f46-454a-90e1-0bb732e43a37&tenantId=44376307-b429-42ad-8c25-28cd496f4772)
 - lecture recordings: [General channel on Teams](https://teams.microsoft.com/l/channel/19%3aiaABT9ga9EpcFTRea7ZQUttq2SxRFQ5Izt9Zump8DDk1%40thread.tacv2/General?groupId=bf0845f2-7f46-454a-90e1-0bb732e43a37&tenantId=44376307-b429-42ad-8c25-28cd496f4772) **or** Avenue to Learn (when class is recorded on Echo360); **or** linked in schedule below
