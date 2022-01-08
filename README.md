@@ -2,3 +2,8 @@
 
 Material for Biology 4AE3, "Ecology and Evolution of Organisms", winter 2022, McMaster University
 
+[link to GH pages front end](https://bbolker.github.io/bio4ae3)
+
+---
+
+- `make all` to rebuild index page, etc. (`git commit` etc are still manual)

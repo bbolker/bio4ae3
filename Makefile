@@ -9,6 +9,9 @@ all: docs/assignments.html docs/index.html docs/eeid_bib.html
 %.html: %.md
 	Rscript  -e "rmarkdown::render('$<')"
 
+index.html: index.rmd sched.csv
+	Rscript  -e "rmarkdown::render('$<')"
+
 docs/%.html: %.html
 	mv $< docs
 
