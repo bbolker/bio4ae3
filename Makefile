@@ -23,4 +23,7 @@ docs/notes/%: notes/%
 index.html: index.rmd sched.csv
 	Rscript  -e "rmarkdown::render('$<')"
 
+eeid_bib.html: eeid_bib.md eeid.bib
+	Rscript  -e "rmarkdown::render('$<')"
+
 
