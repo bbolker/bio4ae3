@@ -1,0 +1,141 @@
+---
+title: Definitions
+date: "`r format(Sys.time(), '%d %b %Y')`"
+bibliography: "../eeid.bib"
+---
+
+<!-- https://learn2dev.com/articles/css-shorts/spoilers/ -->
+<!-- https://lifelongprogrammer.blogspot.com/2019/01/how-to-style-markdown-with-css.html -->
+
+<style>
+.spoiler {
+  background: gray;
+  color: transparent;
+  cursor: help;
+  user-select: none;
+  transition: background 0.3s ease 0.2s, color 0.2s ease 0.25s;
+}
+
+.spoiler:focus {
+  background: #e8e8e8;
+  color: inherit;
+}
+</style>
+
+# What are ecology and evolution?
+
+## ecology
+
+"the study of the processes determining the distribution and
+abundance of organisms" (Krebs) or of "the interaction among
+organisms and between organisms and their environment" (Poulin)
+
+In infectious disease (ID) context: **incidence** (number of new
+infections per unit time) and **prevalence** (number of infected
+individuals in the population). We may also be interested in the
+**parasite burden** or **intensity** of infection: how many
+bugs/host on average?
+
+How do we get this information?
+
+::::: {#special .spoiler tabindex="0"}
+- case reports
+- proxies (deaths, hospitalizations, wills)
+- **serosurveys**
+- counting eggs in feces, or worms in gut contents
+- viral titers (e.g. by quantitative PCR)
+- population genetic methods [@volz_phylodynamics_2009]
+:::::
+
+## evolution
+
+"changes in gene frequency in a population between generations" -
+due to **mutation**, **selection**, **drift**, etc. -
+or more broadly, the change in characteristics of organisms over
+time due to genetic change.
+
+In ID context, we will be interested in the evolution of pathogens,
+of hosts, and the **coevolution** of pathogens and their hosts.
+
+How do we find out about evolution?
+
+::::: {#special .spoiler tabindex="0"}
+- experiments (*in vitro*)
+- changes in phenotype frequencies (e.g. parasite strains)
+- measuring **serotype** frequency
+- detection of ancient DNA
+- detection by sequencing (e.g. S-gene target failure)
+- genome sequencing
+- inferring **selective sweeps** from 
+- phylogenetic reconstruction (time to **most recent common ancestor**, relationships)
+- inference about phenotypes by modelling protein structures
+:::::
+
+# What is an infectious disease?
+
+- **disease**: departure of an organism from its "normal" functioning (genetic,
+environmental, ...). An **infectious disease** is a disease that can
+be transmitted (**horizontally**) among organisms.
+- **symbiont**:  an organism that lives in close association with its host, in
+contrast with **free-living** organisms ($\neq$ "mutualist")
+- **parasite**: an organism that *lives in close association with its* **host** and *harms its host* (reduces **fitness** but doesn't kill)
+- **pathogen**: "a microorganism that causes disease" (Oxford English Dictionary).
+- **natural enemy**: any organism that benefits (increase in fitness) from association with its victim (loss of  fitness)
+
+                   **kills**    **harms**   **no effect**      **benefits**
+  --------------- ------------ ----------- --------------- ---------------------
+     **close**     parasitoid   parasite      commensal     symbiotic mutualist
+   **not close**    predator     grazer                          mutualist
+
+- **Biochemical** parasites: prions (chronic wasting disease, scrapie, bovine spongiform encephalopathy), transposable elements, cancer (including *transmissible* ([Wikipedia](https://en.wikipedia.org/wiki/Clonally_transmissible_cancer)) cancers, e.g. Tasmanian devil facial tumour disease)
+- **Biochemically obligate** parasites: phages, viruses
+- Other **microparasites**: bacteria, fungi, protozoans
+- Classical **macroparasites** (nematodes, schistosomes, trematodes, acanthocephalans, molluscs ...)
+- **Ectoparasites**/grazers (leeches, fleas)
+- **Phytophagous insects** (aphids, *Lepidoptera* etc.)
+- **Behavioral** parasites ("scroungers"): brood parasites (intraspecific and cuckoos) and kleptoparasites (skuas)
+- **Cheaters** in animal societies (e.g. reproducing worker bees)
+- **Cheaters** in mutualisms (ant-plant scroungers)
+
+## Why do we care?
+
+Because close association qualitatively changes the
+ecological/evolutionary relationship between host and parasite to a chronic, biochemically mediated arms race. We will expect the evolutionary trajectories of
+parasites, parasitoids, and predators to be extremely different (cf. anthrax and tuberculosis).
+
+## Why are we talking about parasites in general when this course is about infectious disease?
+
+1. parasites have a major impact on **morbidity** (disease) and **mortality**, albeit mostly in less-developed countries (should we care less?) (2) thinking about
+2. understanding parasitism in general gives a broader scope for understanding biological interactions involved in disease 
+3. parasites are really neat
+
+## microparasites and macroparasites
+
+- **microparasite** (**intensity-independent** parasite): typically, a parasitic
+microorganism (virus/bacterium/protozoan/fungus) but more generally
+a parasite where we count hosts as uninfected/infected. (Counterexample: viral load)
+- **macroparasite** (**intensity-dependent** parasite): typically, a metazoan parasite (cestode/nematode/copepod/insect) but more generally a parasite where we track the intensity of infection per host
+
+**Why do we care?** Because we have to think differently about the interaction
+
+# Origins of parasitism
+
+Why be a parasite?
+
+The **biotic** environment of a parasite may seem ideal (the
+host maintains **homeostasis** and provides resources),
+but the biotic environment is *actively hostile*, unlike 
+the **abiotic** environment of free-living organisms
+
+- Did symbionts become enemies, or enemies become symbionts?
+- How easy is it to switch between (1) **free-living** and **symbiotic** lifestyles or between (2) mutualism and parasitism?
+- **Comparative analysis** tries to answer such questions by looking
+at organismal traits in a **phylogenetic** context.
+- **phoresis**: the use of a (**phoretic**) host for transport (or a stable environment) only (e.g. mites, nematodes)
+- Combes describes the progressive intensification of parasitism in
+12 species of prosobranch molluscs
+- @moran_lifestyle_2000: chronic (**obligate**) symbionts are stuck, 
+but **opportunistic** symbionts can easily flip between
+commensalism and parasitism (cf. **plasmids**, **quorum sensing**)
+
+## References

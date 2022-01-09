@@ -1,0 +1,101 @@
+---
+title: "Course introduction"
+date: "`r format(Sys.time(), '%d %b %Y')`"
+bibliography: "../eeid.bib"
+---
+
+# Course goals
+
+**Primary**: To learn about the ecology and evolution of infectious
+diseases and parasites in general, both (1) the E&E *of* infectious
+diseases (how E&E principles apply to pathogens) and (2) the effect of
+pathogens on the E&E of their host organisms and communities.
+
+**Secondary**: to practice a variety of skills including critical 
+and creative thinking; critical reading of papers from the
+primary and secondary literature; scientific writing and review; web and
+literature searches for scientific information.
+
+Check out @Perry1963.
+
+# Expectations
+
+- attend and participate in class (on time); do the reading; ask questions
+(including submitting your discussion questions online and
+participating in class and online discussions); think critically and
+creatively. *Please let me know if you can't participate in class discussion (shyness, internet/remote-participation issues, etc.).*
+- know basic ecological and evolutionary principles (from BIO 1M03, 2C03,
+2F03, 3FF3) but more importantly **to ask questions, in or out of
+class, when you don't understand something**. There is no such thing
+as a stupid question. If you don't know something you're
+probably not the only one in class.
+- behave responsibly in online and in-person settings
+- do your own work, don't plagiarize, reference sources appropriately, credit group work appropriately
+
+# Assignments & grading
+
+- See [here](../assignments.html)
+
+# Readings and discussion
+
+In addition to the textbook, we will read papers from the primary and
+secondary literature and discuss them in class every Friday.You will need to submit *discussion questions* (DQs) by noon the day before discussion (i.e., Thursday). DQs are ideally conceptual questions --- something you found interesting, or wrong, or puzzling about the paper and would like to discuss in class
+--- but can also be about specific terms or points in the paper that you
+didn't understand and would like clarified in class.
+
+# Recordings and notes
+
+I will post lecture notes beforehand and recordings afterward. Don't expect the notes to be comprehensive.
+
+# Writing
+
+Writing is hard. The only way to get better is to practice.
+
+- We will give you lots of feedback. Grading will be based primarily on evidence of appropriate effort, critical thinking, and creativity (and improvement).
+- The [Writing Centre](https://studentsuccess.mcmaster.ca/academic-skills/writing-support/) offers appointments to help you with your writing
+- Here are some of my [style preferences](https://github.com/bbolker/bbmisc/blob/master/peeves.md)
+
+# Referencing
+
+- Primary literature (usually journal articles) is best
+- Wikipedia is a great start and generally reliable. You should often dig down into the references
+- Google Scholar is great (use the `author:` tag if you're looking for something in particular)
+- follow references backward and forward
+- Other web resources are OK, reputable sources (CDC, WHO, ...) preferred
+- check out [pro-med mail](https://promedmail.org/)
+
+# Citations
+
+- **Cite anything you use**
+- **Never cite anything you haven't read** (OK to cite "Jones 1910, referenced by Smith (1999)")
+- Use whatever *complete* citation format you like (I like author-date)
+- Articles: include authors, year, source (journal title), volume/issue/page numbers, DOI if possible. URL alone is insufficient.
+- For web resources include author/title/date, access date, URL. Reputable resources preferred (Wikipedia, CDC, WHO, ...)
+- I strongly recommend that you use a bibliographic database system. [Zotero](https://www.zotero.org/) is my favourite.
+
+# Reading papers
+
+- Reading research papers (primary literature) is hard but important
+- @carey_ten_2020; [Some advice from a guy I know](https://teelabiisc.wordpress.com/how-to-read-research-papers/)
+- Focus first on introduction, figures, conclusions; try to get the big picture
+- Try to understand the overarching logic. What are the questions? What are the primary data? (How) do the data and the arguments in the paper go together to answer the questions?
+- "What if they did X?" "Why didn't they do Y?" are secondary to engaging with the details of the paper
+- Try not to get bogged down in details, unless you have time and energy.
+- Math and statistics
+   - don't panic
+   - connect verbal descriptions → model equations and model results (figures or equations) → verbal conclusions
+   - e.g. $dS/dt = b -\beta S I - \mu S$
+- Don't be afraid to ask questions
+
+# Topics
+
+- Way too much interesting stuff:
+   - how does the ecology ("distribution and abundance") of parasites/ID work? Classic ID epidemiology, population dynamics. Variation in space and time.
+   - how do parasites/ID evolve? Phylogenetics, population genetics; phenotypes, genotypes
+   - how do parasites/ID affect the ecology of their hosts? Biocontrol, conservation biology, apparent competition, trophic cascades
+   - how do parasites/ID affect the evolution of their hosts? Coevolution
+- The important questions:
+   - **How do we know?** Population genetics, phylogenetics, historical records, surveys, experiments, statistics, mathematical models, meta-analysis ...
+   - **So what?** Why are we bothering with the details of a certain fact or definition?
+
+## References
