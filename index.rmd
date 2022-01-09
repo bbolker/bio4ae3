@@ -23,9 +23,9 @@ th {background-color: #ccccff;}
 
 ### Misc info
 
-- Textbook: Claude Combes, *The Art of Being A Parasite*; available from the bookstore, also on the Internet Archive
+- Textbook: Claude Combes, *The Art of Being A Parasite*; available from the bookstore, also on the [Internet Archive](https://archive.org/details/artofbeingparasi0000comb)
 - Platforms: 
-   - Lecture notes and slides (HTML) will be provided on Teams or Avenue to Learn
+   - Lecture notes and slides (HTML/PDF) will be provided on Teams or Avenue to Learn
    - Class discussion/forums will be hosted on Teams
    - Peer-review of some assignments will be done using `peerScholar®` (free licenses will be provided as part of a McMaster pilot project)
    - Group annotation will be done using `hypothes.is` (free licenses will be provided)
