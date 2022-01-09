@@ -10,8 +10,9 @@
 
 
 
+<meta name="date" content="2022-01-08" />
 
-<title>Ecology and evolution of infectious disease</title>
+<title>Definitions</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -357,379 +358,155 @@ pre code {
 
 
 
-<h1 class="title toc-ignore">Ecology and evolution of infectious disease</h1>
+<h1 class="title toc-ignore">Definitions</h1>
+<h4 class="date">08 Jan 2022</h4>
 
 </div>
 
 
-<!-- from https://www.w3schools.com/css/css_table.asp -->
+<!-- https://learn2dev.com/articles/css-shorts/spoilers/ -->
+<!-- https://lifelongprogrammer.blogspot.com/2019/01/how-to-style-markdown-with-css.html -->
 <style>
-th, td {
-   vertical-align: top;
-   padding: 15px;
+.spoiler {
+  background: gray;
+  color: transparent;
+  cursor: help;
+  user-select: none;
+  transition: background 0.3s ease 0.2s, color 0.2s ease 0.25s;
 }
-tr:nth-child(even) {background-color: #f2f2f2;} 
-th {background-color: #ccccff;}
+
+.spoiler:focus {
+  background: #e8e8e8;
+  color: inherit;
+}
 </style>
-<div id="course-meetings" class="section level3">
-<h3>Course meetings</h3>
+<div id="what-are-ecology-and-evolution" class="section level1">
+<h1>What are ecology and evolution?</h1>
+<div id="ecology" class="section level2">
+<h2>ecology</h2>
+<p>“the study of the processes determining the distribution and abundance of organisms” (Krebs) or of “the interaction among organisms and between organisms and their environment” (Poulin)</p>
+<p>In infectious disease (ID) context: <strong>incidence</strong> (number of new infections per unit time) and <strong>prevalence</strong> (number of infected individuals in the population). We may also be interested in the <strong>parasite burden</strong> or <strong>intensity</strong> of infection: how many bugs/host on average?</p>
+<p>How do we get this information?</p>
+<div id="special" class="spoiler" tabindex="0">
 <ul>
-<li>11:30-12:20 Mon/Weds, 13:30-14:20 Fri (all Toronto time)</li>
-<li>initially via <a href="https://teams.microsoft.com/l/channel/19%3aiaABT9ga9EpcFTRea7ZQUttq2SxRFQ5Izt9Zump8DDk1%40thread.tacv2/General?groupId=bf0845f2-7f46-454a-90e1-0bb732e43a37&amp;tenantId=44376307-b429-42ad-8c25-28cd496f4772">Teams channel</a>; thereafter (after February 7) in <a href="https://library.mcmaster.ca/cct/class-dir/hh-217">HH 217</a> and on Echo360</li>
-<li>University policy requires masks in all indoor spaces</li>
-<li>Lectures will be recorded</li>
-<li>You are encouraged but not required to keep your cameras on when participating in virtual course activities</li>
+<li>case reports</li>
+<li>proxies (deaths, hospitalizations, wills)</li>
+<li><strong>serosurveys</strong></li>
+<li>counting eggs in feces, or worms in gut contents</li>
+<li>viral titers (e.g. by quantitative PCR)</li>
+<li>population genetic methods <span class="citation">(Volz et al. 2009)</span></li>
 </ul>
 </div>
-<div id="misc-info" class="section level3">
-<h3>Misc info</h3>
+</div>
+<div id="evolution" class="section level2">
+<h2>evolution</h2>
+<p>“changes in gene frequency in a population between generations” - due to <strong>mutation</strong>, <strong>selection</strong>, <strong>drift</strong>, etc. - or more broadly, the change in characteristics of organisms over time due to genetic change.</p>
+<p>In ID context, we will be interested in the evolution of pathogens, of hosts, and the <strong>coevolution</strong> of pathogens and their hosts.</p>
+<p>How do we find out about evolution?</p>
+<div id="special" class="spoiler" tabindex="0">
 <ul>
-<li>Textbook: Claude Combes, <em>The Art of Being A Parasite</em>; available from the bookstore, also on the <a href="https://archive.org/details/artofbeingparasi0000comb">Internet Archive</a></li>
-<li>Platforms:
-<ul>
-<li>Lecture notes and slides (HTML/PDF) will be provided on Teams or Avenue to Learn</li>
-<li>Class discussion/forums will be hosted on Teams</li>
-<li>Peer-review of some assignments will be done using <code>peerScholar®</code> (free licenses will be provided as part of a McMaster pilot project)</li>
-<li>Group annotation will be done using <code>hypothes.is</code> (free licenses will be provided)</li>
-</ul></li>
-<li><a href="eeid_bib.html">Full course bibliography</a></li>
+<li>experiments (<em>in vitro</em>)</li>
+<li>changes in phenotype frequencies (e.g. parasite strains)</li>
+<li>measuring <strong>serotype</strong> frequency</li>
+<li>detection of ancient DNA</li>
+<li>detection by sequencing (e.g. S-gene target failure)</li>
+<li>genome sequencing</li>
+<li>inferring <strong>selective sweeps</strong> from</li>
+<li>phylogenetic reconstruction (time to <strong>most recent common ancestor</strong>, relationships)</li>
+<li>inference about phenotypes by modelling protein structures</li>
 </ul>
 </div>
-<div id="where-to-find-stuff" class="section level3">
-<h3>Where to find stuff</h3>
-<ul>
-<li>on-line meetings: <a href="https://teams.microsoft.com/l/channel/19%3aiaABT9ga9EpcFTRea7ZQUttq2SxRFQ5Izt9Zump8DDk1%40thread.tacv2/General?groupId=bf0845f2-7f46-454a-90e1-0bb732e43a37&amp;tenantId=44376307-b429-42ad-8c25-28cd496f4772">General channel on Teams</a></li>
-<li>lecture recordings: <a href="https://teams.microsoft.com/l/channel/19%3aiaABT9ga9EpcFTRea7ZQUttq2SxRFQ5Izt9Zump8DDk1%40thread.tacv2/General?groupId=bf0845f2-7f46-454a-90e1-0bb732e43a37&amp;tenantId=44376307-b429-42ad-8c25-28cd496f4772">General channel on Teams</a> <strong>or</strong> <a href="https://avenue.cllmcmaster.ca/d2l/le/content/452482/Home">Avenue to Learn</a> (when class is recorded on Echo360); <strong>or</strong> linked in schedule below</li>
-<li>schedule, readings, notes, course outline, etc.: here</li>
-<li>dropbox for assignments, marks: <a href="https://avenue.cllmcmaster.ca/d2l/le/content/452482/Home">Avenue</a></li>
-<li>discussion questions: “Discussion question” channel on Teams</li>
-</ul>
 </div>
-<div id="links" class="section level3">
-<h3>Links</h3>
-<ul>
-<li><a href="outline.docx">Course outline</a></li>
-<li><a href="./assignments.html">Assignments</a> (due dates in schedule below)</li>
-<li><a href="https://github.com/bbolker/bio4ae3">The back-end for this site</a></li>
-</ul>
 </div>
-<div id="communication" class="section level2">
-<h2>Communication</h2>
+<div id="what-is-an-infectious-disease" class="section level1">
+<h1>What is an infectious disease?</h1>
 <ul>
-<li>instructor: <a href="http://www.math.mcmaster.ca/~bolker/">Ben Bolker</a>
-<ul>
-<li>General questions (anything you don’t consider private) are best asked in the appropriate channel on Teams</li>
-<li>Otherwise e-mail to <code>bolker@mcmaster.ca</code> with “BIO 4AE3” in the subject line; include your MacID in your message if not e-mailing from your McMaster e-mail account</li>
-</ul></li>
-<li>teaching assistant: Lindsey Kukoly
-<ul>
-<li>weekly office hours on Teams (schedule TBA)</li>
-<li>please contact via e-mail (<code>kukoll1@mcmaster.ca</code>: include “BIO 4AE3” in the subject line)</li>
-<li>will answer as soon as possible, but will be more readily available during normal working hours (9 AM to 5 PM Toronto time)</li>
-<li>answers are <strong>not</strong> guaranteeed within 24 hours of an assignment deadlines as you mentioned</li>
-</ul></li>
+<li><p><strong>disease</strong>: departure of an organism from its “normal” functioning (genetic, environmental, …). An <strong>infectious disease</strong> is a disease that can be transmitted (<strong>horizontally</strong>) among organisms.</p></li>
+<li><p><strong>symbiont</strong>: an organism that lives in close association with its host, in contrast with <strong>free-living</strong> organisms (<span class="math inline">\(\neq\)</span> “mutualist”)</p></li>
+<li><p><strong>parasite</strong>: an organism that <em>lives in close association with its</em> <strong>host</strong> and <em>harms its host</em> (reduces <strong>fitness</strong> but doesn’t kill)</p></li>
+<li><p><strong>pathogen</strong>: “a microorganism that causes disease” (Oxford English Dictionary).</p></li>
+<li><p><strong>natural enemy</strong>: any organism that benefits (increase in fitness) from association with its victim (loss of fitness)</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="center"><strong>kills</strong></th>
+<th align="center"><strong>harms</strong></th>
+<th align="center"><strong>no effect</strong></th>
+<th align="center"><strong>benefits</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>close</strong></td>
+<td align="center">parasitoid</td>
+<td align="center">parasite</td>
+<td align="center">commensal</td>
+<td align="center">symbiotic mutualist</td>
+</tr>
+<tr class="even">
+<td><strong>not close</strong></td>
+<td align="center">predator</td>
+<td align="center">grazer</td>
+<td align="center"></td>
+<td align="center">mutualist</td>
+</tr>
+</tbody>
+</table></li>
+<li><p><strong>Biochemical</strong> parasites: prions (chronic wasting disease, scrapie, bovine spongiform encephalopathy), transposable elements, cancer (including <em>transmissible</em> (<a href="https://en.wikipedia.org/wiki/Clonally_transmissible_cancer">Wikipedia</a>) cancers, e.g. Tasmanian devil facial tumour disease)</p></li>
+<li><p><strong>Biochemically obligate</strong> parasites: phages, viruses</p></li>
+<li><p>Other <strong>microparasites</strong>: bacteria, fungi, protozoans</p></li>
+<li><p>Classical <strong>macroparasites</strong> (nematodes, schistosomes, trematodes, acanthocephalans, molluscs …)</p></li>
+<li><p><strong>Ectoparasites</strong>/grazers (leeches, fleas)</p></li>
+<li><p><strong>Phytophagous insects</strong> (aphids, <em>Lepidoptera</em> etc.)</p></li>
+<li><p><strong>Behavioral</strong> parasites (“scroungers”): brood parasites (intraspecific and cuckoos) and kleptoparasites (skuas)</p></li>
+<li><p><strong>Cheaters</strong> in animal societies (e.g. reproducing worker bees)</p></li>
+<li><p><strong>Cheaters</strong> in mutualisms (ant-plant scroungers)</p></li>
 </ul>
+<div id="why-do-we-care" class="section level2">
+<h2>Why do we care?</h2>
+<p>Because close association qualitatively changes the ecological/evolutionary relationship between host and parasite to a chronic, biochemically mediated arms race. We will expect the evolutionary trajectories of parasites, parasitoids, and predators to be extremely different (cf. anthrax and tuberculosis).</p>
 </div>
-<div id="schedule" class="section level2">
-<h2>Schedule</h2>
-<p>(subject to revision!)</p>
-<table class="huxtable" style="border-collapse: collapse; border: 0px; margin-bottom: 2em; margin-top: 2em; ; margin-left: auto; margin-right: auto;  " id="tab:setup">
-<col>
-<col>
-<col>
-<col>
-<col>
-<col>
-<tr>
-<th style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-start date
-</th>
-<th style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-topic
-</th>
-<th style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-reading/viewing
-</th>
-<th style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-notes
-</th>
-<th style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-assignments
-</th>
-<th style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-lecture recordings
-</th>
-</tr>
-<tr>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-10 January
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-introduction &amp; concepts; epidemic models and epidemic dynamics
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-Combes ch. 1-2
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-<a href="notes/intro.html">intro</a>; <a href="notes/definitions.html">definitions</a>
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-DQ on reading (Thurs 6 PM)
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-</tr>
-<tr>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-17 January
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-parasites and host demography; extinction &amp; conservation
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-</tr>
-<tr>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-24 January
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-parasites and host communities
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-mini-essay 1 (Fri 28 Jan)
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-</tr>
-<tr>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-31 January
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-within-host dynamics of parasites
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-term paper topic (Fri 4 Feb)
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-</tr>
-<tr>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-7 February
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-Red Queen (host-parasite coevolution)
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-</tr>
-<tr>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-14 February
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-<strong>midterm break</strong>
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-</tr>
-<tr>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-18 February
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-RQ and the origin and maintenance of sex
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-<strong>midterm test</strong> (in class)
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-</tr>
-<tr>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-21 February
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-The mutualism-parasitism spectrum
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-</tr>
-<tr>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-28 February
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-Virulence evolution
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-mini-essay 2 (Fri 4 Mar)
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-</tr>
-<tr>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-7 March
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-Evolution of host resistance and tolerance
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-</tr>
-<tr>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-14 March
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-Parasite counter-evolution
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-term paper draft (Fri 17 Mar)
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-</tr>
-<tr>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-21 March
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-Parasite-mediated sexual selection
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-term paper peer reviews (Fri 25 Mar)
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-</tr>
-<tr>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-28 March
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-Parasite manipulation of host behaviour
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-mini-essay 3 (Fri 1 Apr)
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-</tr>
-<tr>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-4 April
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-Ecosystems and emerging diseases
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-emerging disease reports (Fri 8 Apr)
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-</tr>
-<tr>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-11 April
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-last class meeting is Monday 11 April
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-</tr>
-<tr>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-25 April
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-final papers due
-</td>
-<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-</td>
-</tr>
-</table>
-<hr />
-<p>Last updated: 2022-01-08 21:23:19</p>
+<div id="why-are-we-talking-about-parasites-in-general-when-this-course-is-about-infectious-disease" class="section level2">
+<h2>Why are we talking about parasites in general when this course is about infectious disease?</h2>
+<ol style="list-style-type: decimal">
+<li>parasites have a major impact on <strong>morbidity</strong> (disease) and <strong>mortality</strong>, albeit mostly in less-developed countries (should we care less?) (2) thinking about</li>
+<li>understanding parasitism in general gives a broader scope for understanding biological interactions involved in disease</li>
+<li>parasites are really neat</li>
+</ol>
+</div>
+<div id="microparasites-and-macroparasites" class="section level2">
+<h2>microparasites and macroparasites</h2>
+<ul>
+<li><strong>microparasite</strong> (<strong>intensity-independent</strong> parasite): typically, a parasitic microorganism (virus/bacterium/protozoan/fungus) but more generally a parasite where we count hosts as uninfected/infected. (Counterexample: viral load)</li>
+<li><strong>macroparasite</strong> (<strong>intensity-dependent</strong> parasite): typically, a metazoan parasite (cestode/nematode/copepod/insect) but more generally a parasite where we track the intensity of infection per host</li>
+</ul>
+<p><strong>Why do we care?</strong> Because we have to think differently about the interaction</p>
+</div>
+</div>
+<div id="origins-of-parasitism" class="section level1">
+<h1>Origins of parasitism</h1>
+<p>Why be a parasite?</p>
+<p>The <strong>biotic</strong> environment of a parasite may seem ideal (the host maintains <strong>homeostasis</strong> and provides resources), but the biotic environment is <em>actively hostile</em>, unlike the <strong>abiotic</strong> environment of free-living organisms</p>
+<ul>
+<li>Did symbionts become enemies, or enemies become symbionts?</li>
+<li>How easy is it to switch between (1) <strong>free-living</strong> and <strong>symbiotic</strong> lifestyles or between (2) mutualism and parasitism?</li>
+<li><strong>Comparative analysis</strong> tries to answer such questions by looking at organismal traits in a <strong>phylogenetic</strong> context.</li>
+<li><strong>phoresis</strong>: the use of a (<strong>phoretic</strong>) host for transport (or a stable environment) only (e.g. mites, nematodes)</li>
+<li>Combes describes the progressive intensification of parasitism in 12 species of prosobranch molluscs</li>
+<li><span class="citation">Moran and Wernegreen (2000)</span>: chronic (<strong>obligate</strong>) symbionts are stuck, but <strong>opportunistic</strong> symbionts can easily flip between commensalism and parasitism (cf. <strong>plasmids</strong>, <strong>quorum sensing</strong>)</li>
+</ul>
+<div id="references" class="section level2 unnumbered">
+<h2 class="unnumbered">References</h2>
+<div id="refs" class="references hanging-indent">
+<div id="ref-moran_lifestyle_2000">
+<p>Moran, Nancy A., and Jennifer J. Wernegreen. 2000. “Lifestyle Evolution in Symbiotic Bacteria: Insights from Genomics.” <em>Trends in Ecology &amp; Evolution</em> 15 (8): 321–26. <a href="https://doi.org/%7B10.1016/S0169-5347(00)01902-9%7D">https://doi.org/{10.1016/S0169-5347(00)01902-9}</a>.</p>
+</div>
+<div id="ref-volz_phylodynamics_2009">
+<p>Volz, Erik M, Sergei L Kosakovsky Pond, Melissa J Ward, Andrew J Leigh Brown, and Simon D W Frost. 2009. “Phylodynamics of Infectious Disease Epidemics.” <em>Genetics</em> 183 (4): 1421–30. <a href="https://doi.org/10.1534/genetics.109.106021">https://doi.org/10.1534/genetics.109.106021</a>.</p>
+</div>
+</div>
+</div>
 </div>
 
 

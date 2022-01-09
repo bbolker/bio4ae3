@@ -55,7 +55,7 @@ Flesh out the details: why is the disease spreading now? Does it have biological
 
 The midterm test will consist of definitions, short-answer questions, and essay questions. You will be given a large set of essay questions beforehand, some of which will be asked on the midterm.
 
-I will not ask you to memorize details of any *specific* examples given during the course, but you should know a variety of examples so that you can use them in your short answers and essays.
+I will not ask you to memorize details of any specific examples given during the course, but you should know a variety of examples so that you can use them in your short answers and essays.
 
 - [midterm from a previous (2009) iteration of this course](eeid2009-midterm.pdf)
 - [sample essay topics (old)](file:///home/bolker/Documents/classes/bio4ae3/docs/eeid2009-midterm-topics.html)
