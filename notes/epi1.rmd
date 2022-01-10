@@ -1,0 +1,210 @@
+---
+title: "compartmental models"
+date: "`r format(Sys.time(), '%d %b %Y')`"
+bibliography: "../eeid.bib"
+---
+
+## Basics
+
+Group individuals into categories; figure out the
+rates at which various events (infection, recovery, death, etc.) occur,
+and how they move individuals between categories/change the population
+sizes; write down equations based on these rates. "All models are wrong but some are useful"
+(Tukey), but they can help us figure out the rate of spread, or the
+equilibrium prevalence.
+
+Some distinctions: micro- or macroparasite? Include *vital dynamics*
+(birth/death)? Life cycle (direct, vector, complex)? Virulence/effects
+on host? Genetics?
+
+## Compartmental ("box") models
+
+Box models divide the host population up into boxes according to
+epidemiological status, e.g. **S**usceptible, **I**nfective, **R**emoved
+(**SIR** models). Could also include e.g. **E**xposed (**SEIR** model).
+
+Depending on the host-parasite biology of a particular disease (is there
+an incubation period? do any hosts recover, and if so do they acquire
+immunity or do they become susceptible again?), we can write down a box
+model, for example:
+
+![image](pix/epibox1.png){height="0.5in"}
+
+Alphabet soup: SI (e.g. tuberculosis), SIS (e.g. gonorrhea), S(E)IR
+(e.g. measles), SIRV (vaccine), etc..
+
+Now consider the transitions (birth, natural mortality, disease-induced
+mortality, infection).
+
+![image](pix/epibox2.png){height="1in"}
+
+Finally, quantify the *transition rates* (e.g. constant birth rates
+($b$), constant *per capita* recovery etc., **mass-action** transmission
+($\beta S I$)).
+
+We end up with the following model:
+
+![image](pix/epibox3.png){height="1in"}
+
+Write down balance equations: incoming - outgoing. 
+
+$$\begin{aligned}
+S' & = & \underbrace{b}_{\text{\small birth}}
+- \underbrace{\beta S I }_{\text{\small infection}}
+- \underbrace{\mu S }_{\text{\small nat. mort.}}  \\
+I' & = & \underbrace{\beta S I }_{\text{\small infection}}
+- \underbrace{\mu I }_{\text{\small nat. mort.}} 
+- \underbrace{\alpha I }_{\text{\small dis. mort.}}
+- \underbrace{\gamma I }_{\text{\small recovery}}\\
+R' & = \underbrace{\gamma I }_{\text{\small recovery}}
+- \underbrace{\mu R}_{\text{\small nat. mort.}} \\\end{aligned}
+$$
+
+How do we deal with these equations? We can do algebra, or simulate.
+
+Build up basic dynamics: SI, SIR, SIR with vital dynamics.
+
+-   Beginning of epidemic: *exponential* growth (assuming well-mixed
+    population, etc.)
+
+-   Simple (SI) epidemic: *logistic* growth
+
+-   SIR without vital dynamics: epidemic grows, then collapses
+
+-   SIS, SIR with vital dynamics: equilibrium (maybe)
+
+-   seasonal variation, other feedbacks: epidemic cycles
+
+# Conclusions from basic epidemic models
+
+## Variants on basic epidemic models
+
+-   Macroparasite models: have to build in a way to track average
+    parasite burden, variability in parasite burden, and processes like
+    intensity-dependent mortality. May also have more complex life
+    cycles (multiple hosts, free-living stages, etc.).
+
+-   Transmission modes: e.g. vector-borne, sexually transmitted diseases
+    (**STD**s). STDs have **frequency-dependent** transmission,
+    $\beta S (I/N)$ instead of $\beta S I$, which means there is no
+    population density threshold --- disease can persist in small
+    populations, drive populations extinct.
+
+-   Mixing models (STDs, age-structured, geographic, ...) --- who
+    infects whom?
+
+-   Demography: how does disease affect population growth? Malthus;
+    HIV/AIDS. Depends on what ages are affected, who dies, effects on
+    fecundity, behavioral responses.
+
+-   Ecology: how many species are in the model? Predator/prey dynamics?
+
+# Estimating $R_0$
+
+## Estimating all model parameters
+
+
+In principle, all of the parameters of the model (b, $\mu$, $\alpha$,
+$\beta$) can be estimated from lab or field studies. The host
+demographic parameters ($b$, $\mu$) are basic host ecology. Virulence
+($\alpha$) can be determined from experimental infections or from
+observational studies in the field, although both methods have their
+problems. Virulence might be lower in experimental infections because of
+differences in nutrition or environmental conditions in the lab.
+
+Estimating $\beta$ is hard. Exceptions are vector-borne diseases like
+malaria (estimate (1) biting rates, (2) probability of a mosquito being
+infected when it takes a blood meal from an infected host, (3)
+probability of a host being infected when it is bitten by an infected
+mosquito) and HIV/AIDS (estimate sexual contact rates, partner change
+rates, and probability of infection per partnership).
+
+## Observing epidemic curves
+
+During the initial phase of the epidemic, the number of infected
+individuals should increase by a factor of $R_0$ for every parasite
+generation. For example, if $R_0$ = 3 and the generation time is one
+week then the numbers of infected individuals starting from a single
+infected would be 1, 3, 9, 27, ...
+
+Examples: AIDS, bubonic plague, foot and mouth disease in feral pigs,
+phocine distemper virus, smallpox, SARS.
+
+## Exposure surveys
+
+If you know the fraction susceptible (i.e. those who have never had the
+disease, $N-I-R$), you can use $R_0=N/S^*$. You can also use the
+*age-exposure curve* of a population-the cumulation fraction of
+individuals that have been infected (and possibly recovered) by a given
+age to estimate $R_0$, using $R_0
+\approx L/A$ (e.g. if host lifespan is 10 years and the average at which
+individuals are infected is 2 years, $R_0 \approx 5$). In human
+populations we can sometimes get age-exposure curves by following
+cohorts or sending out questionnaires, but *serological* studies are
+more powerful (work for any vertebrates, if we have the antibodies).
+
+Examples: many human diseases, brucellosis in bison.
+
+# More on long-term dynamics
+
+-   SIR epidemic with birth; initial epidemic outbreak, followed by a
+"trough", followed by population recovery. **Damped** or
+**sustained** oscillations depend on details.
+
+    ![image](pix/lonergan.png){width="4in"}
+
+- Simplest expectation is that epidemics will eventually settle down
+to a stable equilibrium ("endemic") state
+
+-   Size of fluctuations/damping rate depends on ratio of two scales:
+    disease generation time (rate at which epidemic spreads) and
+    population generation time (rate at which population turns over/new
+    susceptibles appear)
+
+## Stochastic extinction thresholds
+
+-   constraint on $R_0$ is a *deterministic* threshold: assumes large
+    (infinite) population size
+
+-   what if population is finite? Chance of *stochastic fade-out* ---
+    disease goes extinct locally by chance ($<1$ infective)
+
+-   *Critical community size* --- depends on epidemic parameters, but
+    hard to figure out. Approx. 250,000 for measles (based on data on
+    islands/cities in US and UK) [especially large]. Probably not even
+    relevant for diseases with latent stages, asymptomatic forms, etc..
+    Perhaps important for staged eradication of disease. (Persistence
+    threshold: suggests some more virulent/acute diseases may have
+    emerged since human populations have become big enough to support
+    them? Hard to understand early persistence of childhood diseases
+    ...)
+
+## Recurrent epidemics
+
+What explains recurrent epidemics?
+
+-   Slow damping (e.g. morbillivirus)
+
+-   Demographic stochasticity (e.g. whooping cough)
+
+-   Strain shifts --- e.g. rhinovirus, influenza
+
+-   Seasonality --- esp. schools (e.g. measles, lots of others)
+
+Details of recurrent epidemics can range from really simple (similar
+seasonal epidemics every year) to complex (chaos).
+
+## Longer-term epidemic shifts
+
+Once again, can come from a variety of mechanisms:
+
+-   evolution/emergence --- e.g. *antigenic shifts* in influenza
+
+-   changes in epidemic parameters (demography, culture, etc.)
+
+-   dynamical regime changes
+
+Dynamics pictures
+=================
+
+<!-- ![image](epi3-004) -->

@@ -20,6 +20,12 @@ docs/notes/%: notes/%
 %.html: %.md
 	Rscript  -e "rmarkdown::render('$<')"
 
+%.pdf: %.rmd
+	Rscript -e "rmarkdown::render('$<', output_format = tufte::tufte_handout())"
+
+%.pdf: %.md
+	Rscript -e "rmarkdown::render('$<', output_format = tufte::tufte_handout())"
+
 index.html: index.rmd sched.csv
 	Rscript  -e "rmarkdown::render('$<')"
 
