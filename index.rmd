@@ -20,7 +20,7 @@ Last updated: `r Sys.time()`
 - 11:30-12:20 Mon/Weds, 13:30-14:20 Fri (all Toronto time)
 - initially via [Teams channel](https://teams.microsoft.com/l/channel/19%3aiaABT9ga9EpcFTRea7ZQUttq2SxRFQ5Izt9Zump8DDk1%40thread.tacv2/General?groupId=bf0845f2-7f46-454a-90e1-0bb732e43a37&tenantId=44376307-b429-42ad-8c25-28cd496f4772); thereafter (after February 7) in [HH 217](https://library.mcmaster.ca/cct/class-dir/hh-217) and on Echo360
 - University policy requires masks in all indoor spaces
-- Lectures will be recorded
+- Lectures will be recorded. Live captioning is available.
 - You are encouraged but not required to keep your cameras on when participating in virtual course activities
 
 ### Misc info
@@ -51,10 +51,10 @@ Last updated: `r Sys.time()`
     - General questions (anything you don't consider private) are best asked in the appropriate channel on Teams
     - Otherwise e-mail to `bolker@mcmaster.ca` with "BIO 4AE3" in the subject line; include your MacID in your message if not e-mailing from your McMaster e-mail account
 - teaching assistant: Lindsey Kukoly
-    - weekly office hours on Teams (schedule TBA)
+    - weekly office hours on Teams, **Tuesdays 11:30-12:30**
     - please contact via e-mail (`kukoll1@mcmaster.ca`: include "BIO 4AE3" in the subject line)
 	- will answer as soon as possible, but will be more readily available during normal working hours (9 AM to 5 PM Toronto time)
-	- answers are **not** guaranteeed within 24 hours of an assignment deadlines as you mentioned
+	- responses are **not** guaranteed within 24 hours of an assignment deadline; please plan ahead!
 
 ## Schedule
 

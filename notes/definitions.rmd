@@ -66,7 +66,7 @@ How do we find out about evolution?
 - detection of ancient DNA
 - detection by sequencing (e.g. S-gene target failure)
 - genome sequencing
-- inferring **selective sweeps** from 
+- inferring **selective sweeps** from low-variation regions in the genome
 - phylogenetic reconstruction (time to **most recent common ancestor**, relationships)
 - inference about phenotypes by modelling protein structures
 :::::

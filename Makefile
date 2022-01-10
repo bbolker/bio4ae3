@@ -17,6 +17,11 @@ docs/notes/%: notes/%
 %.html: %.rmd
 	Rscript  -e "rmarkdown::render('$<')"
 
+%.docx: %.rmd
+	sed -r '/::::: \{#special .spoiler/,/:::::/'{d} < $< > $(@D)/tmp.rmd
+	Rscript -e "rmarkdown::render('$(@D)/tmp.rmd', output_format = 'word_document')"
+	mv $(@D)/tmp.docx $*.docx
+
 %.html: %.md
 	Rscript  -e "rmarkdown::render('$<')"
 
