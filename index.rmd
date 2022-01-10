@@ -13,6 +13,8 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 th {background-color: #ccccff;}
 </style>
 
+Last updated: `r Sys.time()`
+
 ### Course meetings
 
 - 11:30-12:20 Mon/Weds, 13:30-14:20 Fri (all Toronto time)
@@ -75,6 +77,5 @@ invisible(read_csv("sched.csv")
 )
 ```
 
----
+## References
 
-Last updated: `r Sys.time()`
