@@ -1,6 +1,6 @@
 ---
 title: Definitions
-date: "`r format(Sys.time(), '%d %b %Y')`"
+date: 12 January 2022 
 bibliography: "../eeid.bib"
 ---
 
@@ -75,7 +75,7 @@ How do we find out about evolution?
 
 - **disease**: departure of an organism from its "normal" functioning (genetic,
 environmental, ...). An **infectious disease** is a disease that can
-be transmitted (**horizontally**) among organisms.
+be transmitted (**horizontally**) among organisms. (**Vertical** transmission = parent-to-offspring, usually maternal (e.g. @wayne_prevalence_2011))
 - **symbiont**:  an organism that lives in close association with its host, in
 contrast with **free-living** organisms ($\neq$ "mutualist")
 - **parasite**: an organism that *lives in close association with its* **host** and *harms its host* (reduces **fitness** but doesn't kill)
@@ -136,11 +136,17 @@ the **abiotic** environment of free-living organisms
 - How easy is it to switch between (1) **free-living** and **symbiotic** lifestyles or between (2) mutualism and parasitism?
 - **Comparative analysis** tries to answer such questions by looking
 at organismal traits in a **phylogenetic** context.
-- **phoresis**: the use of a (**phoretic**) host for transport (or a stable environment) only (e.g. mites, nematodes)
+- **phoresis**: the use of a (**phoretic**) host for transport (or a stable environment) only (e.g. some mites, nematodes)
 - Combes describes the progressive intensification of parasitism in
 12 species of prosobranch molluscs
 - @moran_lifestyle_2000: chronic (**obligate**) symbionts are stuck, 
-but **opportunistic** symbionts can easily flip between
-commensalism and parasitism (cf. **plasmids**, **quorum sensing**)
+but **opportunistic** symbionts can easily flip between mutualism/commensalism and parasitism
 
-## References
+##  References
+ 
+::: {#refs}
+:::
+
+---
+
+Last updated: `r Sys.time()`

@@ -1,6 +1,8 @@
-all: docs/assignments.html docs/index.html docs/eeid_bib.html
+all: docs/assignments.html docs/index.html docs/eeid_bib.html allnotes
 
 ## see also: mk_all
+allnotes:
+	./mkallnotes
 
 ## these must come FIRST so we don't trash .md files by moving
 ## them to docs!
