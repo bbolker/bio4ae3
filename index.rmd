@@ -38,6 +38,7 @@ Last updated: `r Sys.time()`
 - schedule, readings, notes, course outline, etc.: here
 - dropbox for assignments, marks: [Avenue](https://avenue.cllmcmaster.ca/d2l/le/content/452482/Home)
 - discussion questions: "Discussion question" channel on Teams
+- [SpringerLink](https://libraryssl.lib.mcmaster.ca/libaccess/login.php?url=https%3a%2f%2flink.springer.com)
 
 ### Links
 

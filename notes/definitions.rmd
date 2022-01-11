@@ -82,10 +82,15 @@ contrast with **free-living** organisms ($\neq$ "mutualist")
 - **pathogen**: "a microorganism that causes disease" (Oxford English Dictionary).
 - **natural enemy**: any organism that benefits (increase in fitness) from association with its victim (loss of  fitness)
 
-                   **kills**    **harms**   **no effect**      **benefits**
-  --------------- ------------ ----------- --------------- ---------------------
-     **close**     parasitoid   parasite      commensal     symbiotic mutualist
-   **not close**    predator     grazer                          mutualist
+```{r deftab, echo = FALSE}
+dd <- read.delim(sep="|", check.names = FALSE, text = "
+          | kills      | harms    | no effect | benefits
+close     | parasitoid | parasite | commensal | symbiotic mutualist ('symbiont')
+not close | predator   | grazer   |           | free-living mutualist
+")
+names(dd) <- pander::pandoc.strong.return(names(dd))
+pander::pander(dd, emphasize.strong.col = 1)
+```
 
 - **Biochemical** parasites: prions (chronic wasting disease, scrapie, bovine spongiform encephalopathy), transposable elements, cancer (including *transmissible* ([Wikipedia](https://en.wikipedia.org/wiki/Clonally_transmissible_cancer)) cancers, e.g. Tasmanian devil facial tumour disease)
 - **Biochemically obligate** parasites: phages, viruses

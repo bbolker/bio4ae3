@@ -28,7 +28,7 @@ an incubation period? do any hosts recover, and if so do they acquire
 immunity or do they become susceptible again?), we can write down a box
 model, for example:
 
-![image](pix/epibox1.png){height="0.5in"}
+![image](pix/epibox1.png){height="1in"}
 
 Alphabet soup: SI (e.g. tuberculosis), SIS (e.g. gonorrhea), S(E)IR
 (e.g. measles), SIRV (vaccine), etc..
@@ -48,17 +48,19 @@ We end up with the following model:
 
 Write down balance equations: incoming - outgoing. 
 
-$$\begin{aligned}
-S' & = & \underbrace{b}_{\text{\small birth}}
-- \underbrace{\beta S I }_{\text{\small infection}}
-- \underbrace{\mu S }_{\text{\small nat. mort.}}  \\
-I' & = & \underbrace{\beta S I }_{\text{\small infection}}
-- \underbrace{\mu I }_{\text{\small nat. mort.}} 
-- \underbrace{\alpha I }_{\text{\small dis. mort.}}
-- \underbrace{\gamma I }_{\text{\small recovery}}\\
-R' & = \underbrace{\gamma I }_{\text{\small recovery}}
-- \underbrace{\mu R}_{\text{\small nat. mort.}} \\\end{aligned}
-$$
+\begin{equation}
+\begin{split}
+	S' & =  \underbrace{b}_{\text{\small birth}}
+	- \underbrace{\beta S I }_{\text{\small infection}}
+   - \underbrace{\mu S }_{\text{\small nat. mort.}}  \\
+   I' & =  \underbrace{\beta S I }_{\text{\small infection}}
+   - \underbrace{\mu I }_{\text{\small nat. mort.}} 
+   - \underbrace{\alpha I }_{\text{\small dis. mort.}}
+   - \underbrace{\gamma I }_{\text{\small recovery}} \\
+   R' & = \underbrace{\gamma I }_{\text{\small recovery}}
+   - \underbrace{\mu R}_{\text{\small nat. mort.}} \\
+	 \end{split}
+\end{equation}
 
 How do we deal with these equations? We can do algebra, or simulate.
 
@@ -66,14 +68,12 @@ Build up basic dynamics: SI, SIR, SIR with vital dynamics.
 
 -   Beginning of epidemic: *exponential* growth (assuming well-mixed
     population, etc.)
-
 -   Simple (SI) epidemic: *logistic* growth
-
 -   SIR without vital dynamics: epidemic grows, then collapses
-
 -   SIS, SIR with vital dynamics: equilibrium (maybe)
-
 -   seasonal variation, other feedbacks: epidemic cycles
+
+@hethcote_thousand_1994
 
 # Conclusions from basic epidemic models
 
@@ -184,27 +184,26 @@ to a stable equilibrium ("endemic") state
 What explains recurrent epidemics?
 
 -   Slow damping (e.g. morbillivirus)
-
 -   Demographic stochasticity (e.g. whooping cough)
-
 -   Strain shifts --- e.g. rhinovirus, influenza
-
 -   Seasonality --- esp. schools (e.g. measles, lots of others)
 
 Details of recurrent epidemics can range from really simple (similar
-seasonal epidemics every year) to complex (chaos).
+seasonal epidemics every year) to complex (chaos) 
 
 ## Longer-term epidemic shifts
 
 Once again, can come from a variety of mechanisms:
 
 -   evolution/emergence --- e.g. *antigenic shifts* in influenza
-
--   changes in epidemic parameters (demography, culture, etc.)
-
+-   changes in epidemic parameters (demography, culture, etc.) [@earn_simple_2000]
 -   dynamical regime changes
 
-Dynamics pictures
-=================
+## Dynamics pictures
 
-<!-- ![image](epi3-004) -->
+```{r sir_dynam, echo = FALSE, message=FALSE, fig.cap = "basic SIR dynamics", warning = FALSE, fig.width = 8, fig.height = 4}
+source("sir_dynamics.R")
+tmpplot(d1)
+```
+
+## References
