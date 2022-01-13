@@ -1,6 +1,6 @@
 #! /bin/bash
 for i in intro definitions epi1; do
-    for j in html docx; do
+    for j in html docx pdf; do
     	make docs/notes/$i.$j
     done
 done

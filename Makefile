@@ -6,6 +6,7 @@ allnotes:
 
 ## these must come FIRST so we don't trash .md files by moving
 ## them to docs!
+## FIXME: rebuilds html files in docs unnecessarily
 docs/%: %
 	mv $< docs
 

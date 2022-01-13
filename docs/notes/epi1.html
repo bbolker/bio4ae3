@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2022-01-10" />
+<meta name="date" content="2022-01-11" />
 
 <title>compartmental models</title>
 
@@ -359,7 +359,7 @@ pre code {
 
 
 <h1 class="title toc-ignore">compartmental models</h1>
-<h4 class="date">10 Jan 2022</h4>
+<h4 class="date">11 Jan 2022</h4>
 
 </div>
 
@@ -390,19 +390,21 @@ pre code {
 <p class="caption">image</p>
 </div>
 <p>Write down balance equations: incoming - outgoing.</p>
-<p><span class="math display">\[\begin{equation}
+<!-- https://bookdown.org/yihui/rmarkdown-cookbook/raw-latex.html -->
+<!-- FIXME: get \vphantom working?? -->
+<span class="math display">\[\begin{equation}
 \begin{split}
-    S&#39; &amp; =  \underbrace{b}_{\text{\small birth}}
-    - \underbrace{\beta S I }_{\text{\small infection}}
-   - \underbrace{\mu S }_{\text{\small nat. mort.}}  \\
-   I&#39; &amp; =  \underbrace{\beta S I }_{\text{\small infection}}
-   - \underbrace{\mu I }_{\text{\small nat. mort.}} 
-   - \underbrace{\alpha I }_{\text{\small dis. mort.}}
-   - \underbrace{\gamma I }_{\text{\small recovery}} \\
-   R&#39; &amp; = \underbrace{\gamma I }_{\text{\small recovery}}
-   - \underbrace{\mu R}_{\text{\small nat. mort.}} \\
+    S&#39; &amp; =  \underbrace{b}_{\text{birth}}
+    - \underbrace{\beta S I }_{\text{infection}}
+   - \underbrace{\mu S }_{\text{nat. mort.}}  \\
+   I&#39; &amp; =  \underbrace{\beta S I }_{\text{infection}}
+   - \underbrace{\mu I }_{\text{nat. mort.}} 
+   - \underbrace{\alpha I }_{\text{dis. mort.}}
+   - \underbrace{\gamma I }_{\text{recovery}} \\
+   R&#39; &amp; = \underbrace{\gamma I }_{\text{recovery}}
+   - \underbrace{\mu R}_{\text{nat. mort.}} \\
      \end{split}
-\end{equation}\]</span></p>
+\end{equation}\]</span>
 <p>How do we deal with these equations? We can do algebra, or simulate.</p>
 <p>Build up basic dynamics: SI, SIR, SIR with vital dynamics.</p>
 <ul>
@@ -466,22 +468,22 @@ pre code {
 </div>
 <div id="recurrent-epidemics" class="section level2">
 <h2>Recurrent epidemics</h2>
-<p>What explains recurrent epidemics?</p>
+<p>What explains recurrent epidemics (or <strong>epidemic waves</strong>)?</p>
 <ul>
-<li>Slow damping (e.g. morbillivirus)</li>
-<li>Demographic stochasticity (e.g. whooping cough)</li>
-<li>Strain shifts — e.g. rhinovirus, influenza</li>
+<li>Slow damping (e.g. measles, phocine distemper virus)</li>
+<li><strong>Demographic stochasticity</strong> (e.g. whooping cough)</li>
+<li>Strain shifts — e.g. rhinovirus, influenza (SARS-COV-2!)</li>
 <li>Seasonality — esp. schools (e.g. measles, lots of others)</li>
+<li>Behaviour (SARS-COV-2!, influenza <span class="citation">(He et al. 2013)</span>)</li>
 </ul>
-<p>Details of recurrent epidemics can range from really simple (similar seasonal epidemics every year) to complex (chaos)</p>
+<p>Details of recurrent epidemics can range from really simple (similar seasonal epidemics every year) to complex (chaos) <span class="citation">(Olsen and Schaffer 1990)</span></p>
 </div>
 <div id="longer-term-epidemic-shifts" class="section level2">
 <h2>Longer-term epidemic shifts</h2>
-<p>Once again, can come from a variety of mechanisms:</p>
+<p>Dynamics of epidemics can change over longer (decadal/century-long) Once again, can come from a variety of mechanisms:</p>
 <ul>
 <li>evolution/emergence — e.g. <em>antigenic shifts</em> in influenza</li>
-<li>changes in epidemic parameters (demography, culture, etc.) <span class="citation">(Earn et al. 2000)</span></li>
-<li>dynamical regime changes</li>
+<li>changes in ecological setting/epidemic parameters (demography, culture, climate change?) <span class="citation">(Earn et al. 2000, 2020)</span></li>
 </ul>
 </div>
 <div id="dynamics-pictures" class="section level2">
@@ -493,16 +495,27 @@ basic SIR dynamics
 </p>
 </div>
 </div>
-<div id="references" class="section level2 unnumbered">
-<h2 class="unnumbered">References</h2>
+<div id="references" class="section level2">
+<h2>References</h2>
 <div id="refs" class="references hanging-indent">
+<div id="ref-earn_acceleration_2020">
+<p>Earn, David J. D., Junling Ma, Hendrik Poinar, Jonathan Dushoff, and Benjamin M. Bolker. 2020. “Acceleration of Plague Outbreaks in the Second Pandemic.” <em>Proceedings of the National Academy of Sciences</em> 117 (44): 27703–11. <a href="https://doi.org/10.1073/pnas.2004904117">https://doi.org/10.1073/pnas.2004904117</a>.</p>
+</div>
 <div id="ref-earn_simple_2000">
 <p>Earn, David J. D., Pejman Rohani, Benjamin M. Bolker, and Bryan T. Grenfell. 2000. “A Simple Model for Complex Dynamical Transitions in Epidemics.” <em>Science</em> 287 (5453): 667–70. <a href="https://doi.org/10.1126/science.287.5453.667">https://doi.org/10.1126/science.287.5453.667</a>.</p>
+</div>
+<div id="ref-he_inferring_2013">
+<p>He, Daihai, Jonathan Dushoff, Troy Day, Junling Ma, and David J. D. Earn. 2013. “Inferring the Causes of the Three Waves of the 1918 Influenza Pandemic in England and Wales.” <em>Proceedings of the Royal Society B: Biological Sciences</em> 280 (1766): 20131345. <a href="https://doi.org/10.1098/rspb.2013.1345">https://doi.org/10.1098/rspb.2013.1345</a>.</p>
 </div>
 <div id="ref-hethcote_thousand_1994">
 <p>Hethcote, Herbert W. 1994. “A Thousand and One Epidemic Models.” In <em>Frontiers in Mathematical Biology</em>, edited by Simon A. Levin, 504–15. Lecture Notes in Biomathematics 100. Springer Berlin Heidelberg. <a href="https://link-springer-com.libaccess.lib.mcmaster.ca/chapter/10.1007/978-3-642-50124-1_29">https://link-springer-com.libaccess.lib.mcmaster.ca/chapter/10.1007/978-3-642-50124-1_29</a>.</p>
 </div>
+<div id="ref-olsen_chaos_1990">
+<p>Olsen, L. F., and W. M. Schaffer. 1990. “Chaos Versus Noisy Periodicity: Alternative Hypotheses for Childhood Epidemics.” <em>Science</em>, New Series, 249 (4968): 499–504. <a href="http://www.jstor.org/stable/2874489">http://www.jstor.org/stable/2874489</a>.</p>
 </div>
+</div>
+<hr />
+<p>Last updated: 2022-01-11 16:53:47</p>
 </div>
 </div>
 

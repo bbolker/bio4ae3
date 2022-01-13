@@ -48,19 +48,25 @@ We end up with the following model:
 
 Write down balance equations: incoming - outgoing. 
 
+<!-- https://bookdown.org/yihui/rmarkdown-cookbook/raw-latex.html -->
+
+<!-- FIXME: get \vphantom working?? -->
+
+```{=latex}
 \begin{equation}
 \begin{split}
-	S' & =  \underbrace{b}_{\text{\small birth}}
-	- \underbrace{\beta S I }_{\text{\small infection}}
-   - \underbrace{\mu S }_{\text{\small nat. mort.}}  \\
-   I' & =  \underbrace{\beta S I }_{\text{\small infection}}
-   - \underbrace{\mu I }_{\text{\small nat. mort.}} 
-   - \underbrace{\alpha I }_{\text{\small dis. mort.}}
-   - \underbrace{\gamma I }_{\text{\small recovery}} \\
-   R' & = \underbrace{\gamma I }_{\text{\small recovery}}
-   - \underbrace{\mu R}_{\text{\small nat. mort.}} \\
+	S' & =  \underbrace{b}_{\text{birth}}
+	- \underbrace{\beta S I }_{\text{infection}}
+   - \underbrace{\mu S }_{\text{nat. mort.}}  \\
+   I' & =  \underbrace{\beta S I }_{\text{infection}}
+   - \underbrace{\mu I }_{\text{nat. mort.}} 
+   - \underbrace{\alpha I }_{\text{dis. mort.}}
+   - \underbrace{\gamma I }_{\text{recovery}} \\
+   R' & = \underbrace{\gamma I }_{\text{recovery}}
+   - \underbrace{\mu R}_{\text{nat. mort.}} \\
 	 \end{split}
 \end{equation}
+```
 
 How do we deal with these equations? We can do algebra, or simulate.
 
@@ -181,23 +187,23 @@ to a stable equilibrium ("endemic") state
 
 ## Recurrent epidemics
 
-What explains recurrent epidemics?
+What explains recurrent epidemics (or **epidemic waves**)?
 
--   Slow damping (e.g. morbillivirus)
--   Demographic stochasticity (e.g. whooping cough)
--   Strain shifts --- e.g. rhinovirus, influenza
--   Seasonality --- esp. schools (e.g. measles, lots of others)
+- Slow damping (e.g. measles, phocine distemper virus)
+- **Demographic stochasticity** (e.g. whooping cough)
+- Strain shifts --- e.g. rhinovirus, influenza (SARS-COV-2!)
+- Seasonality --- esp. schools (e.g. measles, lots of others)
+- Behaviour (SARS-COV-2!, influenza [@he_inferring_2013])
 
 Details of recurrent epidemics can range from really simple (similar
-seasonal epidemics every year) to complex (chaos) 
+seasonal epidemics every year) to complex (chaos) [@olsen_chaos_1990]
 
 ## Longer-term epidemic shifts
 
-Once again, can come from a variety of mechanisms:
+Dynamics of epidemics can change over longer (decadal/century-long) Once again, can come from a variety of mechanisms:
 
--   evolution/emergence --- e.g. *antigenic shifts* in influenza
--   changes in epidemic parameters (demography, culture, etc.) [@earn_simple_2000]
--   dynamical regime changes
+- evolution/emergence --- e.g. *antigenic shifts* in influenza
+- changes in ecological setting/epidemic parameters (demography, culture, climate change?) [@earn_simple_2000; @earn_acceleration_2020]
 
 ## Dynamics pictures
 
@@ -206,4 +212,11 @@ source("sir_dynamics.R")
 tmpplot(d1)
 ```
 
-## References
+##  References
+ 
+::: {#refs}
+:::
+
+---
+
+Last updated: `r Sys.time()`
