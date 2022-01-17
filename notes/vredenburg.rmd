@@ -1,0 +1,28 @@
+---
+title: "notes on Bd"
+date: 16 January 2022
+bibliography: "../eeid.bib"
+---
+
+- general info [here](https://en.wikipedia.org/wiki/Batrachochytrium_dendrobatidis) and [here](https://microbewiki.kenyon.edu/index.php/Batrachochytrium_dendrobatidis)
+- most chytrid fungi are harmless **saprophytes** or parasites of microbes, but a few are pathogenic on amphibians
+- *Batrachochytrium dendrobatidis* ([Joyce Longcore](https://en.wikipedia.org/wiki/Joyce_E._Longcore))
+- life cycle: *thallus* → *zoosporangia* (frog skin) → *zoospores* (free living, motile, aquatic) → ...
+- alternative hosts/environmental reservoir?
+- where did it come from?
+    - **novel pathogen hypothesis**: mutation/speciation + dispersal
+	- **tipping point hypothesis**: in populations all the time, but something happened to make it virulent
+- extinction paradox [@de_castro_mechanisms_2005]
+    - **extirpation** (local extinction) vs global ('true') extinction
+    - **density-dependent** parasites can't cause host extinction (in simple theoretical models!)
+	- alternatives: density-independence, small populations, reservoirs
+	
+##  References
+ 
+::: {#refs}
+:::
+
+---
+
+Last updated: `r Sys.time()`
+	

@@ -1,6 +1,6 @@
 ---
-title: "compartmental models"
-date: "`r format(Sys.time(), '%d %b %Y')`"
+title: "epidemic model basics"
+date: "17 January 2022"
 bibliography: "../eeid.bib"
 ---
 
@@ -15,7 +15,7 @@ equilibrium prevalence.
 
 Some distinctions: micro- or macroparasite? Include *vital dynamics*
 (birth/death)? Life cycle (direct, vector, complex)? Virulence/effects
-on host? Genetics?
+on host? Genetics? Heterogeneity?
 
 ## Compartmental ("box") models
 
@@ -28,15 +28,15 @@ an incubation period? do any hosts recover, and if so do they acquire
 immunity or do they become susceptible again?), we can write down a box
 model, for example:
 
-![image](pix/epibox1.png){height="1in"}
+![SIR boxes (no arrows)](pix/epibox1.png){height="1in"}
 
 Alphabet soup: SI (e.g. tuberculosis), SIS (e.g. gonorrhea), S(E)IR
 (e.g. measles), SIRV (vaccine), etc..
 
-Now consider the transitions (birth, natural mortality, disease-induced
-mortality, infection).
+Now consider the transitions (**vital dynamics**: {birth, natural mortality}, disease-induced
+mortality, infection, recovery, vaccination).
 
-![image](pix/epibox2.png){height="1in"}
+![SIR boxes (arrows)](pix/epibox2.png){height="1in"}
 
 Finally, quantify the *transition rates* (e.g. constant birth rates
 ($b$), constant *per capita* recovery etc., **mass-action** transmission
@@ -44,7 +44,7 @@ Finally, quantify the *transition rates* (e.g. constant birth rates
 
 We end up with the following model:
 
-![image](pix/epibox3.png){height="1in"}
+![SIR boxes (arrows and rates)](pix/epibox3.png){height="1in"}
 
 Write down balance equations: incoming - outgoing. 
 
@@ -77,11 +77,63 @@ Build up basic dynamics: SI, SIR, SIR with vital dynamics.
 -   Simple (SI) epidemic: *logistic* growth
 -   SIR without vital dynamics: epidemic grows, then collapses
 -   SIS, SIR with vital dynamics: equilibrium (maybe)
+-   latent/exposed classes: SEIR
 -   seasonal variation, other feedbacks: epidemic cycles
+-   COVID: asymptomatic, presymptomatic, mild/severe, hospital, ICU ...
+
+![COVID flowchart)](pix/flowchart1.png){height="4in"}
+
+![COVID flowchart with vax)](pix/flowchart2.png){height="4in"}
+
+(pictures: Irena Papst)
 
 @hethcote_thousand_1994
 
+**Breakout rooms: Try to come up with a compartmental model for malaria!**
+
 # Conclusions from basic epidemic models
+
+## Basics
+
+- $R_0$
+    - per-generation fitness
+	- disease establishes if $R_0>1$
+	- depends on host, parasite, environment ...
+	- $r$ (growth rate) or *doubling time* also useful
+    - critical control fraction is $v^* = 1 - 1/R_0$
+
+```{r echo=FALSE, fig.cap = "critical control fraction", fig.width = 6, fig.height=4}
+par(las=1, bty="l",yaxs="i")
+curve(1-1/x,from=1,to=10,xlab=expression(R[0]),ylab="Critical control fraction", axes=FALSE,
+      ylim=c(0,1))
+axis(side=2)
+abline(h=1,lty=2)
+abline(v=1,lty=2)
+axis(side=1, at=c(1, 2, 4, 6, 8, 10))
+box()
+```	
+
+- models without vital dynamics
+   - parasite dies out before it infects all hosts
+   - **final size** depends only on $R_0$ (in simple cases)
+   
+```{r echo=FALSE, fig.cap = "final size of SIR model", fig.width = 6, fig.height=4}
+library(emdbook)
+finalsize <- function(R0) {
+  1+1/R0*lambertW(-R0*exp(-R0))
+}
+par(las=1, bty="l",yaxs="i")
+curve(finalsize,from=1,to=10,xlab=expression(R[0]),ylab="Final size", axes=FALSE)
+axis(side=2)
+abline(h=1,lty=2)
+abline(v=1,lty=2)
+axis(side=1, at=c(1, 2, 4, 6, 8, 10))
+box()
+```
+
+- models with vital dynamics
+   - equilibrium when $S^*/N = 1/R_0$
+
 
 ## Variants on basic epidemic models
 
@@ -94,7 +146,7 @@ Build up basic dynamics: SI, SIR, SIR with vital dynamics.
     (**STD**s). STDs have **frequency-dependent** transmission,
     $\beta S (I/N)$ instead of $\beta S I$, which means there is no
     population density threshold --- disease can persist in small
-    populations, drive populations extinct.
+    populations, drive populations extinct. [@antonovics_generalized_1995]
 
 -   Mixing models (STDs, age-structured, geographic, ...) --- who
     infects whom?
@@ -157,7 +209,7 @@ Examples: many human diseases, brucellosis in bison.
 "trough", followed by population recovery. **Damped** or
 **sustained** oscillations depend on details.
 
-    ![image](pix/lonergan.png){width="4in"}
+    ![damped oscillations](pix/lonergan.png){width="4in"}
 
 - Simplest expectation is that epidemics will eventually settle down
 to a stable equilibrium ("endemic") state
