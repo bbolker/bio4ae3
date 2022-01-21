@@ -1,6 +1,9 @@
 ---
 title: "Assignments"
+bibliography: "eeid.bib"
 ---
+
+*Last updated*: `r Sys.time()`
 
 ## Discussion questions (15%)
 
@@ -19,6 +22,8 @@ I would like the essays to express your ideas clearly and to be written well, bu
 opportunity to practice. Creativity is important, but so is rigorous and logical argument (for later essays, I may add more structure -- for example, "come up with an idea and then discuss how you might test it with an experiment or an observation").
 
 Also see the sections on [Writing](https://bbolker.github.io/bio4ae3/notes/intro.html#writing), [Referencing](https://bbolker.github.io/bio4ae3/notes/intro.html#referencing), and [Citations](https://bbolker.github.io/bio4ae3/notes/intro.html#citation) in the intro notes from the first day of class.
+
+I'd also encourage you to read @Perry1963 for fun and insight.
 
 Some mini-essay topics invented by past students:
 
@@ -66,3 +71,4 @@ I will not ask you to memorize details of any specific examples given during the
 - [midterm from a previous (2009) iteration of this course](eeid2009-midterm.pdf)
 - [sample essay topics (old)](file:///home/bolker/Documents/classes/bio4ae3/docs/eeid2009-midterm-topics.html)
 
+## References
