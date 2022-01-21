@@ -28,6 +28,8 @@ Some mini-essay topics invented by past students:
 - how do host behavioral changes to disease that decrease host fitness - through increased predation, failure to reproduce, etc. - change host-parasite coevolutionary dynamics?
 - is the specificity of primate parasites in the tropics governed mostly by population size, or more by differences in digestive morphology and physiology?
 
+- [example mini-essays from past students](https://mcmasteru365.sharepoint.com/:f:/r/sites/Section_2221-1863/Class%20Materials/mini-essay%20examples?csf=1&web=1&e=Sldxl0)
+
 ## Term paper (30%)
 
 The term paper can be on any  topic of your choice having to do with the ecology or evolution of infectious disease or parasites. It
