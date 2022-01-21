@@ -51,6 +51,7 @@ Last updated: `r Sys.time()`
 - instructor: [Ben Bolker](http://www.math.mcmaster.ca/~bolker/)
     - General questions (anything you don't consider private) are best asked in the appropriate channel on Teams
     - Otherwise e-mail to `bolker@mcmaster.ca` with "BIO 4AE3" in the subject line; include your MacID in your message if not e-mailing from your McMaster e-mail account
+	- office hours on Teams, **Thursdays 11:30-12:30**
 - teaching assistant: Lindsey Kukoly
     - weekly office hours on Teams, **Tuesdays 11:30-12:30**
     - please contact via e-mail (`kukoll1@mcmaster.ca`: include "BIO 4AE3" in the subject line)

@@ -6,15 +6,19 @@ title: "Assignments"
 
 The idea of discussion questions is just to get you focused on reading the papers before class, and to help structure the in-class discussion. Ideally you should come up with one question that's general or conceptual and one that's more technical (what does Figure 1 mean? how did they do xxx?). Unless otherwise specified, every Friday class will be a discussion. Discussion questions are due at **6 PM** on the day before a class discussion (typically Thursday), **posted to the relevant channel on Teams**; late answers are definitely better than nothing. Discussion questions will be marked on a 0-5 scale where 0=missing; 3 = OK; 4=fine; 5=outstanding. (Scores of 5 are rare.)
 
+**Note**: I will probably be adjusting/curving these scores, or adjusting my grading, going forward. If you got 70% (3.75/5) on your first DQ, you're doing OK - you should think of this as B+/A- territory, not B-/C+.
+
 ## Mini-essays (15%)
 
-A "mini-essay" is a 2-3 page paper that tries to develop an *original* idea, somehow related to the topic of the course and (perhaps) to the topics being covered in class at the moment. I *don't* want an essay reporting on a paper you read in class or in the library, although if you want to develop a new idea based on something you read that's OK. (Try not to spend more than a paragraph
+A "mini-essay" is a 2-3 page paper (500-750 words; please double-space and use a 10-12 point font) that tries to develop an *original* idea, somehow related to the topic of the course and (perhaps) to the topics being covered in class at the moment. I *don't* want an essay reporting on a paper you read in class or in the library, although if you want to develop a new idea based on something you read that's OK. (Try not to spend more than a paragraph
 of your essay introducing outside material, leaving most of the essay to develop your own ideas.)
 
 The goal is to give you practice thinking and writing in an informal, (hopefully) low-pressure setting.
 
 I would like the essays to express your ideas clearly and to be written well, but don't stress out about the writing: think of it more as an
 opportunity to practice. Creativity is important, but so is rigorous and logical argument (for later essays, I may add more structure -- for example, "come up with an idea and then discuss how you might test it with an experiment or an observation").
+
+Also see the sections on [Writing](https://bbolker.github.io/bio4ae3/notes/intro.html#writing), [Referencing](https://bbolker.github.io/bio4ae3/notes/intro.html#referencing), and [Citations](https://bbolker.github.io/bio4ae3/notes/intro.html#citation) in the intro notes from the first day of class.
 
 Some mini-essay topics invented by past students:
 
