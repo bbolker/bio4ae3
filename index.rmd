@@ -20,7 +20,7 @@ Last updated: `r Sys.time()`
 - 11:30-12:20 Mon/Weds, 13:30-14:20 Fri (all Toronto time)
 - initially via [Teams channel](https://teams.microsoft.com/l/channel/19%3aiaABT9ga9EpcFTRea7ZQUttq2SxRFQ5Izt9Zump8DDk1%40thread.tacv2/General?groupId=bf0845f2-7f46-454a-90e1-0bb732e43a37&tenantId=44376307-b429-42ad-8c25-28cd496f4772); thereafter (after February 7) in [HH 217](https://library.mcmaster.ca/cct/class-dir/hh-217) and on Echo360
 - University policy requires masks in all indoor spaces
-- Lectures will be recorded. Live captioning is available.
+- Lectures will be recorded (but discussion classes, e.g. most Fridays, will *not* be recorded). I think live captioning is available, but please let me know if you need it and it's not working well. Provided I can get Echo360 working properly, lecture recordings will continue after Feb 7 when we return to in-person clsses.
 - You are encouraged but not required to keep your cameras on when participating in virtual course activities
 
 ### Misc info
