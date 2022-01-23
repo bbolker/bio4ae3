@@ -1,12 +1,10 @@
 meeting with Jessica Hider
+post about Briggs paper?
+no paper/DQ next Friday? Optional paper?
+hypothes.is?  Kritik for mini-essays?
 
 what about levels, adaptationism, short-sightedness??
 
 
-examples
 
-Melvin Gramke (CSU)
-Chemmgt@colostate.edu ?
-https://www.linkedin.com/in/melvin-gramke-a62b0a2a/
 
-Ruktanonchai
