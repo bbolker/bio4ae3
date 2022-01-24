@@ -1,6 +1,7 @@
 meeting with Jessica Hider
 
-post about Briggs paper?
+Briggs e-mail: modeled effects of one-time intervention?
+
 no paper/DQ next Friday? Optional paper?
 hypothes.is?  Kritik for mini-essays?
 
