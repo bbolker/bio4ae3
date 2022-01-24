@@ -223,10 +223,8 @@ to a stable equilibrium ("endemic") state
 
 -   constraint on $R_0$ is a *deterministic* threshold: assumes large
     (infinite) population size
-
 -   what if population is finite? Chance of *stochastic fade-out* ---
     disease goes extinct locally by chance ($<1$ infective)
-
 -   *Critical community size* --- depends on epidemic parameters, but
     hard to figure out. Approx. 250,000 for measles (based on data on
     islands/cities in US and UK) [especially large]. Probably not even
@@ -263,6 +261,18 @@ Dynamics of epidemics can change over longer (decadal/century-long) Once again, 
 source("sir_dynamics.R")
 tmpplot(d1)
 ```
+
+## Persistence (of hosts and parasites)
+
+- When do hosts persist vs going extinct?
+- When do pathogens persist vs going extinct?
+- How do population dynamics interact with disease dynamics?
+- Simple vs density-dependent host growth
+- @briggs_enzootic_2010
+- @tanner_critical_2019
+
+
+
 
 ##  References
  

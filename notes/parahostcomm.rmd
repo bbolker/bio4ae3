@@ -113,9 +113,16 @@ surface has various impacts on community structure
 
 ## Community effects on parasites
 
-
 - @lafferty_fishing_2004
+- @packer_keeping_2003
+
+> In general, predator removal is more likely to be harmful when the parasite is highly virulent, macroparasites are highly aggregated in their prey, hosts are long-lived and the predators select infected prey
+
 - @richards_predators_2021
+
+![](pix/richards_2021_fig1.png)
+
+![](pix/richards_2021_fig2.png)
 
 ##  References
  
