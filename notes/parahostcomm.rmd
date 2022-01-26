@@ -3,7 +3,7 @@ title: "Parasites and host communities"
 bibliography: "../eeid.bib"
 ---
 
-Parasites can have large effects on their host communities; can
+Parasites can have large effects on their host populations and communities; can
 
 - determine the competitive balance between two species, whether one species can invade or coexist with another;
 - change the flow of energy through and relative balance of different trophic levels;

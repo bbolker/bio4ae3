@@ -272,8 +272,6 @@ tmpplot(d1)
 - @tanner_critical_2019
 
 
-
-
 ##  References
  
 ::: {#refs}
