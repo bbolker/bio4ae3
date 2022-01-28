@@ -40,12 +40,12 @@ effects.
 - *Drosophila melanogaster*, *D. simulans*, *L. boulardi* (parasitoid
 wasp): exclusion by *melanogaster* in absence of *boulardi*;
 coexistence in presence of *boulardi*; exclusion by *simulans* at
-lower temperature with *boulardi*
+lower temperature with *boulardi* [@combes_parasites_1996]
 
 - *Tribolium castaneum*, *T. confusum* (flour beetles), *Adelina
-tribolii* (sporozoan parasite)
+tribolii* (sporozoan parasite) [@park_interspecies_1948]
 
-## Parasite-mediated invasion
+## Parasite-mediated invasion [@strauss_invading_2012]
 
 -   human movement: Europeans to the New World, Europeans to Africa
 -   introduced parasites: e.g. *Acipenser stellatus* (from Caspian to Aral Sea), carried *Nitzchia sturionis* (gill monogenean), severely reduced populations of *A. nudiventris*
@@ -103,13 +103,19 @@ surface has various impacts on community structure
 ## Large-scale community structure
 
 - trypanosomiasis keeps out livestock, horses (and hence humans, or at least Europeans)
-- Serengeti: rinderpest, ungulates, vegetation, trypanosome interaction ("Inventing Africa", New Scientist 2000)
+- Serengeti
+   - rinderpest, ungulates, vegetation, trypanosome interaction ("Inventing Africa", New Scientist 2000)
+   - @holdo_disease-mediated_2009
+
+![](pix/holdo_graph.png)
+   
 - Chestnut blight (hypovirulence, fungal superparasites)
 - Cascading effects of myxomatosis in Australia and Britain [@sumption_ecological_1985]
     -   increased woodland regeneration and increased grassland and cereal production
     -   increase in many inverts, voles, but some species of insects declined (Large Blue Butterfly, *Maculinea arion*, because of missing red ant species
     -   predator populations dropped immediately, but generalists recovered
     -   other rabbit parasites declined
+
 
 ## Community effects on parasites
 

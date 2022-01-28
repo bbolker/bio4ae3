@@ -1,5 +1,6 @@
 ---
 title: "host population dynamics"
+bibliography: "../eeid.bib"
 ---
 
 ## Host populations
@@ -11,30 +12,29 @@ or human.
 
 ## Regulation
 
-High infection rate, intermediate virulence have the greatest impact on
-a population (virulence lowers $R_0$).
+Do parasites control population size? How?
+
+High infection rate, *intermediate* virulence (disease-induced death rate) have the greatest impact on a population (because virulence lowers $R_0$ by killing hosts "too quickly").
 
 Can parasites *regulate* a population (i.e., create density-dependent
 mortality)? Historically controversial because parasites thought to
 evolve towards benign (commensal) association. Many lab studies show
 dramatic results (e.g. 90% reduction of mouse population with nematode
-*Heligmosomoides polygyrus*: what about in the field? Easiest to detect
-with direct life cycles (**monoxenic**), mortality-producing.
+*Heligmosomoides polygyrus* [@scott_regulation_1987]: what about in the field? Easiest to detect with direct life cycles (**monoxenic**), mortality-producing.
 
 Biocontrol with pathogens (e.g. rabbit myxomatosis, calicivirus) does
 work --- although parasitoids (or toxins derived from microorganisms --
 Bt) are also common. Another example: *Cactoblastis* moth, introduced to
-Australia in 1925 to control non-native *Opuntia* cactus. But ...both
+Australia in 1925 to control non-native *Opuntia* cactus. But ... both
 myxomatosis and *Cactoblastis* are also causing problems in places where
-we like their hosts (native cactus
-<http://creatures.ifas.ufl.edu/bfly/cactus_moth.htm>), Iberian lynx that
-depend on rabbits in Spain.
+their hosts  are valued (native cactus), Iberian lynx that
+depend on rabbits in Spain [@zimmermann_renowned_2000;@cooke_rabbit_2002;@real_conservation_2009].
 
 ## Extinction
 
 The simplest epidemic models suggest that parasites should go extinct
 before their hosts do (density threshold), so parasites should not be
-able to drive their hosts extinct. However, there are several exceptions
+able to drive their hosts extinct. However, there are many exceptions
 to the rule.
 
 - small populations (e.g. golden toad/Bd, black-footed ferret/CDV, arctic fox/mange)
@@ -43,7 +43,7 @@ to the rule.
 
 ## Humans: historical and modern
 
-Plague of Athens (430--429 BC) killed 25% of the population of 155,000
+Plague of Athens (430-429 BC) killed 25% of the population of 155,000
 (measles?); also 25% in Rome in AD 165-180 (smallpox). Black Death
 (1347) killed 25%-50% of the population of Europe (setting back
 centuries of growth since 800). Population of Mexico dropped from 20
@@ -51,28 +51,37 @@ million to 3 million between 1518 and 1568, then to 1.6 million.
 
 Malthus comments on effects of *crowding* on disease.
 
-```{r echo=FALSE}
-x = read.csv("worldpop.csv")
-avg = rowMeans(x[,-1],na.rm=TRUE)
-year=as.numeric(rownames(x))
-plot(year[-(1:8)],avg[-(1:8)],log="y")
+```{r eval = FALSE, echo=FALSE,fig.height=5, fig.width=6}
+## spent a bunch of work on this but not what I wanted?
+dd <- (read.table("worldpop.txt", header= TRUE, comment = "#")
+  |> subset(year >= 0)
+)
+par(las =1 , bty="l")
+plot(world_pop ~ year, data = dd, log ="y",
+     type = "b",
+     xlab = "Year", ylab = "population (millions)")
 ```
+
 Demographic impact of HIV/AIDS is extremely significant: can convert
 positive to negative growth rates in worst-affected countries.
 
-<http://www.census.gov/ipc/www/slideshows/hiv-aids/>
+![](pix/aids_impact.png) 
 
-```{r echo=FALSE}
-read.table("AIDSdemog.tab",header=TRUE)
+[@us_census_bureau_data_2013]
+
+```{r eval = FALSE, echo=FALSE, fig.width = 5, fig.height = 5, fig.cap = "AIDS impact on demography"}
+x <- read.table("AIDSdemog.tab", header=TRUE)
+## magnitude of difference
 d <- x[,4]-x[,5]
 x <- x[order(d),]
-n <- 5
+n <- 5  ## number of counties to include
 par(las=1,mar=c(4,6,1,1),cex=1,lwd=1,mgp=c(2.5,1,0))
 barplot(t(as.matrix(x[1:n,4:5])),
         beside=TRUE,
         names.arg=as.character(x[1:n,1]),
         horiz=TRUE,
-        xlab=" ")
+        xlab=" ",
+        xlab = "population growth rate")
 legend(1.6,10,fill=gray(c(0.3,0.8)),
        c("with AIDS","without AIDS"),
        cex=0.8,bty="n")
@@ -93,10 +102,10 @@ Harbor seals in northern Europe underwent a severe outbreak of a
 previously unrecognized morbillivirus, now called phocine distemper
 virus, in 1998.
 
-![image](pix/Lonergan+2002.png){height="2in"}
+![harbour seal pop dynamics](pix/lonergan_pdv.png){height="3in"}
 
-(figure from Lonergan *et al.* 2002) There was another major epidemic in
-2002. Harwood and Hall (1990) present evidence of sporadic outbreaks of
+[@thompson_population_2005]. There was another major epidemic in
+2002. @harwood_mass_1990 present evidence of sporadic outbreaks of
 die-offs and pneumonias in seals (ca. 1758, 1813, 1836, 1869--70,
 1930s). The epidemics are consistent with population die-offs and
 recovery, although the detailed epidemiology and demography is still an
@@ -104,7 +113,7 @@ active area of research.
 
 ## Forest lepidoptera
 
-Another example: cycles of forest lepidoptera. About 80 species (1-2%)
+Another example [@myers_can_1988] cycles of forest lepidoptera. About 80 species (1-2%)
 of forest lepidoptera (caterpillars) experience outbreak dynamics; of
 these, 18 species display regular, cyclic fluctuations.
 
@@ -112,33 +121,29 @@ The cycles are very clear (8--11 years, often highly synchronized across
 broad geographic regions). Possible hypotheses for why this happens
 include:
 
--   top-down control: changes in predator populations (e.g. birds)
+- **top-down control** (predators): changes in predator populations (e.g. birds)
 (probably not: bird population densities don't change fast enough to
 control caterpillars. Parasitoids??)
--   bottom-up control: changes in plant density *or* plant quality
+- **bottom-up control**: changes in plant density *or* plant quality
 (plant density doesn't work - very few trees die from caterpillars -
 but plant quality might. However, experimenters have had extremely
 mixed results manipulating food quality)
--   weather (doesn't work by itself; wide variation in local conditions)
+- **weather** (doesn't work by itself; wide variation in local conditions)
 or interactions of weather with other factors
--   changes in insect quality, possibly as a result of changes in plant
+- changes in **insect quality**, possibly as a result of changes in plant
 quality or other competitive effects
--   parasites: specifically, nuclear polyhedrosis viruses *Entomophaga maimaiga* (fungus)
+- **parasites**: specifically, nuclear polyhedrosis viruses *Entomophaga maimaiga* (fungus)
 
-There's still plenty of room for more knowledge (a recent synthesis by
-Peter Turchin suggests that some combination of food quality and
-parasitoid activity explains cycles in the larch budmoth), but the one
-time that an outbreak has been stopped by experimental manipulation is
-by spraying with NPV (this was an outbreak of tussock moths in 1981).
+The only time that an outbreak has been stopped by experimental manipulation is
+by spraying with NPV (an outbreak of tussock moths in 1981).
 
 ## Red grouse and *Trichostrongylus tenuis*
 
-What about cases where host populations cycle in time: are any of these
-cases attributable to the effects of disease?
+What about regular *cycling* in time?  [@hudson_prevention_1998]
 
 ## Basic natural history
 
-Not much that's "natural" about the demography and ecology of Scottish
+Not much "natural" about the demography and ecology of Scottish
 red grouse (*Lagopus lagopus scoticus*) in the 20th century. Red grouse
 live on heather moors in northern England and Scotland. They are
 herbivores, eating only heather, with special intestinal adaptions
@@ -176,5 +181,15 @@ variation of cycles from south (northern England) to north
 (Scotland); seems to be related to *arrested development* of
 nematode larvae in cold weather, which slows things down
 
-This is not the last word, but there's a fair amount of evidence.
+This is not the last word, but there's a lot of evidence.
 
+![grouse dynamics](pix/hudson_grouse.png)
+
+##  References
+ 
+::: {#refs}
+:::
+
+---
+
+Last updated: `r Sys.time()`
