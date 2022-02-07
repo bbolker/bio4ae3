@@ -32,6 +32,8 @@ host, which hurts or helps another species).
 encourage trophic transmission:\
 ![image](pix/indir3.png){height="1.5in"}
 
+@lafferty_ecosystem_2008
+
 Costs and benefits of parasitism: individual-level vs. population-level
 effects.
 
@@ -90,8 +92,7 @@ food chain (prey decrease, prey's prey increase, etc.). Can parasites be
 (individual or population) depends on level of parasitism, costs,
 benefits. Predator population size might be max. with no parasites, but
 individual decisions (presumably) maximize individual fitness.
-- Toxoplasma-induced bottom-up trophic cascades (??): Skorping and
-Högstedt/Pusenius and Ostfeld: *more* seeds eaten in the presence of
+- Toxoplasma-induced bottom-up trophic cascades (??): @skorping_trophic_2001/@pusenius_effects_2000: *more* seeds eaten in the presence of
 stoats than in their absence!)
 - Increased flow through food webs, ecosystem efficiency?
 
