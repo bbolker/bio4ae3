@@ -21,7 +21,7 @@ Hosts can evolve **resistance** (typically by closing the compatibility filter) 
 
 ![](pix/gfg.png)
 
-[@gibson_genetic_2019]
+(@gibson_genetic_2019; see also @dybdahl_parasite_2003)
 
 - **trench warfare** (unidirectional)
   - resistance builds up until benefits balanced by costs
@@ -44,30 +44,28 @@ offspring, you essentially pay a 50% fitness cost). Cost of outbreeding
 Simplest if we just think of cost of meiosis and advantages of
 recombination, although other costs and benefits do apply.
 
-**Advantages of sex**
+**Advantages of sex** (not necessarily parasite-related)
 
--   **Muller's ratchet** (fixation of deleterious alleles within
+- **Muller's ratchet** (fixation of deleterious alleles within
 lineages) [small (10--100 individuals) populations only];
--   "Kondrashov's hatchet" (an analogue that works in large populations,
+- "Kondrashov's hatchet" [@kondrashov_classification_1993] (an analogue that works in large populations, 
 with epistasis); natural selection is *more* effective at purging
-deleterious mutations. Also see Keightley & Otto (2006) on mutation
+deleterious mutations. Also see @keightley_interference_2006 on mutation
 purging.
--   Hard (frequency-independent) habitat selection: allows sexual
-    populations to inhabit transient niches that may not be available to
-    asexuals; increases probability of making it through bad years;
-    **lottery model**
--   Soft (frequency-dependent) or "tangled bank" habitat selection:
-    allows sexual populations to avoid competition better, since they
-    can use a wider variety of niches
+- Hard (frequency-independent) habitat selection: allows sexual
+populations to inhabit transient niches that may not be available to
+asexuals; increases probability of making it through bad years
+- Soft (frequency-dependent) or "tangled bank" habitat selection:
+allows sexual populations to avoid competition better, since they
+can use a wider variety of niches
 
 **Requirements for RQ dynamics**
 
--   heritable variation in host resistance to parasites
--   heritable variation in parasite infectivity
--   specificity
+- heritable variation in host resistance to parasites
+- heritable variation in parasite infectivity
+- specificity
 
-Snails and trematodes {#snails-and-trematodes .unnumbered}
----------------------
+## Snails and trematodes
 
 Lively, Dybdahl and others have studied the interaction of parasitism
 and sexual reproduction extensively in New Zealand lakes (they started
@@ -82,30 +80,29 @@ Primary theories for the variation in frequency of sexual snails among
 and within lakes:
 
 -   **Resistance tradeoffs:** tradeoff between competitive ability and
-    resistance to parasites. *Predicts:* (A1) negative correlations
-    between competitive ability (or frequency of asexuals) and parasite
-    load
+resistance to parasites. *Predicts:* (A1) negative correlations
+between competitive ability (or frequency of asexuals) and parasite
+load
 -   **Reproductive assurance:** asexuals ensure reproduction and avoid costs
-    of mating (assuming sexuals have some other advantage). *Predicts:*
-    (B1) asexuals more common at low population densities; (B2) asexuals
-    more common in less stable environments (more frequent extinction
-    and recolonization)
--   **Lottery:** sexuals survive in a wider range of (micro)habitats
-    *Predicts:* (C1) asexuals will fail to survive alone in some
-    habitats that are occupied by sexuals; (C2) asexuals more common in
-    environments that are more variable in time
+of mating (assuming sexuals have some other advantage). *Predicts:*
+(B1) asexuals more common at low population densities; (B2) asexuals
+more common in less stable environments (more frequent extinction
+and recolonization)
+-   **Lottery:** (= tangled bank) sexuals survive in a wider range of (micro)habitats
+*Predicts:* (C1) asexuals will fail to survive alone in some
+habitats that are occupied by sexuals; (C2) asexuals more common in
+environments that are more variable in time
 -   **Tangled bank:** rare offspring of sexuals experience less competition
-    *Predicts*: (D1) sexuals will be more common in (variable)
-    environments where competition is stronger
--   **Red Queen:** sexuals resist parasites better (E1) sexuals will be more
-    common in environments with more parasites; (E2) **time-lagged
-    host-parasite matching**: formerly common clones more susceptible to
-    current parasites; (E3) **local adaption**: parasites should infect
-    local (**sympatric**) hosts better than faraway (**allopatric**)
-    hosts
+*Predicts*: (D1) sexuals will be more common in (variable)
+environments where competition is stronger
+- **Red Queen:** sexuals resist parasites better (E1) sexuals will be more
+common in environments with more parasites; (E2) **time-lagged
+host-parasite matching**: formerly common clones more susceptible to
+current parasites; (E3) **local adaption**: parasites should infect
+local (**sympatric**) hosts better than faraway (**allopatric**)
+hosts
 
-Lively et al's experiments and observations {#lively-et-als-experiments-and-observations .unnumbered}
-===========================================
+## Lively et al's experiments and observations
 
 -   Lively 1987: More sexuals in lakes (A2: no, C2: no, D1: yes, E1:
     yes); sexuals correlated with parasites between lakes (E1: yes)
@@ -131,16 +128,16 @@ Lively et al's experiments and observations {#lively-et-als-experiments-and-obse
     populations that they co-occur with than to "lagged" host
     populations (E2)
 
-Potential problems for the Red Queen {#potential-problems-for-the-red-queen .unnumbered}
-====================================
+## Potential problems for the Red Queen
 
--   RQ may not work without strong parasite effects on host fitness
--   can sexuals compete against a diverse set of clones?
--   is a tiny bit of sex enough to maintain variation without losing the
-    advantages of asexuality?
--   why is there so much *obligate* sexuality/outcrossing?
+- RQ may not work without strong parasite effects on host fitness
+- can sexuals compete against a diverse set of clones?
+- is a tiny bit of sex enough to maintain variation without losing the
+advantages of asexuality?
+- why is there so much *obligate* sexuality/outcrossing?
+- persistent asexual lineages (e.g. bdelloid rotifers, but see @schwander_evolution_2016)
 
-## Other theories
+## Other theories [@meirmans_methodologies_2006]
 
 - **Muller's ratchet plus RQ:** Parasites drive population fluctuations
 which tend to fix deleterious mutations in asexual lineages. *Predicts:*
@@ -159,3 +156,13 @@ really does is to allow recombination of different genotypes ... what
 is the true relationship between sexual reproduction and variability? It
 depends on population size, how frequently asexual lineages are split
 off from the sexual population and how, etc. etc..
+
+##  References
+ 
+::: {#refs}
+:::
+
+---
+
+Last updated: `r Sys.time()`
+	
