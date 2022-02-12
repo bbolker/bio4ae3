@@ -3,9 +3,9 @@ title: "Midterm topics"
 bibliography: "../eeid.bib"
 ---
 
+The midterm will include **three** of these questions; you should plan to spend about 8-10 minutes on each answer.
 
-
-1. Discuss the range of methods available for
+1. Describe and explain as many methods as you can remember for
 estimating R_0 from different types of data on
 epidemics; explain which approaches would be
 most important for different types of diseases
@@ -19,27 +19,53 @@ of host-parasite interactions.
 
 3. Describe box models for disease. What do boxes,
 solid lines, and dashed lines usually represent?
-
-Construct a box model for a sexually transmitted disease
-(heterosexually transmitted) with vaccination; 
+Construct a box model for an epidemic of gonorrhea in
+a heterosexual population where you keep track of
+males and females separately (gonorrhea can be treated with
+antibiotics, but recovered people do not develop immunity).
+Write down a set of equations that corresponds to these boxes.
 
 4. Define the difference between microparasites
 and macroparasites, both in terms of how they
-have classically been defined and in terms
-of their population dynamics and transmission.
+have classically been used, in terms
+of their population dynamics and transmission,
+and how these two definitions are related.
 Give some examples.  What are the differences
 between them in terms of ecology and evolution,
 and how they are modeled?
 
-5. Define R_0 and explain why it is important.
-What various kinds of information does knowing
-R_0 give you about the likely outcomes of an
-epidemic?  What does it tell you about disease
+5. Define ${\cal R}_0$ and explain why it is important.
+What information does knowing
+${\cal R}_0$ give you about the outcomes of introducing
+a parasite to a population?  What does it tell you about disease
 control?
 
 6. What is the difference between frequency-
 and density-dependent transmission?
-Why is it important?  What kinds of diseases might
-fall into either category? What are the implications for disease persistence
-and control?
+Why is it important?  What kinds of parasites might
+typically follow one mode or the other? (Why?) 
+What are the implications of frequency- vs density-dependent transmission
+for disease persistence and control?
+
+7. Discuss the population dynamics of red grouse populations in
+Scotland and northern England, why they might be affected by
+interactions with parasites, and the field experiments that provide
+evidence that the population dynamics really are parasite-driven.
+
+8. Discuss how parasites can create indirect links between
+otherwise unconnected species in an ecological community; give
+examples if you can.  Suppose you thought that parasites were
+driving apparent competition between two fish species occupying 
+temperate lakes; describe how you could use observations, experiments, 
+and/or models to establish that parasites were really responsible.
+
+9. Describe the use of parasites for biocontrol, giving some examples.
+What are the advantages and disadvantages of using parasites
+for biocontrol compared to classical methods (e.g. chemical treatments)?
+
+10. What is a matching-alleles model for host-parasite interactions?
+What kind of molecular mode of infection and resistance might give rise
+to this pattern of interaction? What are the expected evolutionary dynamics
+over time, and the resulting temporal changes in host resistance and
+parasite infectivity?
 

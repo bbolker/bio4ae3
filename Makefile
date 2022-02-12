@@ -1,4 +1,4 @@
-all: docs/assignments/README.html docs/assignments/eeid2009-midterm.pdf docs/index.html docs/eeid_bib.html allnotes
+all: docs/assignments/README.html docs/assignments/eeid2009-midterm.pdf docs/index.html docs/eeid_bib.html allnotes docs/assignments/midterm-topics.html
 
 ## see also: mk_all
 allnotes:
@@ -26,7 +26,7 @@ docs/assignments/%: assignments/%
 	mv $(@D)/tmp.docx $*.docx
 
 %.html: %.md
-	Rscript  -e "rmarkdown::render('$<')"
+	Rscript  -e "rmarkdown::render('$<', output_options = 'self_contained')"
 
 %.pdf: %.rmd
 	Rscript -e "rmarkdown::render('$<', output_format = tufte::tufte_handout())"
