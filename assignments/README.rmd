@@ -1,6 +1,6 @@
 ---
 title: "Assignments"
-bibliography: "eeid.bib"
+bibliography: "../eeid.bib"
 ---
 
 *Last updated*: `r Sys.time()`
@@ -82,7 +82,7 @@ The midterm test will consist of definitions, short-answer questions, and essay 
 
 I will not ask you to memorize details of any specific examples given during the course, but you should know a variety of examples so that you can use them in your short answers and essays.
 
-- [midterm from a previous (2009) iteration of this course](eeid2009-midterm.pdf)
-- [sample essay topics (old)](file:///home/bolker/Documents/classes/bio4ae3/docs/eeid2009-midterm-topics.html)
+- [midterm from a previous (2009) iteration of this course](./eeid2009-midterm.pdf)
+- [essay topics]()
 
 ## References

@@ -1,0 +1,45 @@
+---
+title: "Midterm topics"
+bibliography: "../eeid.bib"
+---
+
+
+
+1. Discuss the range of methods available for
+estimating R_0 from different types of data on
+epidemics; explain which approaches would be
+most important for different types of diseases
+(human vs wildlife, epidemic vs endemic, etc.)
+
+2. Define "parasites" and related types of
+natural enemies. Discuss the significance 
+of different parts of the definition and
+their implications for the ecology and evolution
+of host-parasite interactions.
+
+3. Describe box models for disease. What do boxes,
+solid lines, and dashed lines usually represent?
+
+Construct a box model for a sexually transmitted disease
+(heterosexually transmitted) with vaccination; 
+
+4. Define the difference between microparasites
+and macroparasites, both in terms of how they
+have classically been defined and in terms
+of their population dynamics and transmission.
+Give some examples.  What are the differences
+between them in terms of ecology and evolution,
+and how they are modeled?
+
+5. Define R_0 and explain why it is important.
+What various kinds of information does knowing
+R_0 give you about the likely outcomes of an
+epidemic?  What does it tell you about disease
+control?
+
+6. What is the difference between frequency-
+and density-dependent transmission?
+Why is it important?  What kinds of diseases might
+fall into either category? What are the implications for disease persistence
+and control?
+

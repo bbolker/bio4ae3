@@ -43,7 +43,7 @@ Last updated: `r Sys.time()`
 ### Links
 
 - [Course outline](outline.docx)
-- [Assignments](./assignments.html) (due dates in schedule below)
+- [Assignments](./assignments/README.html) (due dates in schedule below)
 - [The back-end for this site](https://github.com/bbolker/bio4ae3)
 
 ## Communication
