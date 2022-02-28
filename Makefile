@@ -20,9 +20,10 @@ docs/assignments/%: assignments/%
 	Rscript  -e "rmarkdown::render('$<')"
 
 ## https://stackoverflow.com/questions/5178828/how-to-replace-all-lines-between-two-points-and-subtitute-it-with-some-text-in-s
+## FIXME, sed -r doesn't work on MacOS
 %.docx: %.rmd
-	## sed -r '/::::: \{#special .spoiler/,/:::::/c\**SPOILER**\n' < $< > $(@D)/tmp.rmd
-	cp $< $(@D)/tmp.rmd
+	sed -r '/::::: \{#special .spoiler/,/:::::/c\**SPOILER**\n' < $< > $(@D)/tmp.rmd
+	## cp $< $(@D)/tmp.rmd
 	Rscript -e "rmarkdown::render('$(@D)/tmp.rmd', output_format = 'word_document')"
 	mv $(@D)/tmp.docx $*.docx
 
