@@ -58,6 +58,8 @@ survival as CM goes from >99% to <50%).
 Skin virus *titer* is also higher (and increases faster with time) for higher grades. Mosquito infection probability is proportional to skin titer.
 (Some biological complications.)
 
+![](pix/fenner_vir.png)
+
 Bottom line: myxomavirus probably still reduces populations
 somewhat, but the Australians continue to look for other biocontrol
 solutions (calicivirus, rabbit haemhorrhagic disease).
