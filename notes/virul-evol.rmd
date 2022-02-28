@@ -1,0 +1,137 @@
+---
+title: "evolution of virulence"
+date: "27 February 2022"
+bibliography: "../eeid.bib"
+---
+
+# Definitions
+
+- **virulence**
+   - (broad): decrease in a host's fitness caused by a parasite.  
+   - (narrow): *per capita* rate of parasite-induced host mortality
+- **resistance**: host's ability to resist or minimize infection
+- **tolerance**: host's ability to support parasite infection without losing fitness
+- **case mortality** (CM): fraction of hosts killed by infection
+
+- Parasite-host interaction complicates the definition of virulence (assumes that a more virulent parasite is more virulent for *all* host genotypes/species)
+- conceptually:
+   - parasite load depends on balance between parasite *within-host reproduction rate* and host's *parasite clearance rate*
+   - virulence depends on parasite load and per-copy parasite *pathogenicity* and host *tolerance*
+   - this establishes the terms of the arms race, but these components can't be separated if we look at a single host-parasite pair (parasite virulence is often confounded with host tolerance)
+- all in an arms race rather than RQ context
+
+# Classical dogma
+
+Parasites evolve lower virulence over time "for the good of the species".  Group-selectionist *but* some evidence?
+   - syphilis; first seen in Europe in 1495 (the "Great Pox") [@knell_syphilis_2004]
+       - origins? (previously misdiagnosed; evolved increased virulence; from Africa; from the New World)
+	   - virulence decreased rapidly over 50 years (maybe even 5-7 years?)
+   - *virgin-soil epidemics*: smallpox, etc. [@crosby_virgin_1976; ostler_disease_2020] (probably *not* virulence: lack of genetic resistance, previous exposure, societal breakdown, effects of colonization?) 
+- sampling bias? 
+   - biocontrol examples always select for maximal virulence
+   - mild introductions may not be noticed
+
+# Tradeoff theory
+
+- Intermediate virulence evolves due to host-level selection (group theory returns); a tradeoff between transmission *rate* (infections/host/time)
+and virulence (*defined as mortality/time*) leads to maximum $R_0$
+(total transmission per generation) at **intermediate** virulence.
+- conceptually, mediated by parasite replication rate or load
+
+## Example: myxomatosis
+
+Viral disease; mild in Brazilian  rabbits (*Sylvilagus brasiliensis*), 
+virulent in European rabbits (*Oryctolagus cuniculus*).
+Mosquito- and flea-borne. Introduced (several times)
+in Australia to control introduced rabbits, finally spread 1950-1951.
+Case mortality originally >99\%, populations 
+initially decreased by 90%. CM initially dropped to 90\%, then further.
+Resistance: test by infecting laboratory rabbits that
+haven't evolved. CM of grade III strain drops from
+90% to about 50% as populations experience more epizootics.
+At the same time mean virus grade drops from I to III, then rebounds.
+
+Evidence for tradeoff theory:
+Higher grades (higher case mortality) 
+also have faster mortality (<13 days to >50 day
+survival as CM goes from >99% to <50%).
+Skin virus *titer* is also higher (and increases faster with time) for higher grades. Mosquito infection probability is proportional to skin titer.
+(Some biological complications.)
+
+Bottom line: myxomavirus probably still reduces populations
+somewhat, but the Australians continue to look for other biocontrol
+solutions (calicivirus, rabbit haemhorrhagic disease).
+
+## Example: HIV
+
+- Correlations among
+    - *setpoint viral load*
+	- *time to progression* or *rate of CD4 decline* (mechanisms still poorly understood! within-host evolution for diversity, virulence, immune escape? immune aging?? accumulation of opportunistic infections?)
+	- *transmission probability* (as measured in *serodiscordant couples*; *Rakai cohort*)
+- probably no longer ethically measurable 
+
+![](pix/blanquart_fig1.png)
+
+![](pix/blanquart_fig2.png)
+
+- highly variable [
+
+## Theory
+
+- if there is a tradeoff, we would expect expect strong effects of **transmission mode**
+    - vector-borne > direct
+	- high virulence for "necrotransmission" (via dead hosts: anthrax, chronic wasting disease)
+	- horizontal transmission > vertical
+	- needle-borne > STD?
+	- environmental (water-borne, e.g. cholera) > direct
+- does higher overall transmission rate (due to population density, poor hygiene, etc.) select for higher transmission?
+- **facultative** parasites (e.g. soil-borne microbes with a **facultative** stage) should be more virulent
+- "curse of the pharaoh": effect of resting stages? [@bonhoeffer_curse_1996]
+- spatial restriction should? decrease virulence [@kamo_evolution_2006]
+
+- Maximizing $R_0$:
+
+```{r r0max, echo= FALSE, fig.height=3, fig.width=4}
+c=3; m=1.5
+curve(c*sqrt(x),from=0,to=10,xlim=c(-3,10),
+      xlab="Virulence",ylab="Transmission")
+tmpfun = function(x) {c/(2*sqrt(x))-c*sqrt(x)/(m+x)}
+u1 = uniroot(tmpfun,lower=0,upper=10)
+abline(a=c*sqrt(m)/2,b=c/(2*sqrt(m)))
+abline(v=m,lty=2)
+``` 
+
+- "Virulence" could be effect of host mortality, or rapid clearance.
+- 
+
+## Within-host competition
+
+- basic tradeoff theory assumes one infection/strain per host
+- effects of mutation, **superinfection**: within-host competition
+
+## Short-sighted evolution
+
+- sometimes evolution is just stupid [@levin_short-sighted_1994]
+- meningitis-producing, paralytic polio strains (central nervous system tropism)
+- HIV [most transmission probably occurs during acute phases]
+
+## Epidemic vs. endemic phases; transient virulence
+
+[@frank_models_1996; @bolker_transient_2010; @visher_three_2021; @day_general_2004; @berngruber_evolution_2013]
+
+![](pix/boots_trans.png)
+
+![](pix/berngruber_fig.png)
+
+## Effects of imperfect vaccines
+
+- evolution due to **risk compensation** [@massad_impact_2006]?
+- evolution of higher virulence in unvaccinated people due to "leaky" vaccination [@gandon_imperfect_2001]?
+- mouse malaria: [@mackinnon_immunity_2004; @mackinnon_virulence_2008]; consistent with "arms race" upregulation of replication
+- increased virulence in Marek's disease: reduced host generation time or effects of leaky vaccine? [@atkins_vaccination_2013]
+
+@mackinnon_virulence_2008:
+
+> a cautionary approach to the widespread use of anti-replication or anti-disease vaccines seems justified. Ideally, this means combining such vaccines with transmission-blocking vaccines, bednets, drugs, housing improvements and other transmission-reducing measures
+
+
