@@ -22,7 +22,7 @@ bibliography: "../eeid.bib"
 
 # Classical dogma
 
-Parasites evolve lower virulence over time "for the good of the species".  Group-selectionist *but* some evidence?
+- Parasites evolve lower virulence over time "for the good of the species".  Group-selectionist *but* some evidence?
    - syphilis; first seen in Europe in 1495 (the "Great Pox") [@knell_syphilis_2004]
        - origins? (previously misdiagnosed; evolved increased virulence; from Africa; from the New World)
 	   - virulence decreased rapidly over 50 years (maybe even 5-7 years?)
@@ -71,6 +71,10 @@ solutions (calicivirus, rabbit haemhorrhagic disease).
 	- *time to progression* or *rate of CD4 decline* (mechanisms still poorly understood! within-host evolution for diversity, virulence, immune escape? immune aging?? accumulation of opportunistic infections?)
 	- *transmission probability* (as measured in *serodiscordant couples*; *Rakai cohort*)
 - probably no longer ethically measurable 
+
+![](pix/hiv_prog.png)
+
+<https://www.thebodypro.com/article/course-hiv-disease>
 
 ![](pix/blanquart_fig1.png)
 
