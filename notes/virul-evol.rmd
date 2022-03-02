@@ -4,6 +4,11 @@ date: "27 February 2022"
 bibliography: "../eeid.bib"
 ---
 
+```{r setup, include = FALSE}
+library(knitr)
+opts_chunk$set(echo=FALSE, fig.width=6, fig.height =4)
+```
+
 # Definitions
 
 - **virulence**
@@ -70,9 +75,11 @@ solutions (calicivirus, rabbit haemhorrhagic disease).
     - *setpoint viral load*
 	- *time to progression* or *rate of CD4 decline* (mechanisms still poorly understood! within-host evolution for diversity, virulence, immune escape? immune aging?? accumulation of opportunistic infections?)
 	- *transmission probability* (as measured in *serodiscordant couples*; *Rakai cohort*)
-- probably no longer ethically measurable 
+- no longer ethically measurable 
 
-![](pix/hiv_prog.png)
+```{r fig.dim = c(6,6), out.width="50%"}
+include_graphics("pix/hiv_prog.png")
+```
 
 <https://www.thebodypro.com/article/course-hiv-disease>
 
@@ -80,7 +87,11 @@ solutions (calicivirus, rabbit haemhorrhagic disease).
 
 ![](pix/blanquart_fig2.png)
 
-- highly variable [
+- some suggestion t
+
+- highly variable (e.g. increasing in Italy [@muller_increasing_2009]? attenuating due to spread of less virulent subtype C [@arien_is_2007]? decreasing in Uganda [@blanquart_transmission-virulence_2016]? increasing overall [@herbeck_is_2012]?
+
+![](pix/herbeck_hivmeta.png)
 
 ## Theory
 
@@ -97,23 +108,53 @@ solutions (calicivirus, rabbit haemhorrhagic disease).
 
 - Maximizing $R_0$:
 
-```{r r0max, echo= FALSE, fig.height=3, fig.width=4}
-c=3; m=1.5
-curve(c*sqrt(x),from=0,to=10,xlim=c(-3,10),
-      xlab="Virulence",ylab="Transmission")
-tmpfun = function(x) {c/(2*sqrt(x))-c*sqrt(x)/(m+x)}
-u1 = uniroot(tmpfun,lower=0,upper=10)
-abline(a=c*sqrt(m)/2,b=c/(2*sqrt(m)))
-abline(v=m,lty=2)
+```{r r0max, echo= FALSE, fig.height=5, fig.width=6}
+c=5; m=1.5; p = 2
+ffun = function(x,I) c*x^(1/p)*(1-I)-(m+x)
+I = 0.1
+par(cex=2,lwd=2,bty="l",yaxs="i",las=1,mgp=c(1,0.5,0),
+    mar=c(3,3,1,1))
+curve(ffun(x,I=I),from=0,to=10,axes=FALSE,
+      ylim=c(0,4),
+      xlab="Virulence",ylab="Fitness (w)",n=300)
+x1 = 3
+y1 = ffun(x1,I=I)
+x2 = 4
+y2 = ffun(x2,I=I)
+segments(c(x1,x2),c(y1,y1),c(x2,x2),c(y1,y2))
+arrows(x1,y1-0.15,x2,y1-0.15,angle=15,col=2)
+box()
+text(6,ffun(6,0.1),pos=4,paste0("frac inf=",0.1),xpd=NA)
+
+I2=0.3
+text(6.1,ffun(6,I2),pos=4,paste0("frac inf=",I2),xpd=NA)
+I=I2
+curve(ffun(x,I=I2),add=TRUE,lty=2)
+x1=5
+x2=4
+y1 = ffun(x1,I=I2)
+y2 = ffun(x2,I=I2)
+segments(c(x1,x2),c(y1,y1),c(x2,x2),c(y1,y2))
+arrows(x1,y1-0.15,x2,y1-0.15,angle=15,col=2)
+abline(v=4,col="gray")
+
+## c=3; m=1.5
+## curve(c*sqrt(x),from=0,to=10,xlim=c(-3,10),
+##       xlab="Virulence",ylab="Transmission")
+## tmpfun = function(x) {c/(2*sqrt(x))-c*sqrt(x)/(m+x)}
+## u1 = uniroot(tmpfun,lower=0,upper=10)
+## abline(a=c*sqrt(m)/2,b=c/(2*sqrt(m)))
+## abline(v=m,lty=2)
+
 ``` 
 
 - "Virulence" could be effect of host mortality, or rapid clearance.
-- 
 
 ## Within-host competition
 
 - basic tradeoff theory assumes one infection/strain per host
 - effects of mutation, **superinfection**: within-host competition
+- tends to *increase* optimal virulence
 
 ## Short-sighted evolution
 
@@ -123,21 +164,44 @@ abline(v=m,lty=2)
 
 ## Epidemic vs. endemic phases; transient virulence
 
-[@frank_models_1996; @bolker_transient_2010; @visher_three_2021; @day_general_2004; @berngruber_evolution_2013]
+- Most theory assumes that disease is at an *endemic equilibrium*, so that *lifetime fitness* (i.e. $R_0$ maximization)  is what matters
+    - this also means that increasing overall transmission (due to population density, poor hygiene, etc.) **doesn't** select for higher virulence
+- During the exponential growth phase of an epidemic, *speed of increase* ($r$ maximization) is what matters
+    - optimal virulence is higher than for endemic equilibrium
+- We expect *transient* selection for higher virulence at the beginning of an epidemic
+
+[@frank_models_1996; @bolker_transient_2010; @visher_three_2021; @day_general_2004; @berngruber_evolution_2013; @park_effects_2017]
 
 ![](pix/boots_trans.png)
 
+```{r}
+knitr::include_graphics("pix/bolker_park_fig1a.png")
+```
+
+```{r}
+knitr::include_graphics("pix/bolker_park_fig2.png")
+```
 ![](pix/berngruber_fig.png)
 
-## Effects of imperfect vaccines
+## Effects of vaccines and treatment
 
 - evolution due to **risk compensation** [@massad_impact_2006]?
 - evolution of higher virulence in unvaccinated people due to "leaky" vaccination [@gandon_imperfect_2001]?
 - mouse malaria: [@mackinnon_immunity_2004; @mackinnon_virulence_2008]; consistent with "arms race" upregulation of replication
 - increased virulence in Marek's disease: reduced host generation time or effects of leaky vaccine? [@atkins_vaccination_2013]
+- [in HIV due to antiretrovial therapy](herbeck_evolution_2016)?
 
 @mackinnon_virulence_2008:
 
 > a cautionary approach to the widespread use of anti-replication or anti-disease vaccines seems justified. Ideally, this means combining such vaccines with transmission-blocking vaccines, bednets, drugs, housing improvements and other transmission-reducing measures
 
 
+##  References
+ 
+::: {#refs}
+:::
+
+---
+
+Last updated: `r Sys.time()`
+	
