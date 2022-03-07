@@ -23,7 +23,7 @@ docs/assignments/%: assignments/%
 ## FIXME, sed -r doesn't work on MacOS
 %.docx: %.rmd
 	sed -r '/::::: \{#special .spoiler/,/:::::/c\**SPOILER**\n' < $< > $(@D)/tmp.rmd
-	## cp $< $(@D)/tmp.rmd
+## cp $< $(@D)/tmp.rmd
 	Rscript -e "rmarkdown::render('$(@D)/tmp.rmd', output_format = 'word_document')"
 	mv $(@D)/tmp.docx $*.docx
 
@@ -31,7 +31,7 @@ docs/assignments/%: assignments/%
 	Rscript  -e "rmarkdown::render('$<', output_options = 'self_contained')"
 
 %.pdf: %.rmd
-	Rscript -e "rmarkdown::render('$<', output_format = tufte::tufte_handout())"
+	Rscript -e "rmarkdown::render('$<', output_format = tufte::tufte_handout())" ## , params = list('latex-engine'='xelatex'))"
 
 %.pdf: %.tex
 	pdflatex $<

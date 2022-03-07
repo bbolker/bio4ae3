@@ -2,6 +2,8 @@
 title: "evolution of host resistance and tolerance"
 date: "7 March 2022"
 bibliography: "../eeid.bib"
+header-includes:
+   - \usepackage[utf8]{inputenc}
 ---
 
 ```{r setup, include = FALSE}
@@ -24,7 +26,7 @@ opts_chunk$set(echo=FALSE, fig.width=6, fig.height =4)
 	- coded by the **major histocompatibility complex** (self/non-self recognition), **somatic recombination**, deletion of host-specific antigens [@borghans_mhc_2004; @acevedo-whitehouse_is_2006; @rauch_relative_2006; @spurgin_how_2010]
 	- *effectors*: what does the host do once the parasite is detected?
 - passive/always-on defense (*constitutive* defenses)	
-    - changing cell surface receptors (e.g. CCR5-Δ32 (HIV, @hummel_detection_2005); matching-allele model
+    - changing cell surface receptors (e.g. CCR5-$\Delta 32$ (HIV, @hummel_detection_2005); matching-allele model
 - parasite countermeasures (immune evasion [trypanosomes], immune suppression [measles, anthrax, ...]) [@schmid-hempel_immune_2009]
 
 ## Costs and tradeoffs
@@ -74,7 +76,7 @@ What are the **costs** of resistance and tolerance? (= Why aren't all hosts tole
 * Lethal abnormality in hexosaminidase A (lipid metabolism);
 early (infant/toddler) death
 * Mendelian, recessive lethal ($s=1$)
-* allele frequency $\\approx$ 1/300 in US population, 1/30 in Ashkenazi (E. European) Jews: also high in French Canadians, Cajuns, Pennsylvania Dutch ...
+* allele frequency $\approx$ 1/300 in US population, 1/30 in Ashkenazi (E. European) Jews: also high in French Canadians, Cajuns, Pennsylvania Dutch ...
 * Population-genetic evidence suggests drift
 * (Terrible!) speculation about **overdominance** or **heterozygote advantage**: Tb resistance, intelligence: ???  
 [@spyropoulos_taysachs_1988;@frost_taysachs_2012;@frisch_origin_2004]
@@ -122,10 +124,6 @@ consistency with malaria distribution
 * mechanistic basis for protection
 * evidence for positive selection (age??)
 
-![](Figure14_05_sm.jpg)
-
-B&S Figure 14.5
-
 ## Balanced polymorphisms
 
 * Sickle-cell (and all cases of overdominance) depends on genetic makeup of the *population*
@@ -142,11 +140,11 @@ B&S Figure 14.5
 * haplotypes gradually erode (narrow) by recombination
 * e.g. MHC class I variability in chimpanzees decreased ~ 2-3 mya [@de_groot_evidence_2002]
 
-![](schaffner_positiveselection-f1_mid_1.jpg)
+![](pix/schaffner_positiveselection-f1_mid_1.jpg)
 
 ## Selective sweep: chromosome pattern
 
-![](malaria_sweep.png)
+![](pix/malaria_sweep.png)
 
 [@nair_selective_2003]
 
@@ -163,7 +161,7 @@ B&S Figure 14.5
 	    * arose 5-10K years ago: agriculture?
 * Duffy antigens (protection against *vivax* malaria)
 	
-![](malaria2.png)
+![](pix/malaria2.png)
 
 [Wikipedia](https://en.wikipedia.org/wiki/Genetic_resistance_to_malaria)
 
@@ -172,7 +170,7 @@ B&S Figure 14.5
 
 * Lethal lung disease: mucus build-up  
 (1/4 chance of death before 30, previously much higher)
-* 4% carriers in European whites (1/2500 diseased: $2pq=0.04 \\to q^2=0.0004$)
+* 4% carriers in European whites (1/2500 diseased: $2pq=0.04 \to q^2=0.0004$)
 * Mutated cftr gene, changes chloride metabolism;   
 age approx. 50 KYA
 * Protection from cholera? (First European cholera epidemic 1817) Dehydrating intestinal diseases?  Typhoid?
@@ -180,12 +178,12 @@ age approx. 50 KYA
 
 ## HIV
 
-![](ccr_dist.png) 
+![](pix/ccr_dist.png) 
 
-- where does CCR5-Δ32 come from?
+- where does CCR5-$\Delta 32$ come from?
 - homozygous individuals are healthy ...
 - at least 5000 years old; @hummel_detection_2005; @novembre_geographic_2005; @galvani_evolutionary_2005; @liden_pushing_2006
-   - "If Δ32 were neutral, population genetics theory predicts it would have to be much older given its frequency."
+   - "If $\Delta 32$ were neutral, population genetics theory predicts it would have to be much older given its frequency."
 - high dispersal, sustained strong selection ($s > 0.1$); what selective agent? plague? smallpox?
 
 ## Summary: variation in Mendelian traits
