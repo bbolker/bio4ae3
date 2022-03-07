@@ -51,7 +51,7 @@ What are the **costs** of resistance and tolerance? (= Why aren't all hosts tole
 * tolerance: loss of fitness **per unit parasite load**
 * resistance: level of parasite load
 
-[@raberg_disentangling_2007,@raberg_decomposing_2009]
+[@raberg_disentangling_2007;@raberg_decomposing_2009]
 
 ![](pix/raberg_fig1.png)
 
