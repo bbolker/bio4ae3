@@ -30,7 +30,8 @@ opts_chunk$set(echo=FALSE, fig.width=6, fig.height =4)
 	- recombination and/or horizontal transmission via mobile elements (plasmids etc.)
 - competition between susceptible and resistant strains [@lipsitch_antimicrobial_2002]
 
-![](pix/lipsitch_samore.png)
+____________________________   _______________________________
+![](pix/lipsitch_samore.png)   ![](pix/lipsitch_samore_2.png)
 
 # Bacteria 
 
@@ -44,7 +45,7 @@ opts_chunk$set(echo=FALSE, fig.width=6, fig.height =4)
 - because antibiotics have been around "forever", so has antibiotic resistance [@dcosta_antibiotic_2011]
    - but presence **as mobile elements** may be recent, human/animal derived [@ebmeyer_framework_2021]
    - often present in antibiotic *producers* [@benveniste_aminoglycoside_1973]
-- huge problem, e.g. MRSA (multi-resistant *Staphylococcus aureus*), extensively drug-resistant (XDR) tuberculosis [@CDC_extensively_2020]
+- huge problem, e.g. mdrMRSA ([multi-drug resistant], methicillin-resistant *Staphylococcus aureus*), extensively drug-resistant (XDR) tuberculosis [@CDC_extensively_2020]
    - threatens to wipe out disease cures ...
 - horizontal transfer is rampant
    - resistance gene can be anywhere in the microbiome ...
@@ -64,6 +65,7 @@ opts_chunk$set(echo=FALSE, fig.width=6, fig.height =4)
 - avoid overuse! "antibiotic conservation"
 - regulate agricultural use
     - for human-to-human transmission, regulating agriculture may be too late once resistance is already established in humans  [@smith_animal_2002]
+
     ![](pix/smith_ar.png)
 	- but regulation still helps with spillover infections [@lipsitch_antibiotics_2002]
 - "the long-term benefit of single drug treatment from introduction of the antibiotic until a high frequency of resistance precludes its use is almost independent of the pattern of antibiotic use" [@bonhoeffer_evaluating_1997]
