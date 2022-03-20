@@ -1,0 +1,201 @@
+---
+title: "parasite-mediated sexual selection"
+date: "21 March 2022"
+bibliography: "../eeid.bib"
+header-includes:
+   - \usepackage[utf8]{inputenc}
+---
+
+```{r setup, include = FALSE}
+library(knitr)
+opts_chunk$set(echo=FALSE, fig.width=6, fig.height =4)
+```
+
+
+What causes sexual ornaments and behavior 
+(**secondary sexual characteristics**): primary
+are the gonads and reproductive
+equipment themselves)?
+Peacock's tail, bird song repertoires, conspicuous color patterns,
+sexual displays
+
+This is a conspicuous problem: occurred to Darwin
+
+Two possibilities for sexual selection are (1) male-male competition (horns etc.) or  (2) female choice.  (Competition is usually among males, and choice
+usually by females, because females usually invest more in offspring.)
+We will focus on female choice.
+
+## Fisherian "runaway" model
+
+- trait initially advantageous
+- preference and trait become genetically correlated
+(trait expressed in males, preference in females)
+- *Requirements*: heritability of trait and preference.
+trait not too expensive (no requirement that the
+trait should be expensive)
+- *Tests/predictions:*
+    - negative or zero correlation between male quality and trait
+    - genetic correlation between trait and preference (Houde and
+Endler compared guppy populations in different streams)
+    - high variability among populations in ornaments?
+
+## Zahavi "handicap" principle
+
+The **handicap principle** says that
+traits are not chosen despite their being costly, but
+*because* they are
+costly.  **Good genes** model.  Ornaments are a signal of good genes:
+they must be costly, otherwise you can't rely on the honesty of the
+signal.
+
+- revealing traits: indicate male condition/quality
+- conditional traits: only expressed by high-quality males
+- viability ("Zahavi") traits: expressed by everyone, but
+kill off low-quality males
+
+The handicap principle seems paradoxical,
+but models and observation have suggested that
+it actually works (in part because traits are only
+expressed in males)
+
+Problem with handicap principle: what maintains genetic variation for
+"goodness"?  Under normal conditions (directional selection), one
+would expect that soon everyone would have good genes and there
+would be no variability (nothing for females to choose from except
+luck).
+Constant mutation could lead to a *mutation-selection balance*,
+or a variable environment could keep changing what genes are "good".
+Of course (as we know), parasites represent a strong driver of
+variability in the biotic environment.
+
+## Hamilton-Zuk hypothesis
+
+(the Red Queen returns)
+
+a subset of the handicap principle
+**requirements**
+
+- females prefer resistant (showy) males
+(also required by Fisher)
+- correlation between quality (resistance) and trait
+(not* required by Fisher),
+or negative correlation between parasite load and trait
+- (genetic) heritable variation in resistance
+(the hardest one to prove)
+- Parasite load decreases host viability
+(otherwise there is no point in selecting resistant males)
+- (genetic) heritable variation in trait: not quite
+as important, since H-Z works with a \emph{conditional} trait
+\end{itemize}
+\end{itemize}
+
+## Evidence for H-Z: between-species
+
+If H-Z is operating, we
+expect a **positive** correlation between parasite load and
+showiness across species.
+This correlation has been found, for example, in Hamilton and Zuk's
+original study which correlated human judgements of species brightness
+with information on ectoparasite load.  Other studies have been more
+equivocal.
+
+There are some problems with between-species comparisons, though:
+
+- reverse causality: showiness could cause parasitism
+(e.g. brighter species could attract more ectoparasites, or
+species that invest more in showiness could have less to
+invest in parasite resistance)
+- ecological correlates: showiness and parasitism could
+both be driven by other factors (hole-nesting, polygyny)
+- falsifiability: when a correlation is not found, how do
+you decide whether the data are really good enough to reject?
+- phylogenetic controls
+- dynamics: how do we know that parasite-driven sexual selection
+couldn't be so effective that it would drive parasite loads to
+\emph{lower} levels in showy species?
+\end{itemize}
+
+## Evidence for H-Z: within species
+
+**Guppies**:
+
+- *Gyrodactylus turbulli* infestation lowers brightness of parasitized
+males
+- it also reduces the number of sexual displays
+- females prefer brighter males 
+- we don't know whether resistance is heritable
+- we can't rule out transmission avoidance (see below)
+
+** Barn swallows**
+
+- females prefer males with longer tails
+(manipulative experiments, shortening and lengthening male tails)
+- males with longer tails tend to have fewer mites (field
+observation)
+- chicks with heavy mite loads are smaller at fledging,
+which leads to lower survivorship/fecundity/fitness
+- *heritable variation in resistance*:
+cross-fostering offspring of long-tailed males in the nests of
+short-tailed males (and vice versa) shows that offspring of
+long-tailed fathers inherit their fathers' low mite loads.
+This rules out the hypotheses that
+   - long-tailed males have just avoided parasitism by luck
+   - females are selecting males for paternal care (direct benefits) [and offspring are less parasitized, e.g., because they're better nourished]
+   - offspring benefit by avoiding direct transmission of
+mites from fathers
+
+## Meta-analysis
+
+- negative relationship between parasite load & expression of 
+secondary sex characters (more in experiments)
+- no difference with/without parental care
+- no difference between behavioral and morphological traits
+- direct measures of immune function give stronger results
+than measures of parasite load 
+- stronger for ectoparasites (transmission avoidance?)
+
+## Alternatives
+
+Alternatives to H-Z: both can be tested
+(with some difficulty) by manipulative cross-fostering
+experiments
+
+- selection for parental care (direct benefits)
+[can be ruled out in species without parental care]
+- selection for parasite avoidance.
+e.g.: sage grouse & red ink "haemotomas"
+[can be ruled out for non-directly transmitted parasites;
+stronger evidence for ectoparasites suggests parasite
+avoidance]
+
+## Immunocompetence handicap hypothesis
+
+Why is testoterone immunosuppressive?
+
+@folstad_parasites_1992: turning off your immune
+system is the ultimate "handicap''.  Thus, it is
+not a coincidence that females prefer traits that
+are linked to (temporary) immunosuppression; males that
+can afford to turn off their immune systems during
+the mating season must have good genes ...
+
+Good links between androgens and secondary sex characteristics.
+Some support for the link between testosterone
+(and other androgens) and immunosuppression, 
+but high variable results in different experiments.
+Immunoredistribution rather than immunosuppression?
+
+Other axes of signalling and immune function:
+carotenoid, melanin, androgen (testosterone) systems.
+
+##  References
+ 
+::: {#refs}
+:::
+
+---
+
+Last updated: `r Sys.time()`
+	
+
+

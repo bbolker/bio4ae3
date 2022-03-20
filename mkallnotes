@@ -1,5 +1,5 @@
 #! /bin/bash
-for i in intro definitions epi1 vredenburg hostpop1 parahostcomm rq virul-evol host_resist_tol para_resist; do
+for i in intro definitions epi1 vredenburg hostpop1 parahostcomm rq virul-evol host_resist_tol para_resist sexsel; do
     for j in html docx pdf; do
     	make docs/notes/$i.$j
     done
