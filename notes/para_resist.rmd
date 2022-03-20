@@ -100,16 +100,48 @@ ____________________________   _______________________________
 
 (**to be added, maybe**)
 
-## malaria resistance
+## malaria control
+
+[Twitter](https://twitter.com/ProfDavidLSmith/status/1504110201875562504):
+
+> reading various malaria documents that discuss having endemic malaria today despite spending ~$4.1B/yr, I always want to insert the comment, "Well, WTF did you expect? No one who understands malaria believes elimination would be possible without spending at least $10B/yr"
+
+Main components:
+
+- antimalarial drugs
+- vaccine (children only, max effectiveness $\approx$ 40%, safety concerns ...) [@seo_cost-effectiveness_2014; @jarry_malaria_2021]
+- vector control
+	- indoor residual spraying (lethality + avoidance)
+	- treated bednets (lethality + avoidance)
+    - biocontrol (e.g. *Gambusia*, "mosquito fish")
+    - improved housing? [@musiime_house_2022]
+	
+## malaria resistance to antimalarial drugs
 
 - protozoan parasite
 - quinine, chloroquine [@achan_quinine_2011;@ashley_spread_2014]
-- artemisinin
+- artemisinin (and combination therapy, ACT)
 
 ![](pix/artemisinin.png)
 
+![](pix/artemisinin_resistance.png)
 
+containment strategies: eliminate *falciparum* malaria from Greater Mekong region or "firewall"?
 
+## vectors and resistance to insecticides
+
+- DDT [Wikipedia](https://en.wikipedia.org/wiki/DDT#Mosquito_resistance)
+   - environmental side effects
+	 - fast evolution of resistance: 6-7 years [@gladwell_mosquito_2001]
+- other methods?
+   - sterile male release (irradiation, *Wolbachia*) [@atyame_comparison_2016]
+   - **gene drive** [@burt_gene_2018] and/or bacterial infection [@dennison_mosquito_2014]
+        - reduce vector competence
+		- shift sex ratios toward males
+   - evolution-resistant insecticides: shorten host life span [@mcmeniman_stable_2009; @koella_towards_2009]
+        - weak selection against late-acting processes [@medawar_uniqueness_2019]
+        - late-acting insecticides (W. or fungal)
+		- larvicides: resistant phenotypes are smaller/short-lived
 
 ##  References
  
