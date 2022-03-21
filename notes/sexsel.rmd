@@ -116,7 +116,7 @@ couldn't be so effective that it would drive parasite loads to
 
 ## Evidence for H-Z: within species
 
-**Guppies** [@martin_field_2007]
+**Guppies** [@martin_field_2007]:
 
 - *Gyrodactylus turbulli* infestation lowers brightness of parasitized
 males
@@ -125,7 +125,7 @@ males
 - we don't know whether resistance is heritable
 - we can't rule out transmission avoidance (see below)
 
-** Barn swallows** [@moller_effects_1990]
+**Barn swallows** [@moller_effects_1990]:
 
 - females prefer males with longer tails
 (manipulative experiments, shortening and lengthening male tails)

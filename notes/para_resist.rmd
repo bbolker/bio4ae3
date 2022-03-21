@@ -2,6 +2,7 @@
 title: "evolution of parasite countermeasures"
 date: "14 March 2022"
 bibliography: "../eeid.bib"
+csl: apa.csl
 header-includes:
    - \usepackage[utf8]{inputenc}
 ---
