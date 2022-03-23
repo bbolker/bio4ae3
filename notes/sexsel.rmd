@@ -2,6 +2,7 @@
 title: "parasite-mediated sexual selection"
 date: "21 March 2022"
 bibliography: "../eeid.bib"
+csl: apa.csl
 header-includes:
    - \usepackage[utf8]{inputenc}
 ---
@@ -85,8 +86,7 @@ a subset of the handicap principle
 - Parasite load decreases host viability
 (otherwise there is no point in selecting resistant males)
 - (genetic) heritable variation in trait
-\end{itemize}
-\end{itemize}
+
 
 ## Evidence for H-Z: between-species
 
@@ -112,7 +112,6 @@ you decide whether the data are really good enough to reject?
 - dynamics: how do we know that parasite-driven sexual selection
 couldn't be so effective that it would drive parasite loads to
 \emph{lower} levels in showy species?
-\end{itemize}
 
 ## Evidence for H-Z: within species
 
