@@ -46,7 +46,7 @@ host (ant) is having its physiology and behavior modified to bring it
 into the environment of the downstream nhost (cow), which behaves
 normally. The "signal" is gravity (ants move up stalks).
 
-## Categories of behavioral change
+# Categories of behavioral change
 
 -   *Change in activity* (up or down): reduction in speed/distance
     travelled/etc. (pomacentrid reef fish) or increased activity,
@@ -72,7 +72,7 @@ normally. The "signal" is gravity (ants move up stalks).
     (host or parasite or compensation?), changes in dominance; do
     parasites drive host social behavior (group size, etc.)?
 
-## Mechanisms of host manipulation
+# Mechanisms of host manipulation
 
 What structures are affected by parasites? What are the proximal
 mechanisms by which parasites change behavior?
@@ -113,7 +113,7 @@ mechanisms by which parasites change behavior?
         neuroendocrine or growth factor) e.g. *Gammarus*,
         *Dicrocoelium*.
 
-## But is it really manipulation?
+# But is it really manipulation?
 
 Suppose a parasite species inhabits the CNS and changes host behavior.
 Is the parasite in the CNS to avoid host defenses, with changes in
@@ -136,9 +136,9 @@ such possible classification:
            0/+                   \+                  Host compensation
   ---------------------- ------------------ -----------------------------------
 
-## Testing hypotheses
+# Testing hypotheses
 
-### Testing behavioral changes
+## Testing behavioral changes
 
 Host behavioral changes in the presence of parasites are relatively easy
 to document, and relatively well documented. However, ecological
@@ -179,7 +179,7 @@ Other possibilities include:
     which measure behaviors in a range of related species to test
     whether they represent adaptations or mere phylogenetic constraints.
 
-### Testing effects on host and parasite fitness
+## Testing effects on host and parasite fitness
 
 A common assumption is that host behavior changes are driven by and for
 parasites, to increase parasite survivorship and transmission. However,
@@ -224,7 +224,7 @@ fitness.
 
 -   
 
-## Comparative/phylogenetic analysis
+# Comparative/phylogenetic analysis
 
 Not much exists, people have been too busy looking at the amazingly cool
 detailed mechanisms of manipulation of host behavior by parasites.
@@ -253,7 +253,7 @@ their overall conclusion was that behavioral responses to parasitism
 evolved fairly rapidly relative to the time scale of speciation and
 higher-taxon divergence.
 
-## Costs of manipulation
+# Costs of manipulation
 
 The value of host manipulation, and the optimal/adaptive level of
 manipulation, depends on costs and benefits to the parasite (of course).
@@ -281,32 +281,13 @@ as a function of parasite number. **Q: how might hormonal and direct
 control of behavior differ in the individual and group pressures they
 put on parasites?**
 
-## Parasitic castration
+# Parasitic castration
 
--   The reproductive apparatus is the most "expendable" organ from
-    parasite's point of view; doesn't interfere with any of the
-    functions the parasite cares about
-
--   may divert energy into life span/somatic growth, which increases the
-    time the parasite has to reproduce (this *decouples* virulence in
-    the sense of loss of fitness and virulence in the sense of host
-    mortality)
-
--   Dawkins has called parasitic castration (and other parasite-induced
-    changes in host behavior) part of the *extended phenotype*: although
-    it's not part of the parasite's body, it can still be coded for by
-    the parasite's genes and it still affects the parasite's fitness.
-
--   There's some question as to whether behavior and morphological
-    changes under parasitic castration are really a function of parasite
-    manipulation, or whether they are partly controlled by the host.
-    Host gigantism may be an adaptation for outliving the parasite and
-    salvaging some reproductive ability.
-
--   *Diplostomum phoxini* (Ballabeni, *Functional ecology* **9**,
-    887-893) generates gigantism only in local (adapted) host
-    populations (this rules out coincidental changes but doesn't
-    necessarily settle the question of host vs parasite adaptation).
+* The reproductive apparatus is the most "expendable" organ from parasite's point of view; doesn't interfere with any of the functions the parasite cares about
+* may divert energy into life span/somatic growth, which increases the time the parasite has to reproduce (this decouples virulence in the sense of loss of fitness and virulence in the sense of host mortality)
+* Dawkins has called parasitic castration (and other parasite-induced changes in host behavior) part of the *extended phenotype*: although it's not part of the parasite's body, it can still be coded for by the parasite's genes and it still affects the parasite's fitness.
+* Are behavior and morphological changes under parasitic castration really a function of parasite manipulation, or are they partly controlled by the host? Host gigantism may be an adaptation for outliving the parasite and salvaging some reproductive ability.
+* *Diplostomum phoxini* (Ballabeni, *Functional ecology* **9**, 887-893) generates gigantism only in local (adapted) host populations (this rules out coincidental changes but doesn't necessarily settle the question of host vs parasite adaptation).
 
 ## Sex ratio distortion
 

@@ -180,6 +180,8 @@ Immunoredistribution rather than immunosuppression?
 Other axes of signalling and immune function:
 carotenoid, melanin, androgen (testosterone) systems.
 
+@balenger_testing_2014
+
 ##  References
  
 ::: {#refs}
