@@ -162,25 +162,27 @@ avoidance]
 
 ## Immunocompetence handicap hypothesis
 
-Why is testoterone immunosuppressive?
+Secondary sexual traits seem to be negatively correlated with immunosuppression
 
 @folstad_parasites_1992: turning off your immune
-system is the ultimate "handicap''.  Thus, it is
+system is the ultimate handicap.  Thus, it is
 not a coincidence that females prefer traits that
 are linked to (temporary) immunosuppression; males that
 can afford to turn off their immune systems during
-the mating season must have good genes ...
+the mating season must have good genes ... (**note** switch from original H-Z!)
 
 Good links between androgens and secondary sex characteristics.
-Some support for the link between testosterone
-(and other androgens) and immunosuppression, 
-but high variable results in different experiments.
-Immunoredistribution rather than immunosuppression?
+Some support for the link between testosterone (and other androgens) and immunosuppression, 
+but variable results in different experiments. Immunoredistribution rather than immunosuppression?
+[@evans_effects_2000;@roberts_testing_2004;
 
-Other axes of signalling and immune function:
-carotenoid, melanin, androgen (testosterone) systems.
+Other axes of signalling and immune function: carotenoid, melanin systems [@mcgraw_carotenoids_2003;@simons_what_2012]
 
-@balenger_testing_2014
+*Stress-linked immunocompetence handicap* [@buchanan_stress_2000] "testosterone has a dual effect: it leads to immunosuppression through a mechanism involving corticosterone but, conversely, leads to increased immunocompetence probably via dominance influencing access to resources". **possibly** explains the mess ... [@bortolotti_physiological_2009]
+
+Where are we? @balenger_testing_2014
+
+Humans: do females prefer male faces associated with lower cortisol/higher testosterone/better immunity [@rantala_evidence_2012]? across countries, do females prefer 'masculine' men more in countries with more parasite exposure [@debruine_extending_2012]?
 
 ##  References
  
