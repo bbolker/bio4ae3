@@ -1,0 +1,131 @@
+---
+title: "emerging infectious disease"
+date: "3 April 2022"
+bibliography: "../eeid.bib"
+csl: apa.csl
+header-includes:
+   - \usepackage[utf8]{inputenc}
+---
+
+```{r setup, include = FALSE}
+library(knitr)
+opts_chunk$set(echo=FALSE, fig.width=6, fig.height =4)
+```
+
+## emerging and re-emerging disease
+
+![](pix/zoon_emerg.png)
+
+basically, anything we're worried about
+
+- new mutations
+- change in environment
+- resistant strains
+- species jumps (encounter and compatibility: changes via recombination, mutation)
+
+Do we need to understand *everything*?
+
+- reservoir ecology
+- pathogen biology
+- human-reservoir interactions
+
+How do we understand? How do we predict?
+
+## *Batrachochytrium dendrobatidis*
+
+**Reminders**
+
+- fungal pathogen 
+   - most other chytrids are saprophytes, plant pathogens
+   - *B. salamandrivorans*: salamander pathogen (more restricted)
+- first discoved in poison dart frogs
+- caused die-offs in E Australia, Central America, Colorado, California ...
+- association with high altitude?
+- occurred in pristine areas (probably not anthropogenic?)
+- pathogenesis via screwed-up osmoregulation
+
+Very confusing ...
+
+* some species decline in the absence of Bd
+* some species stable in the presence of Bd  
+(Bd may have been there all along?)
+* susceptibility:
+   * ability to bask
+   * antimicrobial peptides
+
+**tipping point hypothesis**: in populations all the time, but something happened to increase virulence/reduce tolerance or resistance
+
+- climate change/El Niño ? 
+- ultraviolet radiation?
+- cooler temperatures? (basking etc.)
+- pesticides?
+- combination (species × temperature × U/V × pesticide × ...)
+
+- @pounds_widespread_2006: "chytrid-thermal-optimum hypothesis"
+- @rohr_evaluating_2008: "numerous other variables, including regional banana and beer production, were better predictors of these extinctions"
+- @rohr_linking_2010
+
+**novel pathogen hypothesis**: mutation/speciation + dispersal
+
+- "Out of Africa" hypothesis
+- earlier/broader detection in historical specimens: CA/bullfrog, Brazil ...
+- genomics (challenging!)
+- Asian sampling
+
+## monkeypox
+
+## climate change
+
+- warming 
+    - 'good' or 'bad' for pathogens?
+    - vector biology
+    	- extended range
+		- higher activity?
+- changes in seasonality, hydrological cycles
+- local landscape change
+    - hydrology
+	- land cover (Lyme disease)
+	- forest cover
+- changes in reservoir communities
+
+## dilution effect [@keesing_dilution_2021]
+   - does increased biodiversity decrease disease?
+   - variation in reservoir competence
+   - high-quality hosts decrease with increasing biodiversity
+       - encounter reduction; host regulation; vector preferences
+
+@rohr_towards_2020
+
+![](pix/rohr_dilute.png)	   
+   
+## prediction
+
+@pulliam_ability_2009
+
+![](pix/pulliam_pred.png)
+
+@walker_transmissibility_2018
+
+![](pix/han_predict1.png)
+
+![](pix/han_predict2.png)
+
+![](pix/han_predict3.png)
+
+@han_integrating_2020
+
+![](pix/han_predict4.png)
+
+![](pix/han_predict5.png)
+
+##  References
+ 
+::: {#refs}
+:::
+
+---
+
+Last updated: `r Sys.time()`
+	
+
+
