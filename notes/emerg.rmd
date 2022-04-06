@@ -94,6 +94,8 @@ Very confusing ...
    - high-quality hosts decrease with increasing biodiversity
        - encounter reduction; host regulation; vector preferences
 
+@kain_predicting_2019
+
 @rohr_towards_2020
 
 ![](pix/rohr_dilute.png)	   
