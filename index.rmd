@@ -15,28 +15,32 @@ th {background-color: #ccccff;}
 
 Last updated: `r Sys.time()`
 
+---
+
+Materials on this web page are **under construction** and **subject to change**: some material may be left over material from the previous [Winter 2022] course offering
+
+---
+
 ### Course meetings
 
-- 11:30-12:20 Mon/Weds, 13:30-14:20 Fri (all Toronto time)
-- initially via [Teams channel](https://teams.microsoft.com/l/channel/19%3aiaABT9ga9EpcFTRea7ZQUttq2SxRFQ5Izt9Zump8DDk1%40thread.tacv2/General?groupId=bf0845f2-7f46-454a-90e1-0bb732e43a37&tenantId=44376307-b429-42ad-8c25-28cd496f4772); thereafter (after February 7) in [HH 217](https://library.mcmaster.ca/cct/class-dir/hh-217) and on Echo360
-- University policy requires masks in all indoor spaces
-- Lectures will be recorded (but discussion classes, e.g. most Fridays, will *not* be recorded). I think live captioning is available, but please let me know if you need it and it's not working well. Provided I can get Echo360 working properly, lecture recordings will continue after Feb 7 when we return to in-person clsses.
+- 1:30-2:20 Mon/Weds/Thurs (all Toronto time)
+- University masking policy TBD
+- Lectures will be recorded (but discussion classes, e.g. most Fridays, will *not* be recorded). I think live captioning is available, but please let me know if you need it and it's not working well.
 - You are encouraged but not required to keep your cameras on when participating in virtual course activities
 
 ### Misc info
 
 - Textbook: Claude Combes, *The Art of Being A Parasite*; available from the bookstore, also on the [Internet Archive](https://archive.org/details/artofbeingparasi0000comb)
 - Platforms: Avenue to Learn, Teams, course web page (see below)
-- Peer-review of some assignments will be done using `peerScholar®` (free licenses will be provided as part of a McMaster pilot project)
-- Group annotation will be done using `hypothes.is` (free licenses will be provided)
+- 
 - [Full course bibliography](eeid_bib.html)
 
 ### Where to find stuff
 	
-- on-line meetings: [General channel on Teams](https://teams.microsoft.com/l/channel/19%3aiaABT9ga9EpcFTRea7ZQUttq2SxRFQ5Izt9Zump8DDk1%40thread.tacv2/General?groupId=bf0845f2-7f46-454a-90e1-0bb732e43a37&tenantId=44376307-b429-42ad-8c25-28cd496f4772)
-- lecture recordings: [General channel on Teams](https://teams.microsoft.com/l/channel/19%3aiaABT9ga9EpcFTRea7ZQUttq2SxRFQ5Izt9Zump8DDk1%40thread.tacv2/General?groupId=bf0845f2-7f46-454a-90e1-0bb732e43a37&tenantId=44376307-b429-42ad-8c25-28cd496f4772) **or** [Avenue to Learn](https://avenue.cllmcmaster.ca/d2l/le/content/452482/Home) (when class is recorded on Echo360); **or** linked in schedule below
+- on-line meetings: General channel on Teams
+- lecture recordings: General channel on Teams **or** Avenue to Learn] (when class is recorded on Echo360); **or** linked in schedule below
 - schedule, readings, notes, course outline, etc.: here
-- dropbox for assignments, marks: [Avenue](https://avenue.cllmcmaster.ca/d2l/le/content/452482/Home)
+- dropbox for assignments, marks: Avenue
 - discussion questions: "Discussion question" channel on Teams
 - [SpringerLink](https://libraryssl.lib.mcmaster.ca/libaccess/login.php?url=https%3a%2f%2flink.springer.com)
 
@@ -51,10 +55,10 @@ Last updated: `r Sys.time()`
 - instructor: [Ben Bolker](http://www.math.mcmaster.ca/~bolker/)
     - General questions (anything you don't consider private) are best asked in the appropriate channel on Teams
     - Otherwise e-mail to `bolker@mcmaster.ca` with "BIO 4AE3" in the subject line; include your MacID in your message if not e-mailing from your McMaster e-mail account
-	- office hours on Teams, **Thursdays 11:30-12:30**
-- teaching assistant: Lindsey Kukoly
-    - weekly office hours on Teams, **Tuesdays 11:30-12:30**
-    - please contact via e-mail (`kukoll1@mcmaster.ca`: include "BIO 4AE3" in the subject line)
+	- office hours on Teams, TBA
+- teaching assistant: TBA
+    - weekly office hours, TBA
+    - please contact ...
 	- will answer as soon as possible, but will be more readily available during normal working hours (9 AM to 5 PM Toronto time)
 	- responses are **not** guaranteed within 24 hours of an assignment deadline; please plan ahead!
 
@@ -69,7 +73,7 @@ library(readr)
 
 mk_url <- function(x) {
   ifelse(nchar(trimws(x))==0,x,
-         sprintf("[%s](https://mac-theobio.github.io/DataViz/%s.html)",
+         sprintf("[%s](https://bbolker.github.io/bio4ae3/%s.html)",
                  x,x))
 }
 

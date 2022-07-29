@@ -1,4 +1,5 @@
-all: docs/assignments/README.html docs/assignments/eeid2009-midterm.pdf docs/index.html docs/eeid_bib.html allnotes docs/assignments/midterm-topics.html
+all: docs/assignments/README.html docs/assignments/eeid2009-midterm.pdf docs/index.html docs/eeid_bib.html 
+## allnotes docs/assignments/midterm-topics.html
 
 ## see also: mk_all
 allnotes:
