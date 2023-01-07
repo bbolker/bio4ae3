@@ -24,15 +24,13 @@ Materials on this web page are **under construction** and **subject to change**:
 ### Course meetings
 
 - 1:30-2:20 Mon/Weds/Thurs (all Toronto time), Hamilton Hall 102
-- University masking policy TBD
-- Lectures will be recorded (but discussion classes, e.g. most Fridays, will *not* be recorded). I think live captioning is available, but please let me know if you need it and it's not working well.
-- You are encouraged but not required to keep your cameras on when participating in virtual course activities
+- Masking is encouraged but not required
+- Please ask me if you need to participate remotely or access lecture recordings
 
 ### Misc info
 
 - Textbook: Claude Combes, *The Art of Being A Parasite*; available from the bookstore, also on the [Internet Archive](https://archive.org/details/artofbeingparasi0000comb)
-- Platforms: Avenue to Learn, Teams, course web page (see below)
-- 
+- Platforms: Avenue to Learn, course web page, forums (TBD) (see below)
 - [Full course bibliography](eeid_bib.html)
 
 ### Where to find stuff
