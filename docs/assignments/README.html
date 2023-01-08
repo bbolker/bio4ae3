@@ -276,6 +276,9 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
 pre code {
   padding: 0;
 }
@@ -295,8 +298,8 @@ pre code {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -304,16 +307,9 @@ pre code {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -363,11 +359,10 @@ pre code {
 </div>
 
 
-<p><em>Last updated</em>: 2022-02-11 20:47:28</p>
+<p><em>Last updated</em>: 2023-01-08 13:20:51.664604</p>
 <div id="discussion-questions-15" class="section level2">
 <h2>Discussion questions (15%)</h2>
-<p>The idea of discussion questions is just to get you focused on reading the papers before class, and to help structure the in-class discussion. Ideally you should come up with one question that’s general or conceptual and one that’s more technical (what does Figure 1 mean? how did they do xxx?). Unless otherwise specified, every Friday class will be a discussion. Discussion questions are due at <strong>6 PM</strong> on the day before a class discussion (typically Thursday), <strong>posted to the relevant channel on Teams</strong>; late answers are definitely better than nothing. Discussion questions will be marked on a 0-5 scale where 0=missing; 3 = OK; 4=fine; 5=outstanding. (Scores of 5 are rare.)</p>
-<p><strong>Note</strong>: I will probably be adjusting/curving these scores, or adjusting my grading, going forward. If you got 70% (3.75/5) on your first DQ, you’re doing OK - you should think of this as B+/A- territory, not B-/C+.</p>
+<p>The idea of discussion questions is just to get you focused on reading the papers before class, and to help structure the in-class discussion. Ideally you should come up with one question that’s general or conceptual and one that’s more technical (what does Figure 1 mean? how did they do xxx?). Unless otherwise specified, every Friday class will be a discussion. Discussion questions are due at <strong>6 PM</strong> on the day before a class discussion (typically Thursday), <strong>posted to the relevant place</strong>; late answers are definitely better than nothing. Discussion questions will be marked on a 0-10 scale.</p>
 </div>
 <div id="mini-essays-15" class="section level2">
 <h2>Mini-essays (15%)</h2>
@@ -432,6 +427,9 @@ pre code {
 <li><a href="./eeid2009-midterm.pdf">midterm from a previous (2009) iteration of this course</a></li>
 <li><a href="./midterm-topics.html">essay topics</a></li>
 </ul>
+</div>
+<div id="final-test" class="section level2">
+<h2>Final test</h2>
 </div>
 <div id="references" class="section level2 unnumbered">
 <h2 class="unnumbered">References</h2>

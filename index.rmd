@@ -17,7 +17,7 @@ Last updated: `r Sys.time()`
 
 ---
 
-Materials on this web page are **under construction** and **subject to change**: some material may be left over material from the previous [Winter 2022] course offering
+Materials on this web page are **under construction** and **subject to change**
 
 ---
 
@@ -35,11 +35,9 @@ Materials on this web page are **under construction** and **subject to change**:
 
 ### Where to find stuff
 	
-- on-line meetings: General channel on Teams
-- lecture recordings: General channel on Teams **or** Avenue to Learn] (when class is recorded on Echo360); **or** linked in schedule below
 - schedule, readings, notes, course outline, etc.: here
 - dropbox for assignments, marks: Avenue
-- discussion questions: "Discussion question" channel on Teams
+- discussion questions: TBD
 - [SpringerLink](https://libraryssl.lib.mcmaster.ca/libaccess/login.php?url=https%3a%2f%2flink.springer.com)
 
 ### Links
@@ -53,7 +51,7 @@ Materials on this web page are **under construction** and **subject to change**:
 - instructor: [Ben Bolker](http://www.math.mcmaster.ca/~bolker/)
     - General questions (anything you don't consider private) are best asked in the appropriate channel on Teams
     - Otherwise e-mail to `bolker@mcmaster.ca` with "BIO 4AE3" in the subject line; include your MacID in your message if not e-mailing from your McMaster e-mail account
-	- office hours on Teams, TBA
+	- office hours: TBA
 - teaching assistant: TBA
     - weekly office hours, TBA
     - please contact ...

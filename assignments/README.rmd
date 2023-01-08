@@ -7,9 +7,7 @@ bibliography: "../eeid.bib"
 
 ## Discussion questions (15%)
 
-The idea of discussion questions is just to get you focused on reading the papers before class, and to help structure the in-class discussion. Ideally you should come up with one question that's general or conceptual and one that's more technical (what does Figure 1 mean? how did they do xxx?). Unless otherwise specified, every Friday class will be a discussion. Discussion questions are due at **6 PM** on the day before a class discussion (typically Thursday), **posted to the relevant channel on Teams**; late answers are definitely better than nothing. Discussion questions will be marked on a 0-5 scale where 0=missing; 3 = OK; 4=fine; 5=outstanding. (Scores of 5 are rare.)
-
-**Note**: I will probably be adjusting/curving these scores, or adjusting my grading, going forward. If you got 70% (3.75/5) on your first DQ, you're doing OK - you should think of this as B+/A- territory, not B-/C+.
+The idea of discussion questions is just to get you focused on reading the papers before class, and to help structure the in-class discussion. Ideally you should come up with one question that's general or conceptual and one that's more technical (what does Figure 1 mean? how did they do xxx?). Unless otherwise specified, every Friday class will be a discussion. Discussion questions are due at **6 PM** on the day before a class discussion (typically Thursday), **posted to the relevant place**; late answers are definitely better than nothing. Discussion questions will be marked on a 0-10 scale.
 
 ## Mini-essays (15%)
 
@@ -84,5 +82,7 @@ You should know a variety of examples so that you can use them in your short ans
 
 - [midterm from a previous (2009) iteration of this course](./eeid2009-midterm.pdf)
 - [essay topics](./midterm-topics.html)
+
+## Final test
 
 ## References

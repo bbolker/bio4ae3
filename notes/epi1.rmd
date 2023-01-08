@@ -1,6 +1,6 @@
 ---
 title: "epidemic model basics"
-date: "17 January 2022"
+date: "? January 2023"
 bibliography: "../eeid.bib"
 ---
 
@@ -89,7 +89,7 @@ Build up basic dynamics: SI, SIR, SIR with vital dynamics.
 
 @hethcote_thousand_1994
 
-**Breakout rooms: Try to come up with a compartmental model for malaria!**
+**In groups: try to come up with a compartmental model for malaria!**
 
 # Conclusions from basic epidemic models
 
@@ -102,7 +102,7 @@ Build up basic dynamics: SI, SIR, SIR with vital dynamics.
 	- $r$ (growth rate) or *doubling time* also useful
     - critical control fraction is $v^* = 1 - 1/R_0$
 
-```{r echo=FALSE, fig.cap = "critical control fraction", fig.width = 6, fig.height=4}
+```{r critical-control, echo=FALSE, fig.cap = "critical control fraction", fig.width = 6, fig.height=4}
 par(las=1, bty="l",yaxs="i")
 curve(1-1/x,from=1,to=10,xlab=expression(R[0]),ylab="Critical control fraction", axes=FALSE,
       ylim=c(0,1))
@@ -117,7 +117,7 @@ box()
    - parasite dies out before it infects all hosts
    - **final size** depends only on $R_0$ (in simple cases)
    
-```{r echo=FALSE, fig.cap = "final size of SIR model", fig.width = 6, fig.height=4}
+```{r final-size, echo=FALSE, fig.cap = "final size of SIR model", fig.width = 6, fig.height=4}
 library(emdbook)
 finalsize <- function(R0) {
   1+1/R0*lambertW(-R0*exp(-R0))
@@ -257,7 +257,7 @@ Dynamics of epidemics can change over longer (decadal/century-long) Once again, 
 
 ## Dynamics pictures
 
-```{r sir_dynam, echo = FALSE, message=FALSE, fig.cap = "basic SIR dynamics", warning = FALSE, fig.width = 8, fig.height = 4}
+```{r sir-dynam, echo = FALSE, message=FALSE, fig.cap = "basic SIR dynamics", warning = FALSE, fig.width = 8, fig.height = 4}
 source("sir_dynamics.R")
 tmpplot(d1)
 ```

@@ -1,6 +1,6 @@
 ---
 title: Definitions
-date: 12 January 2022 
+date: 9 January 2023
 bibliography: "../eeid.bib"
 ---
 
@@ -49,8 +49,8 @@ How do we get this information?
 
 ## evolution
 
-"changes in gene frequency in a population between generations" -
-due to **mutation**, **selection**, **drift**, etc. -
+"changes in genotype frequency in a population between generations" -
+due primarily to **mutation**, **selection**, **drift**, etc.^[does anyone remember the other two assumptions of Hardy-Weinberg equilibrium?]
 or more broadly, the change in characteristics of organisms over
 time due to genetic change.
 
@@ -98,7 +98,7 @@ pander::pander(dd, emphasize.strong.col = 1)
 - Classical **macroparasites** (nematodes, schistosomes, trematodes, acanthocephalans, molluscs ...)
 - **Ectoparasites**/grazers (leeches, fleas)
 - **Phytophagous insects** (aphids, *Lepidoptera* etc.)
-- **Behavioral** parasites ("scroungers"): brood parasites (intraspecific and cuckoos) and kleptoparasites (skuas)
+- **Behavioral** parasites ("scroungers"): brood parasites (intraspecific and cuckoos, cowbirds, etc.) and **kleptoparasites** (skuas)
 - **Cheaters** in animal societies (e.g. reproducing worker bees)
 - **Cheaters** in mutualisms (ant-plant scroungers)
 
@@ -110,9 +110,9 @@ parasites, parasitoids, and predators to be extremely different (cf. anthrax and
 
 ## Why are we talking about parasites in general when this course is about infectious disease?
 
-1. parasites have a major impact on **morbidity** (disease) and **mortality**, albeit mostly in less-developed countries (should we care less?) (2) thinking about
-2. understanding parasitism in general gives a broader scope for understanding biological interactions involved in disease 
-3. parasites are really neat
+1. parasites have a major impact on **morbidity** (disease) and **mortality**, albeit mostly in less-developed countries (should we care less?)
+2. understanding parasitism in general gives broader scope for understanding eco/evo
+3. parasites are cool (complex life cycles etc.)
 
 ## microparasites and macroparasites
 
@@ -121,7 +121,7 @@ microorganism (virus/bacterium/protozoan/fungus) but more generally
 a parasite where we count hosts as uninfected/infected. (Counterexample: viral load)
 - **macroparasite** (**intensity-dependent** parasite): typically, a metazoan parasite (cestode/nematode/copepod/insect) but more generally a parasite where we track the intensity of infection per host
 
-**Why do we care?** Because we have to think differently about the interaction
+**Why do we care?** Because we have to model the interaction differently
 
 # Origins of parasitism
 
@@ -139,8 +139,13 @@ at organismal traits in a **phylogenetic** context.
 - **phoresis**: the use of a (**phoretic**) host for transport (or a stable environment) only (e.g. some mites, nematodes)
 - Combes describes the progressive intensification of parasitism in
 12 species of prosobranch molluscs
-- @moran_lifestyle_2000: chronic (**obligate**) symbionts are stuck, 
+- chronic (**obligate**) symbionts are stuck, 
 but **opportunistic** symbionts can easily flip between mutualism/commensalism and parasitism
+[@moran_lifestyle_2000]
+
+## parasite/mutualism shifts
+
+![Fig 1, @drewMicrobial2021a](pix/drew_symb_evo.png)
 
 ##  References
  

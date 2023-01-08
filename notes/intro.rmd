@@ -30,7 +30,7 @@ class, when you don't understand something**. There is no such thing
 as a stupid question. If you don't know something you're
 probably not the only one in class.
 - behave responsibly in online and in-person settings
-- do your own work, don't plagiarize, reference sources appropriately, credit group work appropriately
+- do your own work, don't plagiarize, reference sources appropriately, credit group work appropriately: see [honesty.html](honesty.html).
 
 # Assignments & grading
 
@@ -45,7 +45,7 @@ didn't understand and would like clarified in class.
 
 # Recordings and notes
 
-- I will post lecture notes beforehand and recordings afterward. Don't expect the notes to be comprehensive.
+- I will post lecture notes beforehand; recordings will be available by request. Don't expect them to be comprehensive.
 - There will be some 'spoiler' blocks in notes.
 - If you prefer notes in another format, ask.
 

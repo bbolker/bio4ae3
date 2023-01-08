@@ -10,7 +10,6 @@
 
 
 
-<meta name="date" content="2022-01-17" />
 
 <title>epidemic model basics</title>
 
@@ -277,6 +276,9 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
 pre code {
   padding: 0;
 }
@@ -296,8 +298,8 @@ pre code {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -305,16 +307,9 @@ pre code {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -360,7 +355,7 @@ pre code {
 
 
 <h1 class="title toc-ignore">epidemic model basics</h1>
-<h4 class="date">17 January 2022</h4>
+<h4 class="date">? January 2023</h4>
 
 </div>
 
@@ -427,7 +422,7 @@ pre code {
 </div>
 <p>(pictures: Irena Papst)</p>
 <p><span class="citation">Hethcote (1994)</span></p>
-<p><strong>Breakout rooms: Try to come up with a compartmental model for malaria!</strong></p>
+<p><strong>In groups: try to come up with a compartmental model for malaria!</strong></p>
 </div>
 <div id="conclusions-from-basic-epidemic-models" class="section level1">
 <h1>Conclusions from basic epidemic models</h1>
@@ -586,7 +581,7 @@ basic SIR dynamics
 </div>
 </div>
 <hr />
-<p>Last updated: 2022-02-11 20:02:26</p>
+<p>Last updated: 2023-01-08 13:20:35.151427</p>
 </div>
 </div>
 
