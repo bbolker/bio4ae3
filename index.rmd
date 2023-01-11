@@ -37,7 +37,7 @@ Materials on this web page are **under construction** and **subject to change**
 	
 - schedule, readings, notes, course outline, etc.: here
 - dropbox for assignments, marks: Avenue
-- discussion questions: TBD
+- discussion questions: [Piazza](https://piazza.com/mcmaster.ca/spring2023/biology4ae3)
 - [SpringerLink](https://libraryssl.lib.mcmaster.ca/libaccess/login.php?url=https%3a%2f%2flink.springer.com)
 
 ### Links
@@ -45,14 +45,15 @@ Materials on this web page are **under construction** and **subject to change**
 - [Course outline](outline.docx)
 - [Assignments](./assignments/README.html) (due dates in schedule below)
 - [The back-end for this site](https://github.com/bbolker/bio4ae3)
+- [Extras](extras.html)
 
 ## Communication
 
 - instructor: [Ben Bolker](http://www.math.mcmaster.ca/~bolker/)
-    - General questions (anything you don't consider private) are best asked in the appropriate channel on Teams
-    - Otherwise e-mail to `bolker@mcmaster.ca` with "BIO 4AE3" in the subject line; include your MacID in your message if not e-mailing from your McMaster e-mail account
+    - Questions are best asked in the appropriate channel on Piazza: https://piazza.com/mcmaster.ca/spring2023/biology4ae3/info (publicly or privately)
+    -  **if necessary**, e-mail to `bolker@mcmaster.ca` with "BIO 4AE3" in the subject line; include your MacID in your message if not e-mailing from your McMaster e-mail account
 	- office hours: TBA
-- teaching assistant: TBA
+- teaching assistant: Colleen Wardlaw
     - weekly office hours, TBA
     - please contact ...
 	- will answer as soon as possible, but will be more readily available during normal working hours (9 AM to 5 PM Toronto time)
