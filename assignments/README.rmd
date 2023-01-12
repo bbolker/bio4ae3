@@ -5,7 +5,7 @@ bibliography: "../eeid.bib"
 
 *Last updated*: `r Sys.time()`
 
-## Discussion questions (15%)
+## Discussion questions (Part of 20% participation mark)
 
 The idea of discussion questions is just to get you focused on reading the papers before class, and to help structure the in-class discussion. Ideally you should come up with one question that's general or conceptual and one that's more technical (what does Figure 1 mean? how did they do xxx?). Unless otherwise specified, every Friday class will be a discussion. Discussion questions are due at **6 PM** on the day before a class discussion (i.e. Friday afternoon at 6 PM for a Monday discussion), **posted to the relevant place**; late answers are definitely better than nothing. Discussion questions will be marked on a 0-10 scale.
 
@@ -33,7 +33,7 @@ Some mini-essay topics invented by past students:
 
 - [example mini-essays from past students](https://mcmasteru365.sharepoint.com/:f:/r/sites/Section_2221-1863/Class%20Materials/mini-essay%20examples?csf=1&web=1&e=Sldxl0)
 
-## Term paper (30%)
+## Term paper (25%)
 
 The term paper can be on any  topic of your choice having to do with the ecology or evolution of infectious disease or parasites. 
 You can focus on a particular parasite, or a particular host-parasite system, or a general phenomenon that's illustrated by several different host-parasite systems ...
@@ -62,7 +62,7 @@ should be properly cited in the style of your choice.
 
 (most of these are evolutionary topics but there's no reason not to pick a more ecological topic ...)
 
-## Emerging disease presentation (15%)
+## Emerging disease presentation (10%)
 
 Work in a group to write a paper describing a *fictional* (but realistic) emerging disease. It could have a human, non-human animal, or plant origin. Give basic natural history and biological details such as:
 
@@ -83,6 +83,8 @@ You should know a variety of examples so that you can use them in your short ans
 - [midterm from a previous (2009) iteration of this course](./eeid2009-midterm.pdf)
 - [essay topics](./midterm-topics.html)
 
-## Final test
+## Final test (5%)
+
+This is a low-stakes test to encourage you to pay attention to ideas that are presented after the midterm test (there is no final exam). It will (probably) consist of definitions, short-answers, and maybe an essay.
 
 ## References
