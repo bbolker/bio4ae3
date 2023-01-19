@@ -20,3 +20,19 @@ See @elliotIntroduction (intro, a little mathy, but very clear); @kuhnerCoalesce
 ## malaria map
 
 See the Malaria Atlas Project at https://malariaatlas.org/; also @hayMalaria2006
+
+#  week 2
+
+## $R_0$ and case fatality rate
+
+There are lots of these graphs/comparisons.  Here's one from @callawaycoronavirus2020:
+
+![](pix/r0_casefatality.png)
+
+I'm a little surprised by the width of the MERS $R_0$ estimate. 
+
+Here's another one from the New York Times [@thelearningnetworkWhat2020]:
+
+![](pix/r0_casefatality2.png)
+
+# references
