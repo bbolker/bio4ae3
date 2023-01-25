@@ -44,7 +44,7 @@ to the rule.
 ## Humans: historical and modern
 
 Plague of Athens (430-429 BC) killed 25% of the population of 155,000
-(measles?); also 25% in Rome in AD 165-180 (smallpox). Black Death
+(measles? typhoid? plague?) [@littman_plague_2009; @cunha_cause_2004; @shapiro_no_2006; @papagrigorakis_dna_2006]; also 25% in Rome in AD 165-180 (smallpox). Black Death
 (1347) killed 25%-50% of the population of Europe (setting back
 centuries of growth since 800). Population of Mexico dropped from 20
 million to 3 million between 1518 and 1568, then to 1.6 million.
