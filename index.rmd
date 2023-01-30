@@ -13,7 +13,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 th {background-color: #ccccff;}
 </style>
 
-Last updated: `r Sys.time()`
+Last updated: `r format(Sys.time(), "%d %b %Y %H:%M")`
 
 ---
 

@@ -37,7 +37,7 @@ encourage trophic transmission:\
 Costs and benefits of parasitism: individual-level vs. population-level
 effects.
 
-## Parasite-mediated coexistence
+## Parasite-mediated coexistence [@combes_parasites_1996]
 
 - *Drosophila melanogaster*, *D. simulans*, *L. boulardi* (parasitoid
 wasp): exclusion by *melanogaster* in absence of *boulardi*;
@@ -47,10 +47,12 @@ lower temperature with *boulardi* [@combes_parasites_1996]
 - *Tribolium castaneum*, *T. confusum* (flour beetles), *Adelina
 tribolii* (sporozoan parasite) [@park_interspecies_1948]
 
+- Prevention of mixing because hybrids are less resistant to parasites? (**outbreeding depression**)
+
 ## Parasite-mediated invasion [@strauss_invading_2012]
 
--   human movement: Europeans to the New World, Europeans to Africa
--   introduced parasites: e.g. *Acipenser stellatus* (from Caspian to Aral Sea), carried *Nitzchia sturionis* (gill monogenean), severely reduced populations of *A. nudiventris*
+- human movement: Europeans to the New World, Europeans to Africa
+- introduced parasites: e.g. *Acipenser stellatus* (from Caspian to Aral Sea), carried *Nitzchia sturionis* (gill monogenean), severely reduced populations of *A. nudiventris*
 
 - Invasive species and the **natural enemy hypothesis**
 
@@ -98,27 +100,28 @@ stoats than in their absence!)
 
 ## ecosystem engineering 
 
-- Parasitized cockles: changed bioturbation (stirring), presence of hard
-surface has various impacts on community structure
+- Parasitized cockles [@thomas_manipulation_1998; @thomasParasites1999]: changed bioturbation (stirring), presence of hard surface has various impacts on community structure. Changes habitat for other species; arrows mediated through the environment.
 
 ## Large-scale community structure
 
 - trypanosomiasis keeps out livestock, horses (and hence humans, or at least Europeans)
 - Serengeti
-   - rinderpest, ungulates, vegetation, trypanosome interaction ("Inventing Africa", New Scientist 2000)
-   - @holdo_disease-mediated_2009
+   - rinderpest, ungulates, vegetation, trypanosome interaction [@pearceInventing2000]
+   - @holdo_disease-mediated_2009: effects of rinderpest on fire frequency and carbon storage
 
 ![](pix/holdo_graph.png)
    
 - Chestnut blight (hypovirulence, fungal superparasites)
 - Cascading effects of myxomatosis in Australia and Britain [@sumption_ecological_1985]
-    -   increased woodland regeneration and increased grassland and cereal production
-    -   increase in many inverts, voles, but some species of insects declined (Large Blue Butterfly, *Maculinea arion*, because of missing red ant species
+    -   Britain: post 1954-55, increased woodland regeneration and increased grassland and cereal production
+    -   increase in many inverts, voles, but some species of insects declined (Large Blue Butterfly, *Maculinea arion*, went extinct because of missing red ant species)
     -   predator populations dropped immediately, but generalists recovered
     -   other rabbit parasites declined
 
 
 ## Community effects on parasites
+
+"Keeping the herds healthy": when is predator removal bad for hosts?
 
 - @lafferty_fishing_2004
 - @packer_keeping_2003
