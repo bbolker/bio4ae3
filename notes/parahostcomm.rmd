@@ -77,13 +77,13 @@ parameters that we don't know), moose could outcompete deer, be
 outcompeted by deer, or coexist even in the presence of deer and *P.
 tenuis*.
 
--   just because a parasite kills a host in a clinical setting doesn't
+- just because a parasite kills a host in a clinical setting doesn't
 mean that the parasite will necessary reduce host population
 significantly
 - model identifies sensitive parameters:
-- growth rate of intermediate hosts (gastropods)
-- competitive interaction between moose and deer
-- death rate of moose from parasites
+    - growth rate of intermediate hosts (gastropods)
+    - competitive interaction between moose and deer
+    - death rate of moose from parasites
 
 ## Trophic cascades and apparent mutualism
 
@@ -94,8 +94,7 @@ food chain (prey decrease, prey's prey increase, etc.). Can parasites be
 (individual or population) depends on level of parasitism, costs,
 benefits. Predator population size might be max. with no parasites, but
 individual decisions (presumably) maximize individual fitness.
-- Toxoplasma-induced bottom-up trophic cascades (??): @skorping_trophic_2001/@pusenius_effects_2000: *more* seeds eaten in the presence of
-stoats than in their absence!)
+- Toxoplasma-induced bottom-up trophic cascades (??): @skorping_trophic_2001/@pusenius_effects_2000: *more* seeds eaten in the presence of stoats than in their absence!)
 - Increased flow through food webs, ecosystem efficiency?
 
 ## ecosystem engineering 
@@ -104,7 +103,7 @@ stoats than in their absence!)
 
 ## Large-scale community structure
 
-- trypanosomiasis keeps out livestock, horses (and hence humans, or at least Europeans)
+- rinderpest $\to$ ungulates $\to$ grass $\to$ brushy vegetation $\to$ tsetse flies $\to$ trypanosomiasis: keeps out livestock, horses (and hence humans, or at least Europeans) [@pearceInventing2000]
 - Serengeti
    - rinderpest, ungulates, vegetation, trypanosome interaction [@pearceInventing2000]
    - @holdo_disease-mediated_2009: effects of rinderpest on fire frequency and carbon storage
@@ -114,19 +113,20 @@ stoats than in their absence!)
 - Chestnut blight (hypovirulence, fungal superparasites)
 - Cascading effects of myxomatosis in Australia and Britain [@sumption_ecological_1985]
     -   Britain: post 1954-55, increased woodland regeneration and increased grassland and cereal production
-    -   increase in many inverts, voles, but some species of insects declined (Large Blue Butterfly, *Maculinea arion*, went extinct because of missing red ant species)
-    -   predator populations dropped immediately, but generalists recovered
-    -   other rabbit parasites declined
+       -   increase in many inverts, voles, but some species of insects declined (Large Blue Butterfly, *Maculinea arion*, went extinct because of missing red ant species)
+       -   predator populations dropped immediately, but generalists recovered
+       -   other rabbit parasites declined
 
 
 ## Community effects on parasites
 
-"Keeping the herds healthy": when is predator removal bad for hosts?
+- "Keeping the herds healthy": when is predator removal bad for hosts?
+- @packer_keeping_2003, @lafferty_fishing_2004
+- competing effects
+   - kill infected individuals, reduce density
+   - *inverse* density dependence (e.g. vector-borne transmission)?
 
-- @lafferty_fishing_2004
-- @packer_keeping_2003
-
-> In general, predator removal is more likely to be harmful when the parasite is highly virulent, macroparasites are highly aggregated in their prey, hosts are long-lived and the predators select infected prey
+> In general, predator removal is more likely to be harmful [i.e. increase parasitism] when the parasite is highly virulent, macroparasites are highly aggregated in their prey, hosts are long-lived and the predators select infected prey
 
 - @richards_predators_2021
 
