@@ -1,0 +1,52 @@
+---
+title: "Within-host dynamics"
+bibliography: "../eeid.bib"
+---
+
+Understanding within-host host-parasite interactions (dynamically)
+
+Lots of molecular biology, genetics (*recognition* mechanisms and *effector* mechanisms), won't deal with that now.
+
+Interaction between different components of the immune system (modeled at different levels of detail/realism), parasite populations (maybe in multiple compartments?)
+
+Longitudinal data (rare), distributional data.
+
+@bonhoeffer_human_1997
+
+300-fold decline in viral RNA in some patients, but not clearance
+
+![](pix/bonhoeffer_fig1.png)
+
+![](pix/bonhoeffer_fig2.png)
+
+"virus load paradox": if $R_0$ is initially 50, we would have to reduce it to slightly above 1 but never **below** 1 to see these results.
+
+$$
+\begin{split}
+\frac{dC}{dt} & = \lambda - \mu C - \beta CV \\
+\frac{dV}{dt} & = \beta CV - a V
+\end{split}
+$$
+
+- add a drug-resistant type
+- add mutation
+- add immune responses ($dz/dt = kV - \gamma z$)
+- homeostasis of infectible cells (logistic growth)
+- virus-induced killing of uninfected cells (e.g. gp120 shedding)
+- differential effects of drug on different types
+- distribution of infectibility
+
+
+![](pix/bonhoeffer_fig3.png)
+
+@brown_intracellular_2006
+
+##  References
+ 
+::: {#refs}
+:::
+
+---
+
+Last updated: `r Sys.time()`
+	
