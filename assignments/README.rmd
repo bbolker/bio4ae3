@@ -42,7 +42,7 @@ It should be 10-15 pages long and give a clear, well-written synthesis and discu
 I expect most of the references to be articles in the peer-reviewed literature; some books and a few web URLs are acceptable. Everything
 should be properly cited in the style of your choice.
 
-- a paragraph or two laying out your topic, and giving three references, is due on February 9 (1 month into the term).
+- a paragraph or two laying out your topic, and giving three references, is due on February 8 (1 month into the term), at the end of the day.
 - your first draft is due on March 16, one month later. **This should be a finished paper representing your best effort**: the better the
  draft, the better feedback you will get from your peers/the TA/me.
 - you will have one week to critique one of your peers' papers (using peerScholar)
