@@ -11,8 +11,6 @@ hosts and parasites.
 Hosts can evolve **resistance** (typically by closing the compatibility filter) or **tolerance** (focusing on resistance this week).
 
 
-@stahl_dynamics_1999: **Arms races** in a disease-resistance locus of *Arabidopsis*
-
 - **Red Queen** (cyclic)
    - new alleles arise frequently
    - *frequency-dependent selection*: rare alleles in the parasite, or host, have an advantage
@@ -23,7 +21,16 @@ Hosts can evolve **resistance** (typically by closing the compatibility filter) 
 
 (@gibson_genetic_2019; see also @dybdahl_parasite_2003)
 
-- **trench warfare** (unidirectional)
+- **matching alleles**: e.g. host has a **self-nonself recognition system** (typical in inverts); parasite succeeds if it matches (i.e. looks like host). Favors local adaptation, cycling/variation, dilution effects.
+- **inverse matching alleles**: host matches many parasite signals (e.g. vertebrate antibody/antigen matching); parasite succeeds if it **does not** match any of the host antibodies. Doesn't favour rare host genotypes, anti-dilution effects.
+- **gene-for-gene**: like inverse matching, but there is a "universal infector" that doesn't match anything (i.e. infects everything) (Plants: R genes, Avr genes). [Wikipedia](https://en.wikipedia.org/wiki/Gene-for-gene_relationship):
+
+> Because there would be no evolutionary advantage to a pathogen keeping a protein that only serves to have it recognised by the plant, it is believed that the products of Avr genes play an important role in virulence in genetically susceptible hosts. 
+
+
+@stahl_dynamics_1999: **Arms races** in a disease-resistance locus of *Arabidopsis*
+
+- **trench warfare**/arms race (unidirectional)
   - resistance builds up until benefits balanced by costs
   - resistance alleles *polymorphic*
   - short-term *stabilizing* selection
@@ -34,7 +41,7 @@ Hosts can evolve **resistance** (typically by closing the compatibility filter) 
 **Sex and variations**: we consider **dioecy** or **gonochory** (individuals are either
 male or female), but there are many variations: individuals may be
 **sequential** or **simultaneous** hermaphrodites. They may
-**self**-fertilize or **outcross** to different degrees.
+**self-fertilize** or **outcross** to different degrees.
 
 **Costs of sex**: mating failure (vs. *reproductive assurance*), cost of
 males, **cost of meiosis** (when only half your genes make it into your
@@ -155,7 +162,7 @@ variable" offspring, but this is not necessarily the case. What sex
 really does is to allow recombination of different genotypes ... what
 is the true relationship between sexual reproduction and variability? It
 depends on population size, how frequently asexual lineages are split
-off from the sexual population and how, etc. etc..
+off from the sexual population and how, etc. etc.. (Importance of **epistasis**: [@metzger_red_2016])
 
 ##  References
  
