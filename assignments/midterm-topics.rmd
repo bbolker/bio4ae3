@@ -17,13 +17,13 @@ of different parts of the definition and
 their implications for the ecology and evolution
 of host-parasite interactions.
 
-3. Describe box models for disease. What do boxes,
-solid lines, and dashed lines usually represent?
-Construct a box model for an epidemic of gonorrhea in
-a heterosexual population where you keep track of
-males and females separately (gonorrhea can be treated with
-antibiotics, but recovered people do not develop immunity).
-Write down a set of equations that corresponds to these boxes.
+3. Give one example of a model that can be 
+used to study **within-host** dynamics of a disease.
+Illustrate the structure with a box model where the
+compartments either contain individual hosts or
+within-host components. Describe the basic assumptions
+of the model and write some equations describing the
+*per capita* transition rates between the compartments.
 
 4. Define the difference between microparasites
 and macroparasites, both in terms of how they
@@ -40,16 +40,15 @@ ${\cal R}_0$ give you about the outcomes of introducing
 a parasite to a population?  What does it tell you about disease
 control?
 
-6. What is the difference between frequency-
-and density-dependent transmission?
-Why is it important?  What kinds of parasites might
-typically follow one mode or the other? (Why?) 
-What are the implications of frequency- vs density-dependent transmission
-for disease persistence and control?
+6. Describe how we can use phylogenetic comparative methods to establish 
+the evolutionary history of an organismal trait (such as a parasitic lifestyle).
+What data do we need? Make up an example showing how we would infer that 
+a gut parasite evolved from a free-living ancestor by way of a commensal stage.
 
 7. Discuss the population dynamics of red grouse populations in
-Scotland and northern England, why they might be affected by
-interactions with parasites, and the field experiments that provide
+Scotland and northern England, why you might suspect that parasites
+were involved, an alternative hypothesis for
+the observed dynamics, and describe the field experiments that provide
 evidence that the population dynamics really are parasite-driven.
 
 8. Discuss how parasites can create indirect links between
@@ -63,9 +62,4 @@ and/or models to establish that parasites were really responsible.
 What are the advantages and disadvantages of using parasites
 for biocontrol compared to classical methods (e.g. chemical treatments)?
 
-10. What is a matching-alleles model for host-parasite interactions?
-What kind of molecular mode of infection and resistance might give rise
-to this pattern of interaction? What are the expected evolutionary dynamics
-over time, and the resulting temporal changes in host resistance and
-parasite infectivity?
 
