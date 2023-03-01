@@ -1,6 +1,6 @@
 ---
 title: "evolution of virulence"
-date: "27 February 2022"
+date: "1 March 2023"
 bibliography: "../eeid.bib"
 ---
 
@@ -31,7 +31,7 @@ opts_chunk$set(echo=FALSE, fig.width=6, fig.height =4)
    - syphilis; first seen in Europe in 1495 (the "Great Pox") [@knell_syphilis_2004]
        - origins? (previously misdiagnosed; evolved increased virulence; from Africa; from the New World)
 	   - virulence decreased rapidly over 50 years (maybe even 5-7 years?)
-   - *virgin-soil epidemics*: smallpox, etc. [@crosby_virgin_1976; ostler_disease_2020] (probably *not* virulence: lack of genetic resistance, previous exposure, societal breakdown, effects of colonization?) 
+   - *virgin-soil epidemics*: smallpox, etc. [@crosby_virgin_1976; @ostler_disease_2020] (probably *not* virulence: lack of genetic resistance, previous exposure, societal breakdown, effects of colonization?) 
 - sampling bias? 
    - biocontrol examples always select for maximal virulence
    - mild introductions may not be noticed
@@ -87,8 +87,7 @@ include_graphics("pix/hiv_prog.png")
 
 ![](pix/blanquart_fig2.png)
 
-- some suggestion t
-
+- some suggestion of overall increase in virulence (decreased CD4 count/increased viral load)
 - highly variable (e.g. increasing in Italy [@muller_increasing_2009]? attenuating due to spread of less virulent subtype C [@arien_is_2007]? decreasing in Uganda [@blanquart_transmission-virulence_2016]? increasing overall [@herbeck_is_2012]?
 
 ![](pix/herbeck_hivmeta.png)
@@ -174,11 +173,11 @@ abline(v=4,col="gray")
 
 ![](pix/boots_trans.png)
 
-```{r}
+```{r fig.dim = c(6,6), out.width="50%"}
 knitr::include_graphics("pix/bolker_park_fig1a.png")
 ```
 
-```{r}
+```{r fig.dim = c(6,6), out.width="50%"}
 knitr::include_graphics("pix/bolker_park_fig2.png")
 ```
 ![](pix/berngruber_fig.png)
