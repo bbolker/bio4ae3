@@ -69,6 +69,15 @@ Bottom line: myxomavirus probably still reduces populations
 somewhat, but the Australians continue to look for other biocontrol
 solutions (calicivirus, rabbit haemhorrhagic disease).
 
+Genomic analysis: @kerrEvolutionary2012a, @kerrComparative2013, @kerrDivergent2022
+
+* Australia
+   * some mutations with clear virulence effects (insertion disrupts reading frame involving cell cycle; deletion affects immunosuppressive pathway)
+   * **probably** "attenuation-restoration" in Australia: attenuating mutations fixed, then restored
+* Britain
+   * premature stop codon disrupts immunosuppression
+   * parallel evolutions, but different substitutions
+   
 ## Example: HIV
 
 - Correlations among
