@@ -182,6 +182,8 @@ abline(v=4,col="gray")
 
 ![](pix/boots_trans.png)
 
+<!--
+
 ```{r fig.dim = c(6,6), out.width="50%"}
 knitr::include_graphics("pix/bolker_park_fig1a.png")
 ```
@@ -189,6 +191,9 @@ knitr::include_graphics("pix/bolker_park_fig1a.png")
 ```{r fig.dim = c(6,6), out.width="50%"}
 knitr::include_graphics("pix/bolker_park_fig2.png")
 ```
+
+-->
+
 ![](pix/berngruber_fig.png)
 
 ## Effects of vaccines and treatment
