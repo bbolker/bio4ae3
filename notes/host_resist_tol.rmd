@@ -178,6 +178,8 @@ age approx. 50 KYA
 
 ## HIV
 
+From @galvani_evolutionary_2005:
+
 ![](pix/ccr_dist.png) 
 
 - where does CCR5-$\Delta 32$ come from?
