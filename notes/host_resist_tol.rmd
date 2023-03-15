@@ -204,6 +204,17 @@ From @galvani_evolutionary_2005:
    * mechanism
    * population history
 
+## more examples
+
+@dominguez-andresImpact2019
+
+![](pix/variants.png)
+
+## GWAS
+
+@mboowaHuman2018
+
+![](pix/gwas.png)
 
 ##  References
  
