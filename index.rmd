@@ -46,6 +46,7 @@ Materials on this web page are **under construction** and **subject to change**
 - [Assignments](./assignments/README.html) (due dates in schedule below)
 - [The back-end for this site](https://github.com/bbolker/bio4ae3)
 - [Extras](extras.html)
+- [in-class scribbles](./class_scribbles.pdf) (up to 13 March)
 
 ## Communication
 
