@@ -46,15 +46,17 @@ bird?
 - gut fluke
 - life cycle: mammal $\to$ snail $\to$ ants
 - ruminants (mostly cows) are the **definitive host**, but humans are also infected
-- modifies ant behavior so that they
-crawl up grass stalks to improve their chances of being ingested
-"accidentally" by a cow and thus transmitting the parasite. The upstream
-host (ant) is having its physiology and behavior modified to bring it
-into the environment of the downstream nhost (cow), which behaves
-normally. The "signal" that ants respond to is gravity (ants move up stalks).
+- modifies ant behavior so that they crawl up grass stalks to improve their chances of being ingested "accidentally" by a cow and thus transmitting the parasite. The upstream host (ant) is having its physiology and behavior modified to bring it into the environment of the downstream host (cow), which behaves normally. The "signal" that ants respond to is gravity (ants move up stalks).
    - "a phylogenetically old sleeping behaviour typical for some  non-social Hymenoptera (e. g. Ammophila)" [@wickler_evolution-oriented_1976]
    - *kin selection* operating: the cercaria that modifies behaviour isn't transmitted ... (cf. slime mold, *Dictyostelium*)
-   
+
+**Fungal entomopathogens**
+
+- *Ophiocordyceps* is the poster child
+- @debekkerOphiocordyceps2019a, @debekkerMechanisms2021, @debekkerBehavior2014, @araujoZombieAnt2019 ([link](https://ars.els-cdn.com/content/image/1-s2.0-S0960982219311649-gr1_lrg.jpg))
+
+![](pix/entomopath.png)
+
 **Toxoplasma gondii**
 
 - intracellular parasite of neurons
