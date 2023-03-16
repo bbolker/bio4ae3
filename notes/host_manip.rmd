@@ -1,6 +1,6 @@
 ---
 title: "host manipulation by parasites"
-date: "28 March 2022"
+date: "15 March 2023"
 bibliography: "../eeid.bib"
 csl: apa.csl
 header-includes:
@@ -144,13 +144,13 @@ have to classify its effects on host and parasite fitness. Here is one
 such possible classification:
 
   ---------------------- ------------------ -----------------------------------
-   **Parasite fitness**   **Host fitness**            **Explanation**
-    + (transmission)            -                Parasite manipulation
-    + (survivorship)           0/-               Parasite site selection
-    - (survivorship)            +             Host behavioral resistance
+   **Parasite fitness**   **Host fitness**  **Explanation**
+    + (transmission)            -           Parasite manipulation
+    + (survivorship)           0/-          Parasite site selection
+    - (survivorship)            +           Host behavioral resistance
     - (transmission)            ?           Host inclusive-fitness reactions?
-           0/-                  -                   Host pathology?
-           0/+                  +                  Host compensation
+           0/-                  -           Host pathology?
+           0/+                  +           Host compensation (tolerance)
   ---------------------- ------------------ -----------------------------------
 
 # Testing hypotheses
@@ -211,12 +211,12 @@ fitness.
     the right host [@brassard_parasite-induced_1982].
 -   Parasites may select particular host organs (that have strong
     effects on host behavior) for reasons other than influencing host
-    behavior. For example, parasites in host CNS tissues are often
-    isolated from host defenses: 'immunological privilege' [@dunsmore_accumulation_1983]. 
-	The lens of the eye is also *immunologically privileged* [@szidat_structure_1969].
+    behavior. For example, parasites in host CNS tissues, or in the lens
+	of the eye, are often
+    isolated from host defenses: 'immunological privilege' [@dunsmore_accumulation_1983; @szidat_structure_1969].
 -   if a change in a control system is a parasite adaptation, then any
     changes in behavior should be postponed until the parasite is
-    actually in an infective stage, ready to infect the next host in the
+    actually *in an infective stage*, ready to infect the next host in the
     life cycle.
 -   Mechanistic explanations, really nailing down the biochemical or
     other changes leading to behavioral change, are also powerful. For
@@ -244,7 +244,7 @@ life history or virulence, at least there are more standard benchmarks
 ![](pix/moore_cockroach_phylo.png)
 
 Acanthocephalans are transmitted from cockroaches to other hosts by
-predation, which makes them a good candidate for (parasite-)adaptive
+predation, which makes them a good candidate for (parasite-) adaptive
 parasite-induced behavioral change driven by predation success. Moore
 and Gotelli took a morphological study of cockroaches, constructed a
 cockroach phylogeny, and mapped their own studies of a variety of
@@ -293,16 +293,24 @@ put on parasites?**
 
 ## Sex ratio distortion
 
-There are variants of parasitic castration: the "pharaoh strategy" (kill
-all males), or turning males into females (genetically or
+**Fisher's principle**: most organisms do best with even sex ratios (on average), unless they do a lot of inbreeding
+
+There are variants of parasitic castration: male-killing (the "pharaoh strategy"), or **feminization**: turning males into females (genetically or
 phenotypically). The host will try to compensate (by producing more
 males) if it can, to reach its optimal sex ratio; the parasite will
-fight back. (One can imagine, although I don't know of an example, a
-"species" where sex determination is entirely parasite-driven; all
-females parasitized, all males unparasitized.) Again, in *Gammarus*
+fight back. 
+
+In *Gammarus*
 infected with *Octosporea effeminans* (a microsporidian), 90% of
 offspring of parasitized mothers become females (as opposed to 50--80%
-in unparasitized broods).
+in unparasitized broods). 
+
+*Wolbachia* is an incredibly common intracellular, vertically transmitted bacter
+ium of arthropods that has a huge range of sex ratio distortion tricks.
+
+@charlatEvolutionary2003
+
+>  [In the pill woodlouse *Armadillidium vulgare*] The spread of the feminizing Wolbachia has caused the loss of the female-determining W chromosome from infected populations, and all individuals in these populations are ZZ. The female-determining factor has switched from being the W chromosome to the feminizing Wolbachia: individuals are female if Wolbachia is present and active, and male if it is either absent or inactive. 
 
 There is a problem at the lineage level with this strategy: unless
 females can reproduce parthenogenetically, you may be dooming your host
