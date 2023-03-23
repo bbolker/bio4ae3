@@ -1,6 +1,6 @@
 ---
 title: "evolution of parasite countermeasures"
-date: "14 March 2022"
+date: "23 March 2023"
 bibliography: "../eeid.bib"
 csl: apa.csl
 header-includes:
@@ -33,6 +33,12 @@ opts_chunk$set(echo=FALSE, fig.width=6, fig.height =4)
 
 ____________________________   _______________________________
 ![](pix/lipsitch_samore.png)   ![](pix/lipsitch_samore_2.png)
+
+
+a. resistant bacteria take over during treatment failure (within-host competition)
+b. resistant bacteria take advantage of reduced transmission by treated hosts (between-host)
+c. resistant bacteria colonize a treated host (empty patch)
+d. resistant bacteria take advantage of side effects (bystander effects)
 
 # Bacteria 
 
