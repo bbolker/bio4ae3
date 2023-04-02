@@ -87,4 +87,6 @@ You should know a variety of examples so that you can use them in your short ans
 
 This is a low-stakes test to encourage you to pay attention to ideas that are presented after the midterm test (there is no final exam). It will (probably) consist of definitions, short-answers, and maybe an essay.
 
+- [essay topics](./final-topics.html)
+
 ## References

@@ -1,6 +1,6 @@
 ---
 title: "emerging infectious disease"
-date: "3 April 2022"
+date: "3 April 2023"
 bibliography: "../eeid.bib"
 csl: apa.csl
 header-includes:
@@ -119,6 +119,12 @@ Very confusing ...
 ![](pix/han_predict4.png)
 
 ![](pix/han_predict5.png)
+
+@carlsonPlague2021
+
+@evansExposure2023
+
+@macdonaldAmazon2019a
 
 ##  References
  

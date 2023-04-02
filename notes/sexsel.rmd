@@ -1,6 +1,6 @@
 ---
 title: "parasite-mediated sexual selection"
-date: "21 March 2022"
+date: "2 April 2023"
 bibliography: "../eeid.bib"
 csl: apa.csl
 header-includes:
@@ -17,6 +17,7 @@ What causes sexual ornaments and behavior
 (**secondary sexual characteristics**): primary
 are the gonads and reproductive
 equipment themselves)?
+
 Peacock's tail, bird song repertoires, conspicuous color patterns,
 sexual displays
 
@@ -100,18 +101,18 @@ equivocal.
 
 There are some problems with between-species comparisons, though:
 
-- reverse causality: showiness could cause parasitism
+- **reverse causality**: showiness could cause parasitism
 (e.g. brighter species could attract more ectoparasites, or
 species that invest more in showiness could have less to
 invest in parasite resistance)
-- ecological correlates: showiness and parasitism could
+- **ecological correlates**: showiness and parasitism could
 both be driven by other factors (hole-nesting, polygyny)
 - falsifiability: when a correlation is not found, how do
 you decide whether the data are really good enough to reject?
-- phylogenetic controls
-- dynamics: how do we know that parasite-driven sexual selection
-couldn't be so effective that it would drive parasite loads to
-\emph{lower} levels in showy species?
+- **phylogenetic inertia**
+- **dynamics**: how do we know that parasite-driven sexual selection
+isn't so effective that it drives parasite loads to
+*lower* levels in showy species?
 
 ## Evidence for H-Z: within species
 
