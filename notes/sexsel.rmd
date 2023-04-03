@@ -50,15 +50,14 @@ costly.  **Good genes** model.  Ornaments are a signal of good genes:
 they must be costly, otherwise you can't rely on the honesty of the
 signal.
 
-- revealing traits: indicate male condition/quality
-- conditional traits: only expressed by high-quality males
+- **revealing traits**: indicate male condition/quality
+- **conditional traits**: only expressed by high-quality males
 - viability ("Zahavi") traits: expressed by everyone, but
-kill off low-quality males
+kill off low-quality males (may not work??)
 
-The handicap principle seems paradoxical,
-but models and observation have suggested that
-it actually works (in part because traits are only
-expressed in males)
+@pennHandicap2020b:
+
+> Rather than being wasteful over-investments, honest signals evolve in this scenario because selection favours efficient and optimal investment into signal expression and minimizes signalling costs ... This model is better understood within a Darwinian framework of adaptive signalling trade-offs, without the added burden and confusing logic of the Handicap Principle. 
 
 Problem with handicap principle: what maintains genetic variation for
 "goodness"?  Under normal conditions (directional selection), one
@@ -74,7 +73,7 @@ variability in the biotic environment.
 
 (the Red Queen returns)
 
-a subset of the handicap principle
+a subset of 'good-genes' models
 
 **requirements** (@Combes2005 p. 185)
 
@@ -87,7 +86,6 @@ a subset of the handicap principle
 - Parasite load decreases host viability
 (otherwise there is no point in selecting resistant males)
 - (genetic) heritable variation in trait
-
 
 ## Evidence for H-Z: between-species
 
@@ -193,6 +191,3 @@ Humans: do females prefer male faces associated with lower cortisol/higher testo
 ---
 
 Last updated: `r Sys.time()`
-	
-
-
