@@ -40,10 +40,9 @@ How do we understand? How do we predict?
 
 Very confusing ...
 
-* declines occurred in pristine areas (probably not anthropogenic?)
-* some species decline in the absence of Bd
-* some species stable in the presence of Bd  
-(Bd may have been there all along?)
+- declines occurred in pristine areas (probably not anthropogenic?)
+- some species decline in the absence of Bd
+- some species stable in the presence of Bd
 
 - **tipping point hypothesis**: in populations all the time, but something happened to increase virulence/reduce tolerance or resistance ($\approx$ compatibility filter)
    - climate change/El Niño ? 
@@ -51,12 +50,10 @@ Very confusing ...
    - pesticides?
    - combination (species × temperature × U/V × pesticide × ...)?
 [@pounds_widespread_2006; @rohr_evaluating_2008; @rohr_linking_2010]
-
 - **novel pathogen hypothesis**: mutation/speciation + dispersal
-
-- detection in historical specimens: CA/bullfrog, Brazil ...
-- genomics (challenging!)
-- Asian sampling
+   - detection in historical specimens: CA/bullfrog, Brazil ...
+   - genomics (challenging!)
+   - Asian sampling
 
 @fisher_chytrid_2020
 
@@ -67,51 +64,58 @@ Very confusing ...
     - vector biology
     	- extended range
 		- higher activity?
+		- e.g. @mordecaiClimate2020: shift from *Anopheles gambiae* to *Aedes aegypti*, malaria to arboviruses (dengue, chikungunya etc.)
 - changes in seasonality, hydrological cycles
 - local landscape change
     - hydrology
-	- land cover (Lyme disease)
-	- forest cover
+	- suburbanization and reforestation: Lyme disease
+	- deforestation
+	    - @macdonaldAmazon2019a: deforestation increases malaria, but malaria decreases deforestation
 - changes in reservoir communities
 
 ## effects of biodiversity change: dilution effect [@keesing_dilution_2021]
 
-   - does increased biodiversity decrease disease?
-   - variation in reservoir competence
-   - high-quality hosts decrease with increasing biodiversity
-       - encounter reduction; host regulation; vector preferences
+- does increased biodiversity decrease disease?
+- variation in reservoir competence
+- high-quality hosts decrease with increasing biodiversity
+    - encounter reduction; host regulation; vector preferences
 
 @kain_predicting_2019
 
 @rohr_towards_2020
 
 ![](pix/rohr_dilute.png)	   
-   
-## prediction
 
-@pulliam_ability_2009
+- @carlsonPlague2022: *higher* rodent diversity and climate anomalies drive plague spillover
+
+## surveillance and prediction
+
+* which viruses will emerge, where, why?
+
+---
+
+@pulliam_ability_2009: predict zoonotic transmission of livestock viruses
 
 ![](pix/pulliam_pred.png)
 
-@walker_transmissibility_2018
+---
+
+@walker_transmissibility_2018: predict human transmission ability of zoonotic viruses
 
 ![](pix/han_predict1.png)
 
 ![](pix/han_predict2.png)
 
-![](pix/han_predict3.png)
+<!-- ![](pix/han_predict3.png) -->
 
-@han_integrating_2020
+@han_integrating_2020: model rodent life history
 
 ![](pix/han_predict4.png)
 
 ![](pix/han_predict5.png)
 
-@carlsonPlague2021
+@evansExposure2023: 2017-2020 sample: 12% of 693 individuals sampled in Myanmar were seropositive for sarbecovirus, more likely if they were loggers/hunters or had been exposed to bats ...
 
-@evansExposure2023
-
-@macdonaldAmazon2019a
 
 ##  References
  
