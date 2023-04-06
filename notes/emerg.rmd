@@ -18,10 +18,8 @@ opts_chunk$set(echo=FALSE, fig.width=6, fig.height =4)
 
 basically, anything we're worried about
 
-- new mutations
-- change in environment
-- resistant strains
-- species jumps (encounter and compatibility: changes via recombination, mutation)
+- encounter filter: changing patterns of reservoir host/vector distribution, human contact, ...
+- compatibility filter: changes via mutation, recombination, selection for resistance, ...
 
 Do we need to understand *everything*?
 
@@ -33,48 +31,36 @@ How do we understand? How do we predict?
 
 ## *Batrachochytrium dendrobatidis*
 
-**Reminders**
-
 - fungal pathogen 
    - most other chytrids are saprophytes, plant pathogens
    - *B. salamandrivorans*: salamander pathogen (more restricted)
 - first discoved in poison dart frogs
 - caused die-offs in E Australia, Central America, Colorado, California ...
 - association with high altitude?
-- occurred in pristine areas (probably not anthropogenic?)
-- pathogenesis via screwed-up osmoregulation
 
 Very confusing ...
 
+* declines occurred in pristine areas (probably not anthropogenic?)
 * some species decline in the absence of Bd
 * some species stable in the presence of Bd  
 (Bd may have been there all along?)
-* susceptibility:
-   * ability to bask
-   * antimicrobial peptides
 
-**tipping point hypothesis**: in populations all the time, but something happened to increase virulence/reduce tolerance or resistance
+- **tipping point hypothesis**: in populations all the time, but something happened to increase virulence/reduce tolerance or resistance ($\approx$ compatibility filter)
+   - climate change/El Niño ? 
+   - ultraviolet radiation?
+   - pesticides?
+   - combination (species × temperature × U/V × pesticide × ...)?
+[@pounds_widespread_2006; @rohr_evaluating_2008; @rohr_linking_2010]
 
-- climate change/El Niño ? 
-- ultraviolet radiation?
-- cooler temperatures? (basking etc.)
-- pesticides?
-- combination (species × temperature × U/V × pesticide × ...)
+- **novel pathogen hypothesis**: mutation/speciation + dispersal
 
-- @pounds_widespread_2006: "chytrid-thermal-optimum hypothesis"
-- @rohr_evaluating_2008: "numerous other variables, including regional banana and beer production, were better predictors of these extinctions"
-- @rohr_linking_2010
-
-**novel pathogen hypothesis**: mutation/speciation + dispersal
-
-- "Out of Africa" hypothesis
-- earlier/broader detection in historical specimens: CA/bullfrog, Brazil ...
+- detection in historical specimens: CA/bullfrog, Brazil ...
 - genomics (challenging!)
 - Asian sampling
 
-## monkeypox
+@fisher_chytrid_2020
 
-## climate change
+## effects of climate change
 
 - warming 
     - 'good' or 'bad' for pathogens?
@@ -88,7 +74,8 @@ Very confusing ...
 	- forest cover
 - changes in reservoir communities
 
-## dilution effect [@keesing_dilution_2021]
+## effects of biodiversity change: dilution effect [@keesing_dilution_2021]
+
    - does increased biodiversity decrease disease?
    - variation in reservoir competence
    - high-quality hosts decrease with increasing biodiversity
