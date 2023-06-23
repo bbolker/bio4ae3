@@ -5,7 +5,7 @@ bibliography: "../eeid.bib"
 
 *Last updated*: `r Sys.time()`
 
-## Discussion questions (Part of 20% participation mark)
+## Discussion questions (Part of 15% participation mark)
 
 The idea of discussion questions is just to get you focused on reading the papers before class, and to help structure the in-class discussion. Ideally you should come up with one question that's general or conceptual and one that's more technical (what does Figure 1 mean? how did they do xxx?). Unless otherwise specified, every Friday class will be a discussion. Discussion questions are due at **6 PM** on the day before a class discussion (i.e. Friday afternoon at 6 PM for a Monday discussion), **posted to the relevant place**; late answers are definitely better than nothing. Discussion questions will be marked on a 0-10 scale.
 
@@ -74,7 +74,7 @@ Work in a group to write a paper describing a *fictional* (but realistic) emergi
 
 Flesh out the details: why is the disease spreading now? Does it have biological characteristics that make it particularly interesting? Are there significant behavioral, ecosystem, economic, cultural impacts? With your group, write up a 4-5 page (double-spaced) description.
 
-## Midterm test (25%)
+## Midterm 1 (25%)
 
 The midterm test will consist of definitions, short-answer questions, and essay questions. You will be given a large set of essay questions beforehand, some of which will be asked on the midterm.
 
@@ -83,7 +83,7 @@ You should know a variety of examples so that you can use them in your short ans
 - [midterm from a previous (2009) iteration of this course](./eeid2009-midterm.pdf)
 - [essay topics](./midterm-topics.html)
 
-## Final test (5%)
+## Midterm 2 (10%)
 
 This is a low-stakes test to encourage you to pay attention to ideas that are presented after the midterm test (there is no final exam). It will (probably) consist of definitions, short-answers, and maybe an essay.
 

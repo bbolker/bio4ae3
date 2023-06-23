@@ -1,18 +1,19 @@
 start date,topic,reading/viewing,notes,assignments
-09-Jan,introduction & concepts; epidemic models and epidemic dynamics,@Combes2005 ch. 1-2,[intro](notes/intro.html); [intro docx](notes/intro.docx);[definitions](notes/definitions.html); [definitions docx](notes/definitions.docx),DQ on reading (due Friday 6 PM)
-16-Jan,parasites and host demography; extinction & conservation,"@vredenburg_dynamics_2010 (**optional**: @de_castro_mechanisms_2005, @wayne_infectious_2015 chapter 7 (TBD)",[epi models docx](notes/epi1.docx); [host pop docx](notes/hostpop1.docx); [epi models](notes/epi1.html); [hostpop](notes/hostpop1.html); [vredenburg](notes/vredenburg.html); [vredenburg docx](notes/vredenburg.docx),DQ on reading
-23-Jan,parasites and host communities,,[host/parasite communities (docx)](notes/parahostcomm.docx); [host/para comm slides](notes/parahostcomm.html),mini-essay 1 (Fri 27 Jan) 
-30-Jan,within-host dynamics of parasites,@stewartmerrillHost2021a,[within-host (docx)](notes/within.docx); [within-host slides](notes/within.html),DQ on reading (due Friday 6 PM)
-06-Feb,Red Queen (host-parasite coevolution/origin and maintenance of sex),@Combes2005 ch. 6 (up to p. 170); @decaestecker_hostparasite_2007,[RQ notes (docx)](notes/rq.docx); [PDF](notes/rq.pdf),term paper topic (Weds 8 Feb); DQ (Fri 6 PM) 
-13-Feb,catch-up,,,
-16-Feb,,,,**midterm test** (in class)
-20-Feb,**midterm break**,,,
-27-Feb,RQ; Virulence evolution,@Combes2005 ch. 4; @schneider_two_2008,[virulence notes (docx)](notes/virul-evol.docx); [PDF](notes/virul-evol.pdf),DQ (Fri); mini-essay 2 (Fri 3 Mar) 
-06-Mar,Evolution of host resistance and tolerance,,[tolerance/resistance notes (docx)](notes/host_resist_tol.docx); [PDF](notes/host_resist_tol.pdf),
+05-Sep,introduction & concepts; epidemic models and epidemic dynamics,@Combes2005 ch. 1-2,[intro](notes/intro.html); [intro docx](notes/intro.docx);[definitions](notes/definitions.html); [definitions docx](notes/definitions.docx),DQ on reading (due Friday 6 PM)
+11-Sep,parasites and host demography; extinction & conservation,
+18-Sep,parasites and host communities,
+25-Sep,within-host dynamics of parasites,
+02-Oct,host-parasite coevolution,
+05-Oct,,,,**midterm test 1** (in class)
+09-Oct,**midterm recess**,,,
+16-Oct,host-parasite coevolution (continued),
+23-Oct,Evolution of virulence,
+30-Oct,Evolution of host resistance and tolerance,
 13-Mar,Parasite manipulation of host behaviour,,[manipulation notes (docx)](notes/host_manip.docx); [PDF](notes/host_manip.pdf),
-20-Mar,... continued ...,,,term paper draft (Fri 24 Mar) 
-27-Mar,Parasite counter-evolution (antimicrobial resistance etc.),@burmeister_pleiotropy_2020,[notes (docx)](notes/para_resist.docx); [PDF](notes/para_resist.pdf),DQ on Burmeister (Mon 27 Mar); mini-essay 3; term paper peer review (Fri 31 Mar) 
-03-Apr,Parasite-mediated sexual selection;Ecosystems and emerging diseases,,[sexual selection notes (docx)](notes/sexsel.docx); [PDF](notes/sexsel.pdf); [emerging disease notes (docx)](notes/emerg.docx); [PDF](notes/emerg.pdf),emerging disease reports (Fri 7 Apr) 
-10-Apr,,,,**final test** (in class)
-12-Apr,,,,last class
-21-Apr,,,,final papers due
+06-Nov,Evolution of antimicrobial resistance and immune escape,
+13-Nov,Parasite-mediated sexual selection
+20-Nov,Ecosystems and emerging diseases,
+27-Nov,Catch-up
+4-Dec,,,,**midterm test 2** (in class)
+
+
