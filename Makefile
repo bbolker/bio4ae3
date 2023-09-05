@@ -24,7 +24,7 @@ docs/assignments/%: assignments/%
 ## FIXME, sed -r doesn't work on MacOS
 %.docx: %.rmd
 ## get rid of spoilers?
-	sed -r '/::::: \{#special .spoiler/,/:::::/c\**SPOILER**\n' < $< > $(@D)/tmp.rmd
+	sed -r '/::::: \{#special .spoiler/,/:::::/c\*SPOILER*' < $< > $(@D)/tmp.rmd
 ## alternate for MacOS
 ##	cp $< $(@D)/tmp.rmd
 	Rscript -e "rmarkdown::render('$(@D)/tmp.rmd', output_format = 'word_document')"
