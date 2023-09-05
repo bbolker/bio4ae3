@@ -1,13 +1,9 @@
-meeting with Jessica Hider
+* Perusall
+* ChatGPT stuff
+* look over notes again! Combes chapter 1
 
-Briggs e-mail: modeled effects of one-time intervention?
-
-no paper/DQ next Friday? Optional paper?
-hypothes.is?  Kritik for mini-essays?
-
-tsetse pix and notes from bio1m
-
-what about levels, adaptationism, short-sightedness??
+* something on short-sightedness and levels of selection
+* evolution: what about levels, adaptationism, short-sightedness??
 
 
 

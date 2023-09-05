@@ -2,7 +2,7 @@ all: docs/assignments/README.html docs/assignments/eeid2009-midterm.pdf docs/ind
 ## allnotes docs/assignments/midterm-topics.html
 
 ## see also: mk_all
-allnotes:
+Notes:
 	./mkallnotes
 
 ## these must come FIRST so we don't trash .md files by moving
@@ -23,8 +23,10 @@ docs/assignments/%: assignments/%
 ## https://stackoverflow.com/questions/5178828/how-to-replace-all-lines-between-two-points-and-subtitute-it-with-some-text-in-s
 ## FIXME, sed -r doesn't work on MacOS
 %.docx: %.rmd
-	## sed -r '/::::: \{#special .spoiler/,/:::::/c\**SPOILER**\n' < $< > $(@D)/tmp.rmd
-	cp $< $(@D)/tmp.rmd
+## get rid of spoilers?
+	sed -r '/::::: \{#special .spoiler/,/:::::/c\**SPOILER**\n' < $< > $(@D)/tmp.rmd
+## alternate for MacOS
+##	cp $< $(@D)/tmp.rmd
 	Rscript -e "rmarkdown::render('$(@D)/tmp.rmd', output_format = 'word_document')"
 	mv $(@D)/tmp.docx $*.docx
 

@@ -4,6 +4,10 @@ date: "`r format(Sys.time(), '%d %b %Y')`"
 bibliography: "../eeid.bib"
 ---
 
+## Land acknowledgement
+
+McMaster University (and this class) is on the traditional territories of the Mississauga and Haudenosaunee nations, and within the lands protected by the “Dish with One Spoon” wampum agreement. (**Why?** See ["Beyond Territorial Acknowledgements"](https://apihtawikosisan.com/2016/09/beyond-territorial-acknowledgments/))
+
 # Course goals
 
 **Primary**: To learn about the ecology and evolution of infectious
@@ -31,6 +35,7 @@ as a stupid question. If you don't know something you're
 probably not the only one in class.
 - behave responsibly in online and in-person settings
 - do your own work, don't plagiarize, reference sources appropriately, credit group work appropriately: see [honesty.html](honesty.html).
+- Let me know whenever you use generative AI (see [citation guide](https://libguides.mcmaster.ca/cite-gen-ai))
 
 # Assignments & grading
 
@@ -39,7 +44,7 @@ probably not the only one in class.
 # Readings and discussion
 
 In addition to the textbook, we will read papers from the primary and
-secondary literature and discuss them in class every Friday.You will need to submit *discussion questions* (DQs) by 6 PM the day before discussion (i.e., Thursday). DQs are ideally conceptual questions --- something you found interesting, or wrong, or puzzling about the paper and would like to discuss in class
+secondary literature and discuss them in class every Friday. You will need to submit *discussion questions* (DQs) by 6 PM the day before discussion (i.e., Thursday). DQs are ideally conceptual questions --- something you found interesting, or wrong, or puzzling about the paper and would like to discuss in class
 --- but can also be about specific terms or points in the paper that you
 didn't understand and would like clarified in class.
 
