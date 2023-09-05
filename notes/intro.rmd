@@ -39,7 +39,7 @@ probably not the only one in class.
 
 # Assignments & grading
 
-- See [here](../assignments.html)
+- See [here](../assignments/README.html)
 
 # Readings and discussion
 
