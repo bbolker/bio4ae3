@@ -34,7 +34,10 @@ docs/assignments/%: assignments/%
 	Rscript  -e "rmarkdown::render('$<', output_options = list(self_contained=TRUE))"
 
 %.pdf: %.rmd
-	Rscript -e "rmarkdown::render('$<', output_format = tufte::tufte_handout())" ## , params = list('latex-engine'='xelatex'))"
+	sed -r '/::::: \{#special .spoiler/,/:::::/c\*SPOILER*' < $< > $(@D)/tmp.rmd
+	Rscript -e "rmarkdown::render('$(@D)/tmp.rmd', output_format = tufte::tufte_handout())" ## , params = list('latex-engine'='xelatex'))"
+	mv $(@D)/tmp.pdf $*.pdf
+
 
 %.pdf: %.tex
 	pdflatex $<
