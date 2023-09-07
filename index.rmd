@@ -29,7 +29,7 @@ This web page is **under construction**: some material may still be left over fr
 
 ### Misc info
 
-- Textbook: Claude Combes, *The Art of Being A Parasite*; available from the bookstore, also on the [Internet Archive](https://archive.org/details/artofbeingparasi0000comb)
+- Textbook: Claude Combes, *The Art of Being A Parasite*; available from the bookstore, also on the [Internet Archive](https://archive.org/details/artofbeingparasi0000comb) (info on [IA borrowing](https://help.archive.org/help/borrowing-from-the-lending-library/))
 - Platforms: Avenue to Learn, course web page, forums (TBD) (see below)
 - [Full course bibliography](eeid_bib.html)
 
