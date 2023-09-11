@@ -53,7 +53,7 @@ This web page is **under construction**: some material may still be left over fr
 - instructor: [Ben Bolker](http://www.math.mcmaster.ca/~bolker/)
     - Questions are best asked in the appropriate channel on Piazza (publicly or privately)
     -  **if necessary**, e-mail to `bolker@mcmaster.ca` with "BIO 4AE3" in the subject line; include your MacID in your message if not e-mailing from your McMaster e-mail account
-	- office hours: TBA
+	- office hours: 1:30-2:30 Monday, 11:30-12:30 Thursday, HH 314
 - teaching assistant: TBA
     - weekly office hours, TBA
     - please contact via Piazza (privately if necessary)
