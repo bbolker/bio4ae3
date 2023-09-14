@@ -9,3 +9,4 @@ admin/
 private/
 old/
 .DS_Store
+**/tmp.*

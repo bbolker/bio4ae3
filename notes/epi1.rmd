@@ -209,7 +209,7 @@ Examples: many human diseases, brucellosis in bison.
 "trough", followed by population recovery. **Damped** or
 **sustained** oscillations depend on details.
 
-    ![damped oscillations](pix/lonergan.png){width="4in"}
+    ![damped oscillations (from @grenfell_quantitative_1992)](pix/lonergan.png){width="4in"}
 
 - Simplest expectation is that epidemics will eventually settle down
 to a stable equilibrium ("endemic") state
