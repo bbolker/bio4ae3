@@ -34,8 +34,8 @@ depend on rabbits in Spain [@zimmermann_renowned_2000;@cooke_rabbit_2002;@real_c
 
 The simplest epidemic models suggest that parasites should go extinct
 before their hosts do (density threshold), so parasites should not be
-able to drive their hosts extinct. However, there are many exceptions
-to the rule.
+able to drive their hosts extinct [@de_castro_mechanisms_2005]. However, there are many exceptions
+to the rule:
 
 - small populations (e.g. golden toad/Bd, black-footed ferret/CDV, arctic fox/mange)
 - reservoir hosts (e.g. Hawai'ian birds/malaria)
