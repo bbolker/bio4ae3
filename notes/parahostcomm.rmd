@@ -10,6 +10,10 @@ Parasites can have large effects on their host populations and communities; can
 - act as "ecosystem engineers" to change the environment in which other organisms live;
 -   have cascading effects on entire ecosystems, determining their biomass or diversity.
 
+## Invasive species: Enemy release hypothesis
+
+@torchinRelease2001
+
 ## Indirect interactions
 
 - **Direct** interactions among species: (e.g.) parasites change the
