@@ -65,7 +65,7 @@ $$
 - density-dependence in growth and/or burst probability?
 - extracellular killing (bactericidal) vs slowing/preventing intracellular growth (bacteriostatic)
 
-> our analysis predicts that the efficacy of common extracellular antibiotics can be enhanced by supplementation with antibiotics slowing intracellular bacterial division [bacteriostatic drugs]. This implies that both bacteriostatic and bactericidal drugs can potentiate the therapeutic efficacy of extracellular antibiotics. 
+> our analysis predicts that the efficacy of common extracellular antibiotics can be enhanced by supplementation with antibiotics slowing intracellular bacterial division [bacteriostatic drugs]. This implies that both bacteriostatic and bactericidal drugs can potentiate the therapeutic efficacy of extracellular antibiotics.
 
 ##  References
  
