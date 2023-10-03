@@ -57,8 +57,8 @@ $$
 
 ![](pix/brown_salmonella_fig2.png)
 
-- distribution: two categories, or a range of **burst sizes**
-?
+- distribution: two categories, or a range of **burst sizes**?
+
 ![](pix/brown_salmonella_fig3.png)
 
 - "constitutive" vs "stochastic" models
