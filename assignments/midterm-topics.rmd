@@ -39,4 +39,4 @@ for biocontrol compared to classical methods (e.g. chemical treatments)?
 
 ---
 
-Last updated `r format(Sys.Date, "%d %b %Y")`
+Last updated `r format(Sys.Date(), "%d %b %Y")`
