@@ -10,10 +10,6 @@ Parasites can have large effects on their host populations and communities; can
 - act as "ecosystem engineers" to change the environment in which other organisms live;
 -   have cascading effects on entire ecosystems, determining their biomass or diversity.
 
-## Invasive species: Enemy release hypothesis
-
-@torchinRelease2001
-
 ## Indirect interactions
 
 - **Direct** interactions among species: (e.g.) parasites change the
@@ -53,12 +49,12 @@ tribolii* (sporozoan parasite) [@park_interspecies_1948]
 
 - Prevention of mixing because hybrids are less resistant to parasites? (**outbreeding depression**)
 
-## Parasite-mediated invasion [@strauss_invading_2012]
+## Parasite-mediated invasion 
 
 - human movement: Europeans to the New World, Europeans to Africa
 - introduced parasites: e.g. *Acipenser stellatus* (from Caspian to Aral Sea), carried *Nitzchia sturionis* (gill monogenean), severely reduced populations of *A. nudiventris*
-
-- Invasive species and the **natural enemy hypothesis**
+- Invasive species and the **natural enemy hypothesis** (green crabs: @torchinRelease2001)
+- lots more examples: @strauss_invading_2012]
 
 ## Parasite-mediated resistance to invasion 
 
@@ -103,7 +99,7 @@ individual decisions (presumably) maximize individual fitness.
 
 ## ecosystem engineering 
 
-- Parasitized cockles [@thomas_manipulation_1998; @thomasParasites1999]: changed bioturbation (stirring), presence of hard surface has various impacts on community structure. Changes habitat for other species; arrows mediated through the environment.
+- Parasitized cockles [@thomas_manipulation_1998; @thomasParasites1999]: changed bioturbation (stirring), presence of hard surface has various impacts on community structure. Changes habitat for other species; "arrows" (influence of one species on another) mediated through the environment.
 
 ## Large-scale community structure
 
