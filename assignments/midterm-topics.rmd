@@ -36,3 +36,7 @@ for biocontrol compared to classical methods (e.g. chemical treatments)?
 7. Compare and contrast population cycles in parasite *prevalence* in a constant or slowly changing host population with population cycles in the *size* (density or number) of a host population. Explain how each works, using diagrams or equations if it helps you explain clearly. Give at least one example (include some information about the example beyond just the names of the parasite and the host).
 
 8. Describe box models for disease. Construct a box model for a sexually transmitted disease (heterosexually transmitted) with vaccination where male-female and female-male transmission rates may differ.
+
+---
+
+Last updated `r format(Sys.Date, "%d %b %Y")`

@@ -1,5 +1,5 @@
-all: docs/assignments/README.html docs/assignments/eeid2009-midterm.pdf docs/index.html docs/eeid_bib.html docs/extras.html
-## allnotes docs/assignments/midterm-topics.html
+all: docs/assignments/README.html docs/assignments/eeid2009-midterm.pdf docs/index.html docs/eeid_bib.html docs/extras.html docs/assignments/midterm-topics.html
+## allnotes 
 
 ## see also: mk_all
 Notes:
