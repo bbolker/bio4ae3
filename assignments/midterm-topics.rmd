@@ -5,11 +5,7 @@ bibliography: "../eeid.bib"
 
 The midterm will include **three** of these questions; you should plan to spend about 8-10 minutes on each answer.
 
-1. Describe and explain as many methods as you can remember for
-estimating R_0 from different types of data on
-epidemics; explain which approaches would be
-most important for different types of diseases
-(human vs wildlife, epidemic vs endemic, etc.)
+1. Explain the concept of **levels of selection** in evolution. Use at least two examples from host-parasite systems to illustrate how it works.
 
 2. Define "parasites" and related types of
 natural enemies. Discuss the significance 
@@ -17,15 +13,7 @@ of different parts of the definition and
 their implications for the ecology and evolution
 of host-parasite interactions.
 
-3. Give one example of a model that can be 
-used to study **within-host** dynamics of a disease.
-Illustrate the structure with a box model where the
-compartments either contain individual hosts or
-within-host components. Describe the basic assumptions
-of the model and write some equations describing the
-*per capita* transition rates between the compartments.
-
-4. Define the difference between microparasites
+3. Define the difference between microparasites
 and macroparasites, both in terms of how they
 have classically been used, in terms
 of their population dynamics and transmission,
@@ -34,32 +22,17 @@ Give some examples.  What are the differences
 between them in terms of ecology and evolution,
 and how they are modeled?
 
-5. Define ${\cal R}_0$ and explain why it is important.
-What information does knowing
-${\cal R}_0$ give you about the outcomes of introducing
-a parasite to a population?  What does it tell you about disease
-control?
-
-6. Describe how we can use phylogenetic comparative methods to establish 
+4. Describe how we can use phylogenetic comparative methods to establish 
 the evolutionary history of an organismal trait (such as a parasitic lifestyle).
 What data do we need? Make up an example showing how we would infer that 
 a gut parasite evolved from a free-living ancestor by way of a commensal stage.
 
-7. Discuss the population dynamics of red grouse populations in
-Scotland and northern England, why you might suspect that parasites
-were involved, an alternative hypothesis for
-the observed dynamics, and describe the field experiments that provide
-evidence that the population dynamics really are parasite-driven.
-
-8. Discuss how parasites can create indirect links between
-otherwise unconnected species in an ecological community; give
-examples if you can.  Suppose you thought that parasites were
-driving apparent competition between two fish species occupying 
-temperate lakes; describe how you could use observations, experiments, 
-and/or models to establish that parasites were really responsible.
-
-9. Describe the use of parasites for biocontrol, giving some examples.
+5. Describe the use of parasites for biocontrol, giving some examples.
 What are the advantages and disadvantages of using parasites
 for biocontrol compared to classical methods (e.g. chemical treatments)?
 
+6. Discuss the roles of theoretical (model-based), lab experiments, field experiments, and observational data in understanding ecological and evolutionary systems. What are the costs/benefits or advantages/disadvantages of each kind of information? Give at least one example of each level of information and how it applies to our knowledge of a particular host-parasite system; for at least one system, contrast the contribution of two different levels.
 
+7. Compare and contrast population cycles in parasite *prevalence* in a constant or slowly changing host population with population cycles in the *size* (density or number) of a host population. Explain how each works, using diagrams or equations if it helps you explain clearly. Give at least one example (include some information about the example beyond just the names of the parasite and the host).
+
+8. Describe box models for disease. Construct a box model for a sexually transmitted disease (heterosexually transmitted) with vaccination where male-female and female-male transmission rates may differ.
