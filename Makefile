@@ -35,7 +35,9 @@ docs/assignments/%: assignments/%
 
 %.pdf: %.rmd
 	sed -r '/::::: \{#special .spoiler/,/:::::/c\*SPOILER*' < $< > $(@D)/tmp.rmd
-	Rscript -e "rmarkdown::render('$(@D)/tmp.rmd', output_format = tufte::tufte_handout())" ## , params = list('latex-engine'='xelatex'))"
+	Rscript -e "rmarkdown::render('$(@D)/tmp.rmd', output_format = 'pdf_document')"
+## give up on Tufte handout for now, too many weird interactions with fancy tables etc.
+## output_format = tufte::tufte_handout())" ## , params = list('latex-engine'='xelatex'))"
 	mv $(@D)/tmp.pdf $*.pdf
 
 

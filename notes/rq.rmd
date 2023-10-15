@@ -1,6 +1,10 @@
 ---
 title: "Host-parasite coevolution; origin and maintenance of sex"
 bibliography: "../eeid.bib"
+format:
+  pdf:
+    include-in-header:
+     - text: \usepackage{float}
 ---
 
 ## Antagonistic coevolution
@@ -9,7 +13,6 @@ The costs of parasitism lead to **antagonistic coevolution** between
 hosts and parasites.
 
 Hosts can evolve **resistance** (typically by closing the compatibility filter) or **tolerance** (focusing on resistance this week).
-
 
 - **Red Queen** (cyclic)
    - new alleles arise frequently
@@ -25,8 +28,7 @@ Hosts can evolve **resistance** (typically by closing the compatibility filter) 
 - **inverse matching alleles**: host matches many parasite signals (e.g. vertebrate antibody/antigen matching); parasite succeeds if it **does not** match any of the host antibodies. Doesn't favour rare host genotypes, anti-dilution effects.
 - **gene-for-gene**: like inverse matching, but there is a "universal infector" that doesn't match anything (i.e. infects everything) (Plants: R genes, Avr genes). [Wikipedia](https://en.wikipedia.org/wiki/Gene-for-gene_relationship):
 
-> Because there would be no evolutionary advantage to a pathogen keeping a protein that only serves to have it recognised by the plant, it is believed that the products of Avr genes play an important role in virulence in genetically susceptible hosts. 
-
+> Because there would be no evolutionary advantage to a pathogen keeping a protein that only serves to have it recognised by the plant, it is believed that the products of Avr genes play an important role in virulence [= ability to infect] in genetically susceptible hosts
 
 @stahl_dynamics_1999: **Arms races** in a disease-resistance locus of *Arabidopsis*
 
@@ -86,29 +88,34 @@ helps the RQ work
 Primary theories for the variation in frequency of sexual snails among
 and within lakes:
 
--   **Resistance tradeoffs:** tradeoff between competitive ability and
-resistance to parasites. *Predicts:* (A1) negative correlations
-between competitive ability (or frequency of asexuals) and parasite
-load
+- **Resistance tradeoffs:** genetic tradeoff between competitive ability and
+resistance to parasites
 -   **Reproductive assurance:** asexuals ensure reproduction and avoid costs
-of mating (assuming sexuals have some other advantage). *Predicts:*
-(B1) asexuals more common at low population densities; (B2) asexuals
-more common in less stable environments (more frequent extinction
-and recolonization)
--   **Lottery:** (= tangled bank) sexuals survive in a wider range of (micro)habitats
-*Predicts:* (C1) asexuals will fail to survive alone in some
-habitats that are occupied by sexuals; (C2) asexuals more common in
-environments that are more variable in time
--   **Tangled bank:** rare offspring of sexuals experience less competition
-*Predicts*: (D1) sexuals will be more common in (variable)
-environments where competition is stronger
-- **Red Queen:** sexuals resist parasites better (E1) sexuals will be more
-common in environments with more parasites; (E2) **time-lagged
-host-parasite matching**: formerly common clones more susceptible to
-current parasites; (E3) **local adaption**: parasites should infect
-local (**sympatric**) hosts better than faraway (**allopatric**)
-hosts
+of mating (assuming sexuals have some other advantage)
+- **Lottery:** sexuals survive in a wider range of (micro)habitats
+- **Tangled bank:** rare offspring of sexuals experience less competition
+- **Red Queen:** sexuals (or uncommon clones) resist parasites better 
 
+```{r lively_tab, echo=FALSE, warn=FALSE, message= FALSE, results = "asis"}
+library(tidyverse)
+options(knitr.kable.NA = '')
+library(kableExtra)
+tt <- (readr::read_csv("lively.csv", skip = 1) 
+    |> rename(" "="...1", "findings"="...2")
+)
+(kable(tt)
+    |> kable_styling(bootstrap_options = c("striped", "hover"), font_size = 11,
+                     latex_options = "HOLD_position")
+    |> add_header_above(c(" " = 2, "resistance\ntradeoffs" = 2, "reproductive\nassurance" = 2, "lottery" = 2,
+                          "tangled bank" = 1, "Red Queen" = 3))
+)
+```
+
+<!-- https://stackoverflow.com/questions/44490209/how-to-change-font-size-of-table-in-rmarkdown-latex-and-pdf -->
+<!--https://stackoverflow.com/questions/27626461/hiding-nas-when-printing-a-dataframe-in-knitr -->
+<!-- https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html#Table_Styles -->
+
+<!-- 
 ## Lively et al's experiments and observations
 
 -   Lively 1987: More sexuals in lakes (A2: no, C2: no, D1: yes, E1:
@@ -134,6 +141,7 @@ hosts
 -   Koskella et al. 2007: parasites less infective to experimental host
     populations that they co-occur with than to "lagged" host
     populations (E2)
+-->
 
 ## Potential problems for the Red Queen
 
