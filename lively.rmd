@@ -1,0 +1,5 @@
+```{r}
+library(kableExtra)
+tt <- readr::read_csv("lively.csv", skip = 1)
+kable(tt)
+```
