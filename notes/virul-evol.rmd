@@ -1,6 +1,6 @@
 ---
 title: "evolution of virulence"
-date: "1 March 2023"
+date: "23 October 2023"
 bibliography: "../eeid.bib"
 ---
 
@@ -41,7 +41,7 @@ opts_chunk$set(echo=FALSE, fig.width=6, fig.height =4)
 - Intermediate virulence evolves due to host-level selection (group theory returns); a tradeoff between transmission *rate* (infections/host/time)
 and virulence (*defined as mortality/time*) leads to maximum $R_0$
 (total transmission per generation) at **intermediate** virulence.
-- conceptually, mediated by parasite replication rate or load
+- conceptually, mediated by parasite replication rate or load (cf spore production/*Daphnia* fecundity example [@decaestecker_hostparasite_2007]
 
 ## Example: myxomatosis
 
@@ -217,4 +217,3 @@ knitr::include_graphics("pix/bolker_park_fig2.png")
 ---
 
 Last updated: `r Sys.time()`
-	
