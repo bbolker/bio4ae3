@@ -69,6 +69,10 @@ Bottom line: myxomavirus probably still reduces populations
 somewhat, but the Australians continue to look for other biocontrol
 solutions (calicivirus, rabbit haemhorrhagic disease).
 
+Lab experiments on titers, transmission probabilities, etc. etc. etc. [@fennerEpidemiological1956]; simulation model [@dwyerSimulation1990a]
+
+![](pix/fenner_myxo.png)
+
 Genomic analysis: @kerrEvolutionary2012a, @kerrComparative2013, @kerrDivergent2022
 
 * Australia
@@ -202,7 +206,7 @@ knitr::include_graphics("pix/bolker_park_fig2.png")
 - evolution of higher virulence in unvaccinated people due to "leaky" vaccination [@gandon_imperfect_2001]?
 - mouse malaria: [@mackinnon_immunity_2004; @mackinnon_virulence_2008]; consistent with "arms race" upregulation of replication
 - increased virulence in Marek's disease: reduced host generation time or effects of leaky vaccine? [@atkins_vaccination_2013]
-- [in HIV due to antiretrovial therapy](herbeck_evolution_2016)?
+- [in HIV due to antiretroviral therapy](herbeck_evolution_2016)?
 
 @mackinnon_virulence_2008:
 
