@@ -1,6 +1,6 @@
 ---
 title: "evolution of host resistance and tolerance"
-date: "7 March 2022"
+date: "28 October 2023"
 bibliography: "../eeid.bib"
 header-includes:
    - \usepackage[utf8]{inputenc}
@@ -25,7 +25,7 @@ opts_chunk$set(echo=FALSE, fig.width=6, fig.height =4)
 	- must be **specific** (self/non-self recognition), trigger proportionate response
 	- coded by the **major histocompatibility complex** (self/non-self recognition), **somatic recombination**, deletion of host-specific antigens [@borghans_mhc_2004; @acevedo-whitehouse_is_2006; @rauch_relative_2006; @spurgin_how_2010]
 	- *effectors*: what does the host do once the parasite is detected?
-- passive/always-on defense (*constitutive* defenses)	
+- passive/always-on defense: **constitutive**
     - changing cell surface receptors (e.g. CCR5-$\Delta 32$ (HIV, @hummel_detection_2005); matching-allele model
 - parasite countermeasures (immune evasion [trypanosomes], immune suppression [measles, anthrax, ...]) [@schmid-hempel_immune_2009]
 
@@ -54,7 +54,6 @@ What are the **costs** of resistance and tolerance? (= Why aren't all hosts tole
 [@raberg_disentangling_2007;@raberg_decomposing_2009]
 
 ![](pix/raberg_fig1.png)
-
 --------------------------     -------------------------
 ![](pix/raberg_fig2a.png)     ![](pix/raberg_fig2b.png)
 
@@ -120,9 +119,11 @@ why not drift?  [@krawczak_role_2003]
 (heterozygote advantage)
 * selection for *falciparum* malaria resistance
 * geographic patterns;  
-consistency with malaria distribution
+consistency with malaria distribution [@pielGlobal2010b, @esohEvolutionary2021]
 * mechanistic basis for protection
 * evidence for positive selection (age??)
+
+![](../pix/piel_sickle.png)
 
 ## Balanced polymorphisms
 
