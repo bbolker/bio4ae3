@@ -131,8 +131,13 @@ Main components:
 
 ![](pix/artemisinin.png)
 
+From @ashley_spread_2014
+
+@rosenthalHas2021: "Recent data suggest that we are on the verge of clinically meaningful artemisinin-resistance in Africa"
+
 ![](pix/artemisinin_resistance.png)
 
+> From @imwongSpread2017a. Red box=C580Y. Light blue box=wild type. Each row represents one parasite isolate; white cells indicate identical microsatellite alleles compared with the most frequent allele and dark blue cells indicate differences.
 containment strategies: eliminate *falciparum* malaria from Greater Mekong region or "firewall"?
 
 ## vectors and resistance to insecticides
