@@ -1,6 +1,6 @@
 ---
 title: "host manipulation by parasites"
-date: "15 March 2023"
+date: "16 November 2023"
 bibliography: "../eeid.bib"
 csl: apa.csl
 header-includes:
@@ -257,7 +257,7 @@ overall conclusion, behavioral responses to parasitism
 evolve fairly rapidly relative to the time scale of speciation and
 higher-taxon divergence.
 
-# Costs of manipulation
+# Costs of manipulation/conflict among parasites
 
 The value of host manipulation, and the optimal/adaptive level of
 manipulation, depends on costs and benefits to the parasite (of course).
@@ -319,8 +319,7 @@ females can reproduce parthenogenetically, you may be dooming your host
 population if you're too effective at feminizing it. For plants there is
 another way out: encourage clonal growth or selfing. This both increases
 transmission efficiency and reduces the potential for the evolution of
-parasite resistance (Kover and Clay call this "capturing the Red
-Queen"); in the end, though, it might also lead to reduced virulence
+parasite resistance; in the end, though, it might also lead to reduced virulence
 because it ensures vertical transmission.
 
 ##  References
