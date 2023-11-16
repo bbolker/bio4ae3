@@ -86,6 +86,7 @@ d. resistant bacteria take advantage of side effects (bystander effects)
    - often fought by priming immune system, i.e. *vaccination*
    - resistance via **recognition escape** rather than disabling effectors
    - usually **strain replacement** rather than within-lineage selection on escape alleles
+        - horizontal transfer/lineage-mixing does happen via recombination (especially influenza, phages), but less typical [@wuGene2023; @mavrichBacteriophage2017]
 - very high mutation rate
    - *de novo* mutation is a bigger problem
 - HIV
@@ -100,8 +101,9 @@ d. resistant bacteria take advantage of side effects (bystander effects)
    - other examples: *Haemophilus influenzae B* [@adam_changing_2010]
    - human papilloma virus: maybe not? [@covert_evidence_2019;@man_human_2021]
    - **not**: smallpox (gone), rinderpest, chickenpox, measles, rubella 
+   - importance of focusing on **conserved** viral **epitopes**; universal flu vaccine? [@wangProgress2022] (back to the *mutational spectrum*)
    
-![](pix/twostrain_SIR.png)
+<!-- ![](pix/twostrain_SIR.png) -->
 
 - back to bacteria: vaccine-preventable *Bordetella pertussis*, resurgence and evolution of immune evasion (?) [@gent_small_2012]
 
