@@ -307,8 +307,7 @@ infected with *Octosporea effeminans* (a microsporidian), 90% of
 offspring of parasitized mothers become females (as opposed to 50--80%
 in unparasitized broods). 
 
-*Wolbachia* is an incredibly common intracellular, vertically transmitted bacter
-ium of arthropods that has a huge range of sex ratio distortion tricks.
+*Wolbachia* is an incredibly common intracellular, vertically transmitted bacterium of arthropods that has a huge range of sex ratio distortion tricks.
 
 @charlatEvolutionary2003
 
@@ -319,8 +318,8 @@ females can reproduce parthenogenetically, you may be dooming your host
 population if you're too effective at feminizing it. For plants there is
 another way out: encourage clonal growth or selfing. This both increases
 transmission efficiency and reduces the potential for the evolution of
-parasite resistance; in the end, though, it might also lead to reduced virulence
-because it ensures vertical transmission.
+parasite resistance; in the end, though, it might also select for reduced virulence
+of the parasite because it ensures vertical transmission [@clayEvolution1996a].
 
 ##  References
  

@@ -1,5 +1,5 @@
 #! /bin/bash
-for i in intro definitions epi1 vredenburg hostpop1 parahostcomm within rq virul-evol host_resist_tol para_resist coalescent host_manip; do
+for i in intro definitions epi1 vredenburg hostpop1 parahostcomm within rq virul-evol host_resist_tol para_resist coalescent host_manip sexsel emerg; do
 ##    sexsel host_manip emerg
     for j in html docx pdf; do
     	make docs/notes/$i.$j
