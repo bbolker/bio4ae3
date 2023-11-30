@@ -1,6 +1,6 @@
 ---
 title: "emerging infectious disease"
-date: "3 April 2023"
+date: "30 Nov 2023"
 bibliography: "../eeid.bib"
 csl: apa.csl
 header-includes:
@@ -125,6 +125,3 @@ Very confusing ...
 ---
 
 Last updated: `r Sys.time()`
-	
-
-
