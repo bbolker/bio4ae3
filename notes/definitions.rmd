@@ -134,7 +134,7 @@ the **abiotic** environment of free-living organisms
 
 - Did symbionts become enemies, or enemies become symbionts?
 - How easy is it to switch between (1) **free-living** and **symbiotic** lifestyles or between (2) mutualism and parasitism?
-- **Comparative analysis** tries to answer such questions by looking
+- **comparative analysis** tries to answer such questions by looking
 at organismal traits in a **phylogenetic** context.
 - **phoresis**: the use of a (**phoretic**) host for transport (or a stable environment) only (e.g. some mites, nematodes)
 - Combes describes the progressive intensification of parasitism in
