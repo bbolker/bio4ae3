@@ -1,0 +1,39 @@
+# Writing
+
+Writing is hard. The only way to get better is to practice.
+
+- We will give you lots of feedback. Grading will be based primarily on evidence of appropriate effort, critical thinking, and creativity (and improvement).
+- The [Writing Centre](https://studentsuccess.mcmaster.ca/academic-skills/writing-support/) offers appointments to help you with your writing
+- Here are some of my [style preferences](https://github.com/bbolker/bbmisc/blob/master/peeves.md)
+
+# Referencing
+
+- Primary literature (usually journal articles) is best
+- Wikipedia is a great start and generally reliable. You should often dig down into the references
+- Google Scholar is great (use the `author:` tag if you're looking for something in particular)
+- follow references backward and forward
+- Other web resources are OK, reputable sources (CDC, WHO, ...) preferred
+
+# Citations
+
+- **Cite anything you use**
+- **Never cite anything you haven't read** (OK to cite "Jones 1910, referenced by Smith (1999)")
+- Use whatever *complete* citation format you like (I like author-date)
+- Articles: include authors, year, source (journal title), volume/issue/page numbers, DOI if possible. URL alone is insufficient.
+- For web resources include author/title/date, access date, URL. Reputable resources preferred (Wikipedia, CDC, WHO, ...)
+- I strongly recommend that you use a bibliographic database system. [Zotero](https://www.zotero.org/) is my favourite.
+
+# Reading papers
+
+- Reading research papers (primary literature) is hard but important
+- @carey_ten_2020; [Some advice from a guy I know](https://teelabiisc.wordpress.com/how-to-read-research-papers/)
+- Focus first on introduction, figures, conclusions; try to get the big picture
+- Try to understand the overarching logic. What are the questions? What are the primary data? (How) do the data and the arguments in the paper go together to answer the questions?
+- "What if they did X?" "Why didn't they do Y?" are secondary to engaging with the details of the paper
+- Try not to get bogged down in details, unless you have time and energy.
+- Math and statistics
+   - don't panic
+   - connect verbal descriptions → model equations and model results (figures or equations) → verbal conclusions
+   - e.g. $dS/dt = b -\beta S I - \mu S$
+- Don't be afraid to ask questions
+
