@@ -55,7 +55,7 @@ This web page is **under construction**: some material may still be left over fr
     - Questions are best asked in the appropriate channel on Piazza (publicly or privately)
     -  **if necessary**, e-mail to `bolker@mcmaster.ca` with "BIO 4AE3" in the subject line; include your MacID in your message if not e-mailing from your McMaster e-mail account
 	- office hours: TBA
-- teaching assistant: TBA
+- teaching assistant: Sam George
     - weekly office hours, TBA
     - please contact via Piazza (privately if necessary)
 	- will answer as soon as possible, but will be more readily available during normal working hours (9 AM to 5 PM Toronto time)

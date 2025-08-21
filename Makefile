@@ -20,6 +20,9 @@ docs/assignments/%: assignments/%
 %.html: %.rmd
 	Rscript  -e "rmarkdown::render('$<')"
 
+%_final.html: %.qmd
+	export SHOW_SPOILERS=true; quarto render $<
+
 %.html: %.qmd
 	quarto render $<
 
