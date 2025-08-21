@@ -1,7 +1,10 @@
 ---
 title: Definitions
-date: 4 September 2023
+date: today
 bibliography: "../eeid.bib"
+format:
+  html:
+    embed-resources: true
 ---
 
 <!-- https://learn2dev.com/articles/css-shorts/spoilers/ -->
@@ -24,6 +27,10 @@ bibliography: "../eeid.bib"
 
 # What are ecology and evolution?
 
+```{r spoiler_par, include=FALSE}
+spoilers <- as.logical(Sys.getenv("SHOW_SPOILERS", "false"))
+```
+
 ## ecology
 
 "the study of the processes determining the distribution and
@@ -38,14 +45,20 @@ bugs/host on average?
 
 How do we get this information?
 
-::::: {#special .spoiler tabindex="0"}
+<!-- ::::: {#special .spoiler tabindex="0"} -->
+
+```{r paras_burden_Q, echo = FALSE, results="asis"}
+
+if (!spoilers) cat("**your answers here\n**") else cat("
 - case reports
 - proxies (deaths, hospitalizations, wills)
 - **serosurveys**
 - counting eggs in feces, or worms in gut contents
 - viral titers (e.g. by quantitative PCR)
 - population genetic methods [@volz_phylodynamics_2009]
-:::::
+")
+```
+<!-- ::::: -->
 
 ## evolution
 
@@ -59,7 +72,9 @@ of hosts, and the **coevolution** of pathogens and their hosts.
 
 How do we find out about evolution?
 
-::::: {#special .spoiler tabindex="0"}
+<!-- ::::: {#special .spoiler tabindex="0"} -->
+```{r evolution_obs, echo = FALSE, results="asis"}
+if (!spoilers) cat("**your answers here\n**") else cat("
 - experiments (*in vitro*)
 - changes in phenotype frequencies (e.g. parasite strains)
 - measuring **serotype** frequency
@@ -69,7 +84,9 @@ How do we find out about evolution?
 - inferring **selective sweeps** from low-variation regions in the genome
 - phylogenetic reconstruction (time to **most recent common ancestor**, relationships)
 - inference about phenotypes by modelling protein structures
-:::::
+")
+```
+<!-- ::::: -->
 
 # What is an infectious disease?
 

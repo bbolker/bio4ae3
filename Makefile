@@ -20,6 +20,9 @@ docs/assignments/%: assignments/%
 %.html: %.rmd
 	Rscript  -e "rmarkdown::render('$<')"
 
+%.html: %.qmd
+	quarto render $<
+
 ## https://stackoverflow.com/questions/5178828/how-to-replace-all-lines-between-two-points-and-subtitute-it-with-some-text-in-s
 ## FIXME, sed -r doesn't work on MacOS
 %.docx: %.rmd
