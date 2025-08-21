@@ -4,7 +4,9 @@ for i in intro definitions epi1 vredenburg hostpop1 parahostcomm within rq virul
     for j in html docx pdf; do
     	make -n docs/notes/$i.$j
     done
-    make notes/${i}_final.html
-    mv notes/${i}_final.html docs/notes/${i}.html
+    if [ -f notes/$i.qmd ]; then
+      make notes/${i}_final.html
+      mv notes/${i}_final.html docs/notes/${i}.html
+    fi
     make docs/notes/honesty.html
 done
