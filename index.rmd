@@ -17,14 +17,10 @@ Last updated: `r format(Sys.time(), "%d %b %Y %H:%M")`
 
 ---
 
-This web page is **under construction**: some material may still be left over from the previous offering of the course
-
----
-
 ### Course meetings
 
 - 12:30-12:20 Mon/Weds, 1:30-2:20 Fri (all Toronto time), location on Mosaic
-- Masking is encouraged but not required
+- Please mask and/or stay home if you may be infectious!
 - Please ask me if you need to participate remotely or access lecture recordings
 
 ### Misc info
