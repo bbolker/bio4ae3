@@ -28,8 +28,8 @@ format:
 
 # What are ecology and evolution?
 
-```{r spoiler_par, include=FALSE}
-spoilers <- as.logical(Sys.getenv("SHOW_SPOILERS", "false"))
+```{r spoiler_par, echo = FALSE}
+spoilers <- as.logical(Sys.getenv("SHOW_SPOILERS", unset = "FALSE"))
 ```
 
 ## ecology
@@ -49,7 +49,6 @@ How do we get this information?
 <!-- ::::: {#special .spoiler tabindex="0"} -->
 
 ```{r paras_burden_Q, echo = FALSE, results="asis"}
-
 if (!spoilers) cat("**your answers here\n**") else cat("
 - case reports
 - proxies (deaths, hospitalizations, wills)
