@@ -1,6 +1,6 @@
 ---
 title: "epidemic model basics"
-date: "11 Sep 2023"
+date: "8 Sep 2025"
 bibliography: "../eeid.bib"
 ---
 
