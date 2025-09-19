@@ -33,7 +33,7 @@ depend on rabbits in Spain [@zimmermann_renowned_2000;@cooke_rabbit_2002;@real_c
 ## Extinction
 
 The simplest epidemic models suggest that parasites should go extinct
-before their hosts do (density threshold), so parasites should not be
+before their hosts do (due to a *density threshold*), so parasites should not be
 able to drive their hosts extinct [@de_castro_mechanisms_2005]. However, there are many exceptions
 to the rule:
 
@@ -48,7 +48,7 @@ Plague of Athens (430-429 BC) killed 25% of the population of 155,000
 (1347) killed 25%-50% of the population of Europe (setting back
 centuries of growth since 800). Population of Mexico dropped from 20
 million to 3 million between 1518 and 1568, then to 1.6 million.
-("Virgin soil" epidemics [@crosby_virgin_1976; @diamond_guns_2005])
+(So-called "virgin soil" epidemics [@crosby_virgin_1976; @diamond_guns_2005])
 
 Malthus comments on effects of *crowding* on disease.
 
@@ -110,7 +110,7 @@ virus, in 1998.
 die-offs and pneumonias in seals (ca. 1758, 1813, 1836, 1869--70,
 1930s). The epidemics are consistent with population die-offs and
 recovery, although the detailed epidemiology and demography is still an
-active area of research.
+active area of research. (**Update** in @stokholmEmergenceRadiationDistemper2021: population sizes may have been too small to allow this? But this may be a mistake ... @klepacStagestructuredTransmissionPhocine2009 say $R_0$ is only $\approx 2.2$ -- what is the critical community size in this case?)
 
 ## Forest lepidoptera
 
@@ -118,7 +118,11 @@ Another example [@myers_can_1988] cycles of forest lepidoptera. About 80 species
 of forest lepidoptera (caterpillars) experience outbreak dynamics; of
 these, 18 species display regular, cyclic fluctuations.
 
-The cycles are very clear (8--11 years, often highly synchronized across
+![](pix/wsb_newmexico.png)
+
+[@swetnamMulticenturyRegionalScalePatterns1993]
+
+The cycles are very clear (typically 8--11 years [but longer for western spruce budworm], often highly synchronized across
 broad geographic regions). Possible hypotheses for why this happens
 include:
 
