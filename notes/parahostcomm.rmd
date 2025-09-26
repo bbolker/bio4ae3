@@ -47,12 +47,13 @@ lower temperature with *boulardi* [@combes_parasites_1996]
 - *Tribolium castaneum*, *T. confusum* (flour beetles), *Adelina
 tribolii* (sporozoan parasite) [@park_interspecies_1948]
 
-- Prevention of mixing because hybrids are less resistant to parasites? (**outbreeding depression**)
-
 ## Parasite-mediated invasion 
 
-- human movement: Europeans to the New World, Europeans to Africa
-- introduced parasites: e.g. *Acipenser stellatus* (from Caspian to Aral Sea), carried *Nitzchia sturionis* (gill monogenean), severely reduced populations of *A. nudiventris*
+- human movement: helped invasion of Europeans to the New World, hindered invasion of Europeans to Africa [@curtinEnd1990]
+- introduced parasites: e.g. *Acipenser stellatus* (from Caspian to Aral Sea) 1929-32, carried *Nitzchia sturionis* (gill monogenean), severely reduced populations of *A. nudiventris*
+
+> Mortalities of spiny sturgeon of the Aral Sea began in 1936. Dead and dying fish had large’numbers (up to 600) of N. sturionis, which had not been seen during a parasite examination in 1930, nor had fishermen seen the worm previously. No indications of other diseases or parasites were noted. Parasitization rates approached 100%. Gill pathology was extensive, leading to interference with gas exchange and mortality. The sturgeon fishery of the Aral Sea was reduced below commercial levels for 20 years, according to Ozmanov (1963). [@sindermannEffects1987]
+
 - Invasive species and the **natural enemy hypothesis** (green crabs: @torchinRelease2001)
 - lots more examples: @strauss_invading_2012]
 
@@ -84,6 +85,10 @@ significantly
     - growth rate of intermediate hosts (gastropods)
     - competitive interaction between moose and deer
     - death rate of moose from parasites
+
+![](pix/brainworm.png)
+
+@oliveira-santosSpatial2021
 
 ## Trophic cascades and apparent mutualism
 
