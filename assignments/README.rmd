@@ -90,7 +90,7 @@ You will take the midterm in the evening (6-8 PM), on either Oct 8 or Oct 9. The
 You should know a variety of examples so that you can use them in your short answers and essays.
 
 - [midterm from a previous iteration of this course](./midterm_fall2023.pdf)
-- [essay topics](./midterm-topics.html) -->
+- [essay topics](./midterm-topics.html)
 
 ## Final (25%)
 

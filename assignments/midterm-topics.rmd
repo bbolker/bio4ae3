@@ -17,7 +17,7 @@ What data do we need? Make up an example showing how we would infer that a gut p
 6. Describe and explain as many methods as you can remember (at least three) for
 estimating R0 from different types of data on epidemics; explain which approaches would be most important for different types of diseases (human vs wildlife, epidemic vs endemic, etc.)
 7. Discuss the roles of theoretical (model-based), lab experiments, field experiments, and observational data in understanding ecological and evolutionary systems. What are the costs/benefits or advantages/disadvantages of each kind of information? Give at least one example of each level of information and how it applies to our knowledge of a particular host-parasite system; for at least one system, contrast the contribution of two different levels.
-8. Discuss the difference between establishing how parasites tip the balance between competitors in natural systems (e.g. moose-deer-\emph{P. tenuis}) and laboratory systems (e.g. flour beetles (*Tribolium*)-sporozoan parasite). Describe and compare the methods can we use to understand what's going on in each case, and the kind of insights we gain (or can't gain) in each case.
+8. Discuss the difference between establishing how parasites tip the balance between competitors in natural systems (e.g. moose-deer-*P. tenuis*) and laboratory systems (e.g. flour beetles (*Tribolium*)-sporozoan parasite). Describe and compare the methods can we use to understand what's going on in each case, and the kind of insights we gain (or can't gain) in each case.
 
 ---
 
