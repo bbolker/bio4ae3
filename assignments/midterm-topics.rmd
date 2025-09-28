@@ -3,39 +3,21 @@ title: "Midterm topics"
 bibliography: "../eeid.bib"
 ---
 
-The midterm will include **three** of these questions; you should plan to spend about 8-10 minutes on each answer.
+The midterm will include **three** of the following questions. The instructions will be:
 
-1. Explain the concept of **levels of selection** in evolution. Use at least two examples from host-parasite systems to illustrate how it works.
+Answer two out of three. Each answer is limited to a **single page**. Take a few minutes before you start writing to organize your answer.  Use examples and/or diagrams to illustrate your answers where appropriate. Please underline the two most important sentences in each essay. 
 
-2. Define "parasites" and related types of
-natural enemies. Discuss the significance 
-of different parts of the definition and
-their implications for the ecology and evolution
-of host-parasite interactions.
-
-3. Define the difference between microparasites
-and macroparasites, both in terms of how they
-have classically been used, in terms
-of their population dynamics and transmission,
-and how these two definitions are related.
-Give some examples.  What are the differences
-between them in terms of ecology and evolution,
-and how they are modeled?
-
-4. Describe how we can use phylogenetic comparative methods to establish 
-the evolutionary history of an organismal trait (such as a parasitic lifestyle).
-What data do we need? Make up an example showing how we would infer that 
-a gut parasite evolved from a free-living ancestor by way of a commensal stage.
-
-5. Describe the use of parasites for biocontrol, giving some examples.
-What are the advantages and disadvantages of using parasites
-for biocontrol compared to classical methods (e.g. chemical treatments)?
-
-6. Discuss the roles of theoretical (model-based), lab experiments, field experiments, and observational data in understanding ecological and evolutionary systems. What are the costs/benefits or advantages/disadvantages of each kind of information? Give at least one example of each level of information and how it applies to our knowledge of a particular host-parasite system; for at least one system, contrast the contribution of two different levels.
-
-7. Compare and contrast population cycles in parasite *prevalence* in a constant or slowly changing host population with population cycles in the *size* (density or number) of a host population. Explain how each works, using diagrams or equations if it helps you explain clearly. Give at least one example (include some information about the example beyond just the names of the parasite and the host).
-
-8. Describe box models for disease. Construct a box model for a sexually transmitted disease (heterosexually transmitted) with vaccination where male-female and female-male transmission rates may differ.
+1. Very simple epidemic models predict that a parasite can never drive its host population extinct, yet we do see examples in nature of parasite-driven host extinction (or near-extinction). List some important processes that are missing from the simple models, and explain how they might allow parasite-mediated extinction. If you can, give an example of a host-parasite system where each applies.
+2. Explain the concept of **levels of selection** in evolution. Use at least two examples from host-parasite systems to illustrate how it works.
+3. Describe box models for disease. What do boxes, solid lines, and dashed lines usually represent? Construct a box model for an epidemic of gonorrhea in a heterosexual population where you keep track of males and females separately (assume that gonorrhea can be treated with antibiotics, but treated [recovered] people do not develop immunity). Write down a set of equations that corresponds to these boxes.
+4. Define the difference between microparasites and macroparasites, both in terms of how they have classically been used, in terms
+of their population dynamics and transmission, and how these two definitions are related. Give some examples.  What are the differences between them in terms of ecology and evolution, and how they are modeled?
+5. Describe how we can use phylogenetic comparative methods to establish  the evolutionary history of an organismal trait (such as a parasitic lifestyle).
+What data do we need? Make up an example showing how we would infer that a gut parasite evolved from a free-living ancestor by way of a commensal stage.
+6. Describe and explain as many methods as you can remember (at least three) for
+estimating R0 from different types of data on epidemics; explain which approaches would be most important for different types of diseases (human vs wildlife, epidemic vs endemic, etc.)
+7. Discuss the roles of theoretical (model-based), lab experiments, field experiments, and observational data in understanding ecological and evolutionary systems. What are the costs/benefits or advantages/disadvantages of each kind of information? Give at least one example of each level of information and how it applies to our knowledge of a particular host-parasite system; for at least one system, contrast the contribution of two different levels.
+8. Discuss the difference between establishing how parasites tip the balance between competitors in natural systems (e.g. moose-deer-\emph{P. tenuis}) and laboratory systems (e.g. flour beetles (*Tribolium*)-sporozoan parasite). Describe and compare the methods can we use to understand what's going on in each case, and the kind of insights we gain (or can't gain) in each case.
 
 ---
 
