@@ -108,7 +108,12 @@ individual decisions (presumably) maximize individual fitness.
 
 ## Large-scale community structure
 
-- rinderpest $\to$ ungulates $\to$ grass $\to$ brushy vegetation $\to$ tsetse flies $\to$ trypanosomiasis: keeps out livestock, horses (and hence humans, or at least Europeans) [@pearceInventing2000]
+- rinderpest $\to$ ungulates $\to$ grass $\to$ brushy vegetation $\to$ tsetse flies $\to$ trypanosomiasis: keeps out livestock, horses (and hence humans, or at least Europeans) [@pearceInventing2000; @dublinDeclineMaraWoodlands1986]
+
+![](trypan.jpg)
+
+@vandenbosscheChangingEnvironmentEpidemiology2010
+
 - Serengeti
    - rinderpest, ungulates, vegetation, trypanosome interaction [@pearceInventing2000]
    - @holdo_disease-mediated_2009: effects of rinderpest on fire frequency and carbon storage

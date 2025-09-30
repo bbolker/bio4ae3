@@ -3,7 +3,7 @@ title: "Within-host dynamics"
 bibliography: "../eeid.bib"
 ---
 
-Understanding within-host host-parasite interactions (focus on dynamics)
+## Understanding within-host host-parasite interactions (focus on dynamics)
 
 Lots of molecular biology, genetics (*recognition* mechanisms and *effector* mechanisms), won't deal with that now.
 
