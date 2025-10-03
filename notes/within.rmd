@@ -67,6 +67,14 @@ $$
 
 > our analysis predicts that the efficacy of common extracellular antibiotics can be enhanced by supplementation with antibiotics slowing intracellular bacterial division [bacteriostatic drugs]. This implies that both bacteriostatic and bactericidal drugs can potentiate the therapeutic efficacy of extracellular antibiotics.
 
+## Bacterial dynamics in Drosophila
+
+* @duneauStochastic2017
+
+![](pix/within_bacteria.jpg)
+
+> We have defined three parameters ($t^c$ [average time to control], $\mu$ [early bacterial growth rate], $n^{\textrm{Tip}}$ [bacterial load above which the host cannot control infection]) that are sufficient to predict ultimate infection outcome, although we still do not know whether variation in those parameters is due to micro-environmental variation, uncontrolled plasticity in developmental history, somatic mutations, or other factors that are uncontrolled or uncontrollable in experiments (e.g. depth of penetration of the needle during injection, site at which bacteria accumulate etc.) and in nature (e.g. time since last meal or mating, psychological status of the fly etc.) ...
+
 ##  References
  
 ::: {#refs}
