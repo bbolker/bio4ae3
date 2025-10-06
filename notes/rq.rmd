@@ -1,10 +1,6 @@
 ---
 title: "Host-parasite coevolution; origin and maintenance of sex"
 bibliography: "../eeid.bib"
-format:
-  pdf:
-    include-in-header:
-     - text: \usepackage{float}
 ---
 
 ## Antagonistic coevolution
@@ -48,15 +44,14 @@ male or female), but there are many variations: individuals may be
 **Costs of sex**: mating failure (vs. *reproductive assurance*), cost of
 males, **cost of meiosis** (when only half your genes make it into your
 offspring, you essentially pay a 50% fitness cost). Cost of outbreeding
-(breaking up co-adapted gene complexes).
+(breaking up co-adapted gene complexes: @goldbergIncreased2005).
 
 Simplest if we just think of cost of meiosis and advantages of
 recombination, although other costs and benefits do apply.
 
 **Advantages of sex** (not necessarily parasite-related)
 
-- **Muller's ratchet** (fixation of deleterious alleles within
-lineages) [small (10--100 individuals) populations only];
+- **Muller's ratchet** (fixation of deleterious alleles within lineages) [small (10--100 individuals) populations only];
 - "Kondrashov's hatchet" [@kondrashov_classification_1993] (an analogue that works in large populations, 
 with epistasis); natural selection is *more* effective at purging
 deleterious mutations. Also see @keightley_interference_2006 on mutation
@@ -83,7 +78,8 @@ and sexual (diploid) populations of New Zealand mud snail, *Potamopyrgus
 antipodarum* which are parasitized by a castrating cestode,
 *Microphallus* spp. Genetic (electrophoretic) variability exists in
 hosts; gene flow of parasites is higher than gene flow of hosts, which
-helps the RQ work
+helps the RQ work.
+(Asexual lineages are very common in snails.)
 
 Primary theories for the variation in frequency of sexual snails among
 and within lakes:

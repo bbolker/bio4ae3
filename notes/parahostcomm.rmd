@@ -110,7 +110,7 @@ individual decisions (presumably) maximize individual fitness.
 
 - rinderpest $\to$ ungulates $\to$ grass $\to$ brushy vegetation $\to$ tsetse flies $\to$ trypanosomiasis: keeps out livestock, horses (and hence humans, or at least Europeans) [@pearceInventing2000; @dublinDeclineMaraWoodlands1986]
 
-![](trypan.jpg)
+![](pix/trypan.jpg)
 
 @vandenbosscheChangingEnvironmentEpidemiology2010
 
