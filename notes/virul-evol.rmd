@@ -1,6 +1,6 @@
 ---
 title: "evolution of virulence"
-date: "23 October 2023"
+date: "19 October 2025"
 bibliography: "../eeid.bib"
 ---
 
@@ -23,24 +23,22 @@ opts_chunk$set(echo=FALSE, fig.width=6, fig.height =4)
    - parasite load depends on balance between parasite *within-host reproduction rate* and host's *parasite clearance rate*
    - virulence depends on parasite load and per-copy parasite *pathogenicity* and host *tolerance*
    - this establishes the terms of the arms race, but these components can't be separated if we look at a single host-parasite pair (parasite virulence is often confounded with host tolerance)
-- all in an arms race rather than RQ context
+- all in an arms race ("trench warfare", quantitative resistance) rather than RQ context (qualitative resistance)
 
 # Classical dogma
 
-- Parasites evolve lower virulence over time "for the good of the species".  Group-selectionist *but* some evidence?
+- Parasites evolve lower virulence over time "for the good of the species".  Group-selectionist *but* some evidence? [@methotWhyParasitesHarm]
    - syphilis; first seen in Europe in 1495 (the "Great Pox") [@knell_syphilis_2004]
        - origins? (previously misdiagnosed; evolved increased virulence; from Africa; from the New World)
 	   - virulence decreased rapidly over 50 years (maybe even 5-7 years?)
    - *virgin-soil epidemics*: smallpox, etc. [@crosby_virgin_1976; @ostler_disease_2020] (probably *not* virulence: lack of genetic resistance, previous exposure, societal breakdown, effects of colonization?) 
 - sampling bias? 
-   - biocontrol examples always select for maximal virulence
+   - biocontrol efforts always select for maximal virulence (even though *intermediate* virulence may have more impact on host populations)
    - mild introductions may not be noticed
 
 # Tradeoff theory
 
-- Intermediate virulence evolves due to host-level selection (group theory returns); a tradeoff between transmission *rate* (infections/host/time)
-and virulence (*defined as mortality/time*) leads to maximum $R_0$
-(total transmission per generation) at **intermediate** virulence.
+- Intermediate virulence evolves due to *host-level* selection (group theory returns); a tradeoff between transmission *rate* (infections/host/time) and virulence (*defined as mortality/time*) maximizes $R_0$ (total transmission per generation) at **intermediate** virulence.
 - conceptually, mediated by parasite replication rate or load (cf spore production/*Daphnia* fecundity example [@decaestecker_hostparasite_2007]
 
 ## Example: myxomatosis
@@ -77,7 +75,8 @@ Genomic analysis: @kerrEvolutionary2012a, @kerrComparative2013, @kerrDivergent20
 
 * Australia
    * some mutations with clear virulence effects (insertion disrupts reading frame involving cell cycle; deletion affects immunosuppressive pathway)
-   * **probably** "attenuation-restoration" in Australia: attenuating mutations fixed, then restored
+   * probably "attenuation-restoration": new mutations reverse previous evolutionary attenuation
+> Whether MYXV and European rabbits can coevolve [to tolerance/lower virulence] probably depends on whether systemic spread and multiple cutaneous lesions leads to more overall transmission and better fitness than does a single fibroma-like lesion and on whether European rabbit populations have immune system alleles that could constrain virus replication to the initial cutaneous site. If dissemination is critical for transmission, then mutations in the virus that favor dissemination by suppressing immune responses may also increase virulence.
 * Britain
    * premature stop codon disrupts immunosuppression
    * parallel evolutions, but different substitutions
@@ -104,6 +103,12 @@ include_graphics("pix/hiv_prog.png")
 - highly variable (e.g. increasing in Italy [@muller_increasing_2009]? attenuating due to spread of less virulent subtype C [@arien_is_2007]? decreasing in Uganda [@blanquart_transmission-virulence_2016]? increasing overall [@herbeck_is_2012]?
 
 ![](pix/herbeck_hivmeta.png)
+
+## Example: SARS-COV-2
+
+* successive waves tended to have higher ${\cal R}_0$
+* higher ${\cal R}_0$ partly from *immune evasion*; re-infection of individuals recovered from/immune to previous strains
+* virulence changes: alpha, delta higher, omega lower (reduced "fusogenicity" [ability to fuse with/enter host cells]; tropism for cells higher in respiratory tract? [@carabelliSARSCoV2VariantBiology2023]
 
 ## Theory
 
@@ -203,10 +208,10 @@ knitr::include_graphics("pix/bolker_park_fig2.png")
 ## Effects of vaccines and treatment
 
 - evolution due to **risk compensation** [@massad_impact_2006]?
-- evolution of higher virulence in unvaccinated people due to "leaky" vaccination [@gandon_imperfect_2001]?
+- evolution of higher virulence in unvaccinated people due to "leaky" vaccination [@Gandon+2001]?
 - mouse malaria: [@mackinnon_immunity_2004; @mackinnon_virulence_2008]; consistent with "arms race" upregulation of replication
 - increased virulence in Marek's disease: reduced host generation time or effects of leaky vaccine? [@atkins_vaccination_2013]
-- [in HIV due to antiretroviral therapy](herbeck_evolution_2016)?
+- in HIV due to antiretroviral therapy [@herbeck_evolution_2016]?
 
 @mackinnon_virulence_2008:
 
