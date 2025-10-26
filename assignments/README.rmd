@@ -35,10 +35,15 @@ Some mini-essay topics invented by past students:
 
 ### Mini-essay 2
 
-Please pick two or three *recent* related papers on a topic of your choice (which can be related to your term paper if you want). Write 250-750 words synthesizing these papers. By "synthesis" 
+Pick **three recent** related papers about a parasite/ID eco/evo topic of your choice.
 
-"Recent" has some flexibility: ideally your papers would be newer that 2020, if necessary you can go back as far as 2015. In any case, though, they should be some of the newer papers in the particular field you're covering.
+* the topic doesn't have to be something we've covered in class, but it must be eco/evo-related, not just about ID generally [e.g. topics that are entirely about immunology, or pharmacology, or public health, would not count] 
+* it can be related to your term paper topic if you like
+* "recent" is a little bit flexible: ideally your papers would be newer that 2020, if necessary you can go back as far as 2015. In any case, though, they should be some of the newer papers in the particular field you're covering.
 
+Write a 1-2 page (single-spaced) paper that describes the topic and **synthesizes** the results of the papers. You should make sure that your paper is *not* of the form "paper A says ...; paper B says ...; paper C says ...". What points do the papers make, and what kind(s) of data do they present to support their points? How are the papers related? Do they agree or disagree? Do they build on each other, or discuss different aspects of the same topic, or tackle the topic at different levels (e.g. models, lab experiments, field experiments)?
+
+Please **do not** use AI (large language models) for this mini-essay. I reserve the write to run your paper through AI checking software, and to have a conversation with you about the topic of your mini-essay if I am suspicious (I will not take the results of any AI checker at face value).
 
 ### Mini-essay 3
 
