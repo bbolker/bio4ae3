@@ -1,6 +1,6 @@
 ---
 title: "evolution of host resistance and tolerance"
-date: "28 October 2023"
+date: "26 October 2025"
 bibliography: "../eeid.bib"
 header-includes:
    - \usepackage[utf8]{inputenc}
@@ -37,14 +37,15 @@ What are the **costs** of resistance and tolerance? (= Why aren't all hosts tole
 
 - cost of maintaining recognition mechanisms
 - cost of choosing different habitats
+- cost of mounting a response (including immunopathology)
 - tradeoffs (RQ-related or ?)
    
 ## Population-level evolution (eco-evolution)
 
 @stahl_dynamics_1999; @roy_evolutionary_2000
 
-- resistance lowers prevalence - selects against itself; expect *polymorphism*
-- tolerance increases prevalence - selects for itself (*apparent competition* with non-tolerant genotypes); expect *fixation*. (Is tolerance evolution-proof? [@schneider_two_2008])
+- resistance lowers prevalence &mdash; selects against itself; expect *polymorphism*
+- tolerance increases prevalence &mdash; selects for itself (*apparent competition* with non-tolerant genotypes); expect *fixation*. (Is tolerance evolution-proof? [@schneider_two_2008])
 
 ## Measuring quantitative resistance/tolerance
 
@@ -200,7 +201,8 @@ From @galvani_evolutionary_2005:
 
 * evidence
    * ancient DNA
-   * phylogenetic patterns/*coalescent* methods to estimate origin times/places
+   * phylogenetic patterns/*coalescent* methods to estimate origin times/places (and population size over time: *skyline plot*)
+       * see [notes](coalescent.html) on how coalescent estimation works
    * biogeography/history of disease/environment
    * mechanism
    * population history
@@ -216,6 +218,8 @@ From @galvani_evolutionary_2005:
 @mboowaHuman2018
 
 ![](pix/gwas.png)
+
+GWAS study of COVID-19 finds some relevant loci (but not *evolutionarily* relevant?)
 
 ##  References
  
