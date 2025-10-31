@@ -177,6 +177,7 @@ consistency with malaria distribution [@pielGlobal2010b, @esohEvolutionary2021]
 age approx. 50 KYA
 * Protection from cholera? (First European cholera epidemic 1817) Dehydrating intestinal diseases?  Typhoid?
 * **Pleiotropy** (multiple effects from one gene)
+* Tb resistance? [@boschCysticFibrosisCarriership2017; @meindlHypothesisSelectiveAdvantage1987; @poolmanEvaluatingCandidateAgents2006]
 
 ## HIV
 
