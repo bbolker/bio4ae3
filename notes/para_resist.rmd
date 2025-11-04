@@ -1,6 +1,6 @@
 ---
 title: "evolution of parasite countermeasures"
-date: "6 Nov 2023"
+date: "5 November 2025"
 bibliography: "../eeid.bib"
 csl: apa.csl
 header-includes:
@@ -62,7 +62,7 @@ d. resistant bacteria take advantage of side effects (bystander effects)
 - mechanisms of action:
     - pumps ("efflux system": remove toxic substances from the cell)
 	- inactivation or degradation/detoxification
-	- altered pathways?
+	- altered molecular conformulation (@finkenMolecularBasisStreptomycin1993: "... resistance against multiple unrelated drugs in *M. tuberculosis* is not caused by a single event involving resistance to a panel of antibiotics, e.g. an altered permeability barrier, but rather conferred by an accumulation of multiple mutational events specific for each drug's target respectively as demonstrated for streptomycin")
 
 - antibiotics are *effectors* (not recognizers)
 - cost of resistance; are resistance alleles lost or compensated in the absence of antibiotics? [@bjorkholm_mutation_2001;@levin_compensatory_2000-1]
