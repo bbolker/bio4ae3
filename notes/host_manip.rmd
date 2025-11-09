@@ -1,6 +1,6 @@
 ---
 title: "host manipulation by parasites"
-date: "16 November 2023"
+date: "11 November 2025"
 bibliography: "../eeid.bib"
 csl: apa.csl
 header-includes:
@@ -12,11 +12,10 @@ library(knitr)
 opts_chunk$set(echo=FALSE, fig.width=6, fig.height =4)
 ```
 
-A common conclusion about parasite life history is that parasites must
-have high fecundity in order to ensure their transmission from one host
-to another. However, there is another alternative -- improving the
+High fecundity helps parasites ensure their transmission from one host
+to another. However, they can also improve the
 probability of transmission for each offspring by investing resources in
-quality, rather than quantity. How can a parasite do this?
+quality, rather than quantity. How?
 
 ## Encouraging transmission: upstream/downstream
 
