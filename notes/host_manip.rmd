@@ -192,6 +192,16 @@ about what's happening in natural systems
 which measure behaviors in a range of related species to test
 whether they represent adaptations or mere phylogenetic constraints.
 
+- Studies dissecting mechanisms leading to behavioral change. For
+example, parasitized *Gammarus* have modified escape responses.
+Injecting *Gammarus* with serotonin produces similar results;
+octopamine can block the results [@helluy_serotonin_1990;@perrot-minnot_multidimensionality_2014] Similarly, *S. mansoni* leads to
+higher opioid levels in hamsters, although this could be either a host response or a parasite manipulation [@kavaliers_opioid_1988]. In some cases
+(growth hormone in rodents), parasites actually directly produce
+proteins that act like host hormones [@phares_unusual_1996], which makes it pretty clear that it is a case of parasite manipulation. 
+	
+@liGeneExpressionAssociated2025 do **transcriptomic** analysis of *Dicrocoelium dendriticum* across phases of behavioural modification.
+
 ## Testing effects on host and parasite fitness
 
 A common assumption is that host behavior changes are driven by and for
@@ -207,7 +217,7 @@ fitness.
 
 -   check to make sure that the observed reaction is actually most
     consistent with a transmission-increasing adaptation. For example,
--   increased predation rates of parasitized hosts (assumed to be an
+   -   increased predation rates of parasitized hosts (assumed to be an
     adaptation for transmission to the next host) is not necessarily by
     the right host [@brassard_parasite-induced_1982].
 -   Parasites may select particular host organs (that have strong
@@ -219,20 +229,9 @@ fitness.
     changes in behavior should be postponed until the parasite is
     actually *in an infective stage*, ready to infect the next host in the
     life cycle.
--   Mechanistic explanations, really nailing down the biochemical or
-    other changes leading to behavioral change, are also powerful. For
-    example, parasitized *Gammarus* have modified escape responses.
-    Injecting *Gammarus* with serotonin produces similar results;
-    octopamine can block the results [@helluy_serotonin_1990;@perrot-minnot_multidimensionality_2014] Similarly, *S. mansoni* leads to
-    higher opioid levels in hamsters, although this could be either a host response or a parasite manipulation [@kavaliers_opioid_1988]. In some cases
-    (growth hormone in rodents), parasites actually directly produce
-    proteins that act like host hormones [@phares_unusual_1996], which makes it pretty clear that it is a case of parasite manipulation.
 
 
 # Comparative/phylogenetic analysis
-
-Not much exists, people have been too busy looking at the amazingly cool
-detailed mechanisms of manipulation of host behavior by parasites.
 
 Some of the difficulties with doing comparative analysis are (1) the
 lack of good phylogenies of parasites (which has come up before) and (2)
@@ -312,13 +311,9 @@ in unparasitized broods).
 
 >  [In the pill woodlouse *Armadillidium vulgare*] The spread of the feminizing Wolbachia has caused the loss of the female-determining W chromosome from infected populations, and all individuals in these populations are ZZ. The female-determining factor has switched from being the W chromosome to the feminizing Wolbachia: individuals are female if Wolbachia is present and active, and male if it is either absent or inactive. 
 
-There is a problem at the lineage level with this strategy: unless
-females can reproduce parthenogenetically, you may be dooming your host
-population if you're too effective at feminizing it. For plants there is
-another way out: encourage clonal growth or selfing. This both increases
-transmission efficiency and reduces the potential for the evolution of
-parasite resistance; in the end, though, it might also select for reduced virulence
-of the parasite because it ensures vertical transmission [@clayEvolution1996a].
+@clayEvolution1996a
+ 
+> There is a problem at the lineage level with this strategy: unless females can reproduce parthenogenetically, you may be dooming your host population if you're too effective at feminizing it. For plants there is another way out: encourage clonal growth or selfing. This both increases transmission efficiency and reduces the potential for the evolution of parasite resistance; in the end, though, it might also select for reduced virulence of the parasite because it ensures vertical transmission
 
 ##  References
  
