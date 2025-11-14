@@ -47,7 +47,9 @@ Please **do not** use AI (large language models) for this mini-essay. I reserve 
 
 ### Mini-essay 3
 
-TBD
+Use two different publicly available large language models (e.g. choose from Claude, Microsoft Copilot [via McMaster], ChatGPT ...) to re-do mini-assignment essay 2. Discuss the difference between your synthesis and those of the two LLMs. Did the LLMs make any mistakes? Do you think you would have gotten an equally good understanding of the results of the papers by running the LLMs instead of doing it yourself, or a nearly equally good understanding with much less effort? (Please be honest.)
+
+It may be a good idea to use a series of prompts to refine the answers that the LMMs give you. After your (1-2 page) discussion of the differences between your synthesis and the LLM syntheses, include the prompts you used and the final outputs of the LLMs as appendices/additional pages.
 
 ## Term paper (15%)
 
