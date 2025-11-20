@@ -16,3 +16,8 @@ make that would determine which type of coevolution was occurring in a particula
 
 3. Name three characteristics of parasites that affect the probability that a new resistance mutation will appear (*de novo* mutation), and three characteristics that affect the probability that one will spread in the population once it occurs (evolution based on *standing variation*). Using these characteristics, explain why *de novo* mutation is characteristic of viral resistance evolution and evolution based on standing variation is characteristic of bacterial resistance evolution.
 
+Something about testing/understanding manipulation 
+
+Sex ratio/manipulation
+
+virulence tradeoff hypothesis for HIV
