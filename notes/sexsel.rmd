@@ -1,6 +1,6 @@
 ---
 title: "parasite-mediated sexual selection"
-date: "2 April 2023"
+date: "16 Nov 2025"
 bibliography: "../eeid.bib"
 csl: apa.csl
 header-includes:
@@ -41,25 +41,22 @@ trait should be expensive)
 Endler compared guppy populations in different streams)
     - high variability among populations in ornaments?
 
-## Zahavi "handicap" principle
+## Honest signaling
 
-The **handicap principle** says that
-traits are not chosen despite their being costly, but
-*because* they are
-costly.  **Good genes** model.  Ornaments are a signal of good genes:
+Honest signaling says that traits are not chosen despite their being costly, but
+*because* they are costly.  **Good genes** model.  Ornaments are a signal of good genes:
 they must be costly, otherwise you can't rely on the honesty of the
 signal.
 
 - **revealing traits**: indicate male condition/quality
 - **conditional traits**: only expressed by high-quality males
-- viability ("Zahavi") traits: expressed by everyone, but
-kill off low-quality males (may not work??)
+- viability ("Zahavi") traits: expressed by everyone, but penalizes low-quality males (signaling costs must be higher for low-quality males, or high-quality males must gain more from mating)
 
 @pennHandicap2020b:
 
 > Rather than being wasteful over-investments, honest signals evolve in this scenario because selection favours efficient and optimal investment into signal expression and minimizes signalling costs ... This model is better understood within a Darwinian framework of adaptive signalling trade-offs, without the added burden and confusing logic of the Handicap Principle. 
 
-Problem with handicap principle: what maintains genetic variation for
+Problem with traits as honest signals: what maintains genetic variation for
 "goodness"?  Under normal conditions (directional selection), one
 would expect that soon everyone would have good genes and there
 would be no variability (nothing for females to choose from except
