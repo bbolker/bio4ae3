@@ -1,6 +1,6 @@
 ---
 title: "emerging infectious disease"
-date: "30 Nov 2023"
+date: "24 Nov 2025"
 bibliography: "../eeid.bib"
 csl: apa.csl
 header-includes:
@@ -14,20 +14,61 @@ opts_chunk$set(echo=FALSE, fig.width=6, fig.height =4)
 
 ## emerging and re-emerging disease
 
-![](pix/zoon_emerg.png)
+Basically, anything we're worried about
 
-basically, anything we're worried about
+* **emerging**: new to  a host: most often (in humans) via *zoonotic spillover*, but could be an existing disease that is expanding its range/becoming more infectious, virulent, whatever
+* *re-emerging*: a parasite that was previously thought to be controlled, but is of renewed concern. Due to socioeconomic change, landscape change, climate change, evolution of antibiotic/antiviral resistance, etc.) 
 
-- encounter filter: changing patterns of reservoir host/vector distribution, human contact, ...
-- compatibility filter: changes via mutation, recombination, selection for resistance, ...
+* **encounter filter**: changing patterns of reservoir host/vector distribution (due to climate/landscape change), human contact, ...
+* **compatibility filter**: changes via mutation, recombination, selection for resistance, ...
 
-Do we need to understand *everything*?
+* **disease triangle** (from plant pathology): need co-occurring host, pathogen, environment (for transmission: also consider virulence, treatment resistance ...)
 
-- reservoir ecology
-- pathogen biology
-- human-reservoir interactions
+* Local change > global change
+* Parasites may get better, or worse, or different due to changes ...
 
-How do we understand? How do we predict?
+## Malaria in North America
+
+* established by immigration of enslaved people from west Africa
+* landscape change (agricultural clearance/hydrological changes)
+* well established by 1850s except in northern/high-altitude/arid places
+* poorly diagnosed, haphazardly treated
+* decline due to drainage 1900-1920
+* 5000 deaths/year (1930s) -> <10 (1950s)
+* improvements in nutrition, medical care, housing, insecticides
+
+>  We now know that anopheline mosquito breeding throughout the country was sufficiently low so that it was difficult for overseas malaria to become established inside the country, and that the prognostication of a wide spread development of overseas malaria in the American anophelines was based on a failure to consider the very great reduction in mosquito breeding which had occurred since 1931.
+
+@fausthistory1951
+
+$R_0$ for vector borne diseases = ($R_0$ vector-to-host $\times$ $R_0$ host-to-vector): proportional to mosquito-to-human ratio (but preventing bites reduces both components)
+
+## Malaria changes
+
+Often driven by **local** landscape change:
+
+* Combinations of hydrological cycle, temperature, predators: e.g. brick-making pits in western Kenya [@carlsonField2004]
+* @macdonaldAmazon2019a: deforestation increases malaria, but malaria decreases deforestation (statistical model, we don't know the mechanism: ecological change, increased human-vector contact?)
+
+## Mosquito-borne diseases in 'temperate' countries 
+
+* 'autochthonous'/'local transmission events'
+* doesn't mean $R_0 > 1$, but does mean $R_0 > 0$ ...
+* local transmission of:
+    * chikungunya (*Aedes albopictus*, *A. aegypti*: Europe, North America) [New York state, 2025] [@cdcChikungunya2025; @NYchikungunya2025] 
+    * Zika (Florida, Texas) (*Aedes*)
+    * dengue (Argentina, California, Florida, Texas [@centersfordiseasecontrolCurrent2025; @barrenecheaCharacterization2025]) (*Aedes*)
+    * malaria [@devitaPublic2025] (*Anopheles* mosquito spp)
+
+## *Candida auris*
+
+* @casadevallEmergence2019a; @casadevallEnvironmental2021; @degaetanoCandida2024
+* newly emerging fungal pathogen (first isolated 2009)
+* not found in fungal collections before 1996
+* molecular clocks: disease-causing clades MRCA ~ 37 years ago
+* multidrug resistant
+* heat-tolerant (up to 42°, more than nearest relatives - fever-tolerant?)
+* newly virulent? newly resistant? newly heat-tolerant?
 
 ## *Batrachochytrium dendrobatidis*
 
@@ -57,6 +98,18 @@ Very confusing ...
 
 @fisher_chytrid_2020
 
+![](pix/zoon_emerg.png)
+
+## theory
+
+Do we need to understand *everything*?
+
+- reservoir ecology
+- pathogen biology
+- human-reservoir interactions
+
+How do we understand? How do we predict?
+
 ## effects of climate change
 
 - warming 
@@ -64,14 +117,18 @@ Very confusing ...
     - vector biology
     	- extended range
 		- higher activity?
-		- e.g. @mordecaiClimate2020: shift from *Anopheles gambiae* to *Aedes aegypti*, malaria to arboviruses (dengue, chikungunya etc.)
+        - lots of debate [@omumboRaised2011]
+		- details of temperature sensitivity: e.g. @mordecaiOptimal2013b; @ryanMapping2015; @mordecaiClimate2020: shift from *Anopheles gambiae* to *Aedes aegypti*, malaria to arboviruses (dengue, chikungunya etc.); 
 - changes in seasonality, hydrological cycles
 - local landscape change
     - hydrology
 	- suburbanization and reforestation: Lyme disease
-	- deforestation
-	    - @macdonaldAmazon2019a: deforestation increases malaria, but malaria decreases deforestation
+	- deforestation [@macdonaldAmazon2019a]
 - changes in reservoir communities
+
+![](pix/mordecai_temp.jpg)
+
+![](pix/mordecai_temp2.jpg)
 
 ## effects of biodiversity change: dilution effect [@keesing_dilution_2021]
 
@@ -79,10 +136,16 @@ Very confusing ...
 - variation in reservoir competence
 - high-quality hosts decrease with increasing biodiversity
     - encounter reduction; host regulation; vector preferences
+- depends on how the community is changing
+    - what is driving biodiversity loss?
+    - what species are more likely to be lost?
+    - are less/more **competent** host species more likely to be lost?
 
-@kain_predicting_2019
+@kain_predicting_2019: 
 
-@rohr_towards_2020
+![](pix/wnv_dilute.png)
+
+@rohr_towards_2020: meta-analysis (again ...)
 
 ![](pix/rohr_dilute.png)	   
 
@@ -108,13 +171,13 @@ Very confusing ...
 
 <!-- ![](pix/han_predict3.png) -->
 
+@evansExposure2023: 2017-2020 sample: 12% of 693 individuals sampled in Myanmar were seropositive for sarbecovirus, more likely if they were loggers/hunters or had been exposed to bats ...
+
 @han_integrating_2020: model rodent life history
 
 ![](pix/han_predict4.png)
 
 ![](pix/han_predict5.png)
-
-@evansExposure2023: 2017-2020 sample: 12% of 693 individuals sampled in Myanmar were seropositive for sarbecovirus, more likely if they were loggers/hunters or had been exposed to bats ...
 
 
 ##  References
