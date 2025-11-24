@@ -106,6 +106,6 @@ You should know a variety of examples so that you can use them in your short ans
 
 This have a similar format to the midterm; it will focus on post-midterm material but may include material from any time during the term.
 
-<!-- - [essay topics](./final-topics.html) -->
+[essay topics](./final-topics.html)
 
 ## References
