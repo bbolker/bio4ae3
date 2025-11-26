@@ -69,6 +69,15 @@ Often driven by **local** landscape change:
 * multidrug resistant
 * heat-tolerant (up to 42°, more than nearest relatives - fever-tolerant?)
 * newly virulent? newly resistant? newly heat-tolerant?
+* hypothesis: selection for thermotolerance in the wild, followed by dissemination by birds/agriculture (??)
+
+> Support for the hypothesis would consist of finding more *C. auris* isolates with borderline mammalian thermotolerance and perhaps that these isolates can be adapted to grow at higher temperatures through laboratory selection for growth at higher temperatures.
+
+@moneyFungal2024:
+
+![](pix/thermotolerance.png)
+
+> The increase in global temperature of 1°C (2°F) over the last century is too small to have pushed purely saprotrophic fungi unable to grow at 37°C past this thermal barrier and to assume pathogenic behavior. It seems more likely that C. auris was primed for pathogenicity as one of the many thermotolerant saprotrophs, and acquired azole resistance through an unknown mechanism. This enabled its dissemination as a nosocomial infection when it was introduced to the hospital environment.
 
 ## *Batrachochytrium dendrobatidis*
 
@@ -133,13 +142,28 @@ How do we understand? How do we predict?
 ## effects of biodiversity change: dilution effect [@keesing_dilution_2021]
 
 - does increased biodiversity decrease disease?
-- variation in reservoir competence
-- high-quality hosts decrease with increasing biodiversity
-    - encounter reduction; host regulation; vector preferences
+   - what does an "effect of biodiversity" really mean? nature can't count species
+   - in what way/why is biodiversity changing?
+       - comparing different intact communities?
+       - loss of species due to habitat change etc ??
+- variation in hosts
+   - population density
+   - vector competence
+   - host competence
+   - competitive ability
+   - habitat preferences
+- encounter reduction (less probability of finding a good host)
+- host regulation (fewer good hosts)
+- vector preferences (affects which hosts are used)
+- **if** high-quality hosts decrease with increasing biodiversity, then decreases in diversity → increased parasite prevalence
+
 - depends on how the community is changing
     - what is driving biodiversity loss?
     - what species are more likely to be lost?
     - are less/more **competent** host species more likely to be lost?
+- zoonotic host diversity in human-impacted landscapes [@gibbZoonotic2020]
+
+![](pix/johnson_subs.png) 
 
 @kain_predicting_2019: 
 
