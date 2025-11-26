@@ -171,6 +171,8 @@ How do we understand? How do we predict?
 
 @rohr_towards_2020: meta-analysis (again ...)
 
+Resolving two contradictory meta-analysis: experimental vs observational, small- vs large-scale ...
+
 ![](pix/rohr_dilute.png)	   
 
 - @carlsonPlague2022: *higher* rodent diversity and climate anomalies drive plague spillover
@@ -195,13 +197,21 @@ How do we understand? How do we predict?
 
 <!-- ![](pix/han_predict3.png) -->
 
-@evansExposure2023: 2017-2020 sample: 12% of 693 individuals sampled in Myanmar were seropositive for sarbecovirus, more likely if they were loggers/hunters or had been exposed to bats ...
-
 @han_integrating_2020: model rodent life history
 
 ![](pix/han_predict4.png)
 
 ![](pix/han_predict5.png)
+
+## So what should we do?
+
+* surveillance in the wild
+   * @evansExposure2023: 2017-2020 sample: 12% of 693 individuals sampled in Myanmar were seropositive for sarbecovirus, more likely if they were loggers/hunters or had been exposed to bats ...
+* improve public health infrastructure!
+* improve global health communication
+* large-scale genomic sampling [@lauberOpportunities2022; @kawasakiHidden2021]
+* prepare antivirals and vaccines
+
 
 
 ##  References
