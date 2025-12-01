@@ -1,0 +1,185 @@
+---
+title: "historical epidemiology of plague"
+date: "1 December 2025"
+bibliography: "../eeid.bib"
+csl: apa.csl
+header-includes:
+   - \usepackage[utf8]{inputenc}
+---
+
+```{r setup, include = FALSE}
+library(knitr)
+opts_chunk$set(echo=FALSE, fig.width=6, fig.height =4)
+```
+
+## plague: first pandemic
+
+* *Yersinia pestis*
+* causative agent of the *Black Death*
+* Plague of Justinian (541) - approx. 750 (ancient DNA) 
+
+## @harbeckYersiniaPestisDNA2013
+ 
+```{r phylo, out.width="80%"}
+knitr::include_graphics("pix/plague_phylo.png")
+```
+
+## second pandemic
+
+* Black Death! 1347 onward
+* human pop 450M → 350-375M by 1400
+* continues until late 18th c.
+* Shakespeare, Isaac Newton, etc. etc.
+* also validated from ancient DNA
+
+## 
+
+![](pix/map.png)
+
+[Britannica](https://cdn.britannica.com/98/6698-004-B92A927B.gif)
+
+## acceleration [@earn_acceleration_2020]
+
+* get historical details on plague from wills, parish records, London Bills of Mortality ...
+
+## 
+
+![](pix/earnplague_lbom.png)
+
+##
+
+```{r out.width="100%"}
+knitr::include_graphics("pix/earnplague_fig1.png")
+```
+
+## 
+
+```{r out.width="100%"}
+knitr::include_graphics("pix/earnplague_fig2.png")
+```
+
+## 
+
+```{r out.width="100%"}
+knitr::include_graphics("pix/earnplague_fig3.png")
+```
+
+## acceleration: conclusions
+
+* wills seem to be an adequate (if noisy) proxy for parish records/plague-specific mortality records (London Bills)
+* epidemic speed ($r$) increased from $\approx$ 10/year to 20/year (doubling time from $\approx$ 4 weeks to $\approx$ 2 weeks)
+
+
+## *Y. pestis* transmission
+
+* Classic story: rat-flea transmission, human spillover
+* Possible *pneumonic* transmission
+
+```{r out.width="80%"}
+knitr::include_graphics("pix/ratfleacut.jpg")
+```
+
+## Human-ectoparasite transmission
+
+Human-to-human transmission via ectoparasites (e.g. lice)
+
+```{r out.width="50%"}
+knitr::include_graphics("pix/Inkedlouse_LI.jpg")
+```
+
+## data fits [@deanHuman2018; @deanEpidemiologyPlagueEurope2019]
+
+```{r out.width="70%"}
+knitr::include_graphics("pix/dean_plague.png")
+```
+
+## combined model
+
+```{r out.width="80%"}
+knitr::include_graphics("pix/propose.png")
+```
+
+## box diagram
+
+![](pix/comb_model.png)
+
+## priors
+
+```{r out.width="80%"}
+knitr::include_graphics("pix/prior_dist.png")
+```
+
+## results (example)
+
+```{r out.width="80%"}
+knitr::include_graphics("pix/g4.png")
+```
+
+## results (all)
+
+```{r out.width="100%"}
+knitr::include_graphics("pix/alltern.png")
+```
+
+## virulence evolution
+
+* @sidhuAttenuation2025
+* repeated evolution of PLA (plasminogen activator) depletion across pandemics
+
+## PLA results: first pandemic
+
+```{r out.width="100%"}
+knitr::include_graphics("pix/sidhu_pla1.png")
+```
+
+## second pandemic
+
+```{r out.width="100%"}
+knitr::include_graphics("pix/sidhu_pla2.png")
+```
+
+## third pandemic
+
+```{r out.width="100%"}
+knitr::include_graphics("pix/sidhu_pla3.png")
+```
+
+## PLA phenotypes
+
+```{r out.width="100%"}
+knitr::include_graphics("pix/sidhu_survive.png")
+```
+
+## evolutionary mechanisms?
+
+* tradeoff theory *doesn't work*
+* most transmission is via fleas leaving dying rats
+* 'infectious period' is a burst at the end of the infection
+* how can PLA-depleted strains evolve (repeatedly)?
+
+## burnout theory
+
+@parsonsprobability2024a
+
+```{r out.width="50%"}
+knitr::include_graphics("pix/burnout.png")
+```
+
+## metapopulation model
+
+
+## metapopulation results
+
+```{r out.width="70%"}
+knitr::include_graphics("pix/metapop_ex.png")
+```
+
+
+##  References
+ 
+::: {#refs}
+:::
+
+---
+
+Last updated: `r Sys.time()`
